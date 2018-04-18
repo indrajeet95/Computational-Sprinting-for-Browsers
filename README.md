@@ -28,33 +28,30 @@ This script is used for running experiments by loading the Google Chrome browser
 
 This directory holds the python implementation of mapping Alexa Top 500 Global Sites to the Zipf distribution. It is observed that the list of web pages loaded by an individual over the course of time follows Zipf distribution.
 
-## Built With
+## Content
+
+This directory contains a Chrome extension that uses a content script to record network activity and sends the data to background.js using Chrome's Message Passing. Later, this data is stored in a local SQL database that is locally hosted on a PHP server which listens for GET requests. XHR is used for the same. We have also used the Web Performance Timing API to record network activity.
+
+NOTE: To add connect.php
+
+### har_csv
+
+Sample files converted using hartools.
+
+### rapl-tools
+
+A tool used for measuring CPU power in Intel processors. The AppPowerMeter is used for our experiments.
+
+### Multiple URL Opener
+
+A Chrome extension that opens up a seperate tab with space to list the URLs of web pages that we would want to load and also provides a delay timer which is the gap between page loads. 
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
