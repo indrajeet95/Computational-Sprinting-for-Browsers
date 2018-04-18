@@ -1,0 +1,18 @@
+url	method	startedDateTime	time	Response status	Response content mimeType	Response content size	Response headersSize	Response bodySize	Referer	Timing blocked	Timing dns	Timing connect	Timing send	Timing wait	Timing receive	Timing ssl
+http://web.cse.ohio-state.edu/~stewart.962/	GET	2017-11-16T13:03:42.114-05:00	106	200	text/html; charset=UTF-8	3045	400	3045		1	0	48	0	57	0	0
+http://web.cse.ohio-state.edu/~stewart.962/style.css	GET	2017-11-16T13:03:42.258-05:00	112	200	text/css	30990	385	30990	http://web.cse.ohio-state.edu/~stewart.962/	0	0	0	0	65	47	0
+http://web.cse.ohio-state.edu/~stewart.962/clientSideInclude.js	GET	2017-11-16T13:03:42.258-05:00	118	200	application/javascript	1170	398	1170	http://web.cse.ohio-state.edu/~stewart.962/	0	0	49	0	69	0	0
+http://web.cse.ohio-state.edu/~stewart.962/index.bio.html	GET	2017-11-16T13:03:42.672-05:00	62	200	text/html; charset=UTF-8	3477	399	3477	http://web.cse.ohio-state.edu/~stewart.962/	0	0	0	0	61	1	0
+http://web.cse.ohio-state.edu/~stewart.962/publications.full.html	GET	2017-11-16T13:03:42.672-05:00	160	200	text/html; charset=UTF-8	43625	401	43625	http://web.cse.ohio-state.edu/~stewart.962/	0	0	0	0	61	99	0
+http://web.cse.ohio-state.edu/~stewart.962/images/Page-BgGradient.png	GET	2017-11-16T13:03:42.673-05:00	1033	200	image/png	349	384	349	http://web.cse.ohio-state.edu/~stewart.962/style.css	0	0	50	0	983	0	0
+http://web.cse.ohio-state.edu/~stewart.962/images/Page-BgGlare.png	GET	2017-11-16T13:03:42.673-05:00	166	200	image/png	14267	387	14267	http://web.cse.ohio-state.edu/~stewart.962/style.css	0	0	49	0	64	53	0
+http://web.cse.ohio-state.edu/~stewart.962/images/Block-s.png	GET	2017-11-16T13:03:42.673-05:00	112	200	image/png	936	384	936	http://web.cse.ohio-state.edu/~stewart.962/style.css	0	0	49	0	63	0	0
+http://web.cse.ohio-state.edu/~stewart.962/images/Block-h.png	GET	2017-11-16T13:03:42.673-05:00	113	200	image/png	224	383	224	http://web.cse.ohio-state.edu/~stewart.962/style.css	0	0	49	0	64	0	0
+http://web.cse.ohio-state.edu/~stewart.962/images/Block-v.png	GET	2017-11-16T13:03:42.674-05:00	119	200	image/png	255	382	255	http://web.cse.ohio-state.edu/~stewart.962/style.css	61	0	0	0	58	0	0
+http://web.cse.ohio-state.edu/~stewart.962/style.css	GET	2017-11-16T13:03:42.793-05:00	87	200	text/css	30990	385	30990	http://web.cse.ohio-state.edu/~stewart.962/index.bio.html	0	0	0	0	44	43	0
+http://web.cse.ohio-state.edu/~stewart.962/images/cstewart.2018.jpg	GET	2017-11-16T13:03:42.793-05:00	1154	200	image/jpeg	1480114	391	1480114	http://web.cse.ohio-state.edu/~stewart.962/index.bio.html	86	0	0	0	40	1028	0
+http://web.cse.ohio-state.edu/~stewart.962/style.css	GET	2017-11-16T13:03:42.806-05:00	84	200	text/css	30990	385	30990	http://web.cse.ohio-state.edu/~stewart.962/publications.full.html	0	0	0	0	44	40	0
+http://web.cse.ohio-state.edu/~stewart.962/images/pdf_icon_mini.gif	GET	2017-11-16T13:03:42.969-05:00	51	200	image/gif	210	382	210	http://web.cse.ohio-state.edu/~stewart.962/publications.full.html	0	0	0	0	51	0	0
+http://web.cse.ohio-state.edu/~stewart.962/images/ppt_icon_mini.gif	GET	2017-11-16T13:03:42.970-05:00	44	200	image/gif	131	382	131	http://web.cse.ohio-state.edu/~stewart.962/publications.full.html	1	0	0	0	43	0	0
+http://web.cse.ohio-state.edu/~stewart.962/cstewart.sidebar.html	GET	2017-11-16T13:03:43.995-05:00	55	200	text/html; charset=UTF-8	3831	399	3831	http://web.cse.ohio-state.edu/~stewart.962/	0	0	0	0	54	1	0
+http://web.cse.ohio-state.edu/~stewart.962/images/BlockHeader.png	GET	2017-11-16T13:03:44.141-05:00	66	200	image/png	1402	384	1402	http://web.cse.ohio-state.edu/~stewart.962/style.css	0	0	0	0	66	0	0
