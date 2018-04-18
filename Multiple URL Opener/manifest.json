@@ -1,0 +1,23 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+
+  "name": "Multiple URL Opener",
+  "default_locale": "en",
+  "description": "Open multiple URls at once with single click. Also supports delay in opening URls.",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "version": "0.0.0.1",
+     "icons": { 
+          "128":"images/icon.png" 
+  }, 
+  "browser_action": {
+   "default_icon": "images/icon.png"
+  },
+  "permissions": [
+   "tabs"
+  ]
+}

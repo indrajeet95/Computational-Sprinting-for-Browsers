@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Multiple URL Opener</title>
+	<link href="assets/css/custom.css" rel="stylesheet">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div id="status"></div>
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="coverLabel"><img src="assets/img/icon.png">Multiple URL Opener</h4>
+                  </div>
+                  <div class="modal-body">
+                  	<!--<h4>Use before links</h4>-->
+                  	<!--<input class="option" id="default" type="radio" name="type" value="default" checked>-->
+                  	<!--<label for="default">default</label>-->
+
+                  	<!--<input class="option"  id="http" type="radio" name="type" value="http">-->
+                  	<!--<label for="http">http://</label>-->
+
+                  	<!--<input class="option"  id="https" type="radio" name="type" value="https">-->
+                  	<!--<label for="https">https://</label>-->
+                  	<br>
+                  	<textarea class="form-control" rows="15" wrap="soft"></textarea>
+                  </div>
+                    <div class="modal-footer">
+                    	<div class="row">
+                    		<div class="col-md-5">
+                    			<div class="range-area">
+	                    			<p>Open each URL after <span id="range-value">0</span> seconds</p>
+	                    			<input type="range" id="range" min="0" max="30" step="1" value="0">
+                    			</div>
+                    		</div>
+                    		<div class="col-md-7">
+                    			<button id="open" class="btn btn-success">Open <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+                    		</div>
+                    	</div>
+                  </div>
+                </div>
+            	<br>
+            	<!--<p><span class="star"><i class="fa fa-star" aria-hidden="true"></i> </span><a target="_blank" href="http://standaloneinstaller.com/?r=muo">Download virus free software <i class="fa fa-external-link" aria-hidden="true"></i></a></p>-->
+        	</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
