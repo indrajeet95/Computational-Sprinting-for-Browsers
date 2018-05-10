@@ -805,3 +805,14 @@ Its not simple by just running a script
 #the plugin needs to send a message to the script which in turn will launch all further queries with more cores. 
 #We need to communicate between the script and the extension
 
+
+https://stackoverflow.com/questions/14716659/taskset-python
+
+https://unix.stackexchange.com/questions/30370/how-to-get-the-pid-of-the-last-executed-command-in-shell-script
+https://stackoverflow.com/questions/25050311/extract-first-item-of-each-sublist-in-python
+https://www.thegeekstuff.com/2013/06/python-list/?utm_source=feedly
+https://stackoverflow.com/questions/17856928/how-to-terminate-process-from-python-using-pid
+
+
+Yo. WHen I use subprocess to launch google chrome and then also save the pid to an array. and simultaneously print the pids related to google chrome, some of the pids stored in the array are missing. I dont know how that is happening.
+
