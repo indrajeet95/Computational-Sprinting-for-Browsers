@@ -475,7 +475,6 @@ Before using the rapl-tools, you will need to load the msr module and adjust the
 4. sudo setcap cap_sys_rawio+ep ./AppPowerMeter
 5. sudo setcap cap_sys_rawio+ep ./PowerMonitor
 
-
 Btw I guess all this while I have been giving wrong results due to the fact that I did not switch off the turboboost. 
 So now when I run the experiements with even 10 seconds gap the chrome is crashing and I cant seem to saveit. I believe that using web sql database I can make things work because we dont need to download data as a text file which actually works like opening a new href or tab. 
 
@@ -813,6 +812,112 @@ https://stackoverflow.com/questions/25050311/extract-first-item-of-each-sublist-
 https://www.thegeekstuff.com/2013/06/python-list/?utm_source=feedly
 https://stackoverflow.com/questions/17856928/how-to-terminate-process-from-python-using-pid
 
-
 Yo. WHen I use subprocess to launch google chrome and then also save the pid to an array. and simultaneously print the pids related to google chrome, some of the pids stored in the array are missing. I dont know how that is happening.
 
+Meeting on May 10th
+WAIT
+#the time needs to exponentially increasing increasing and not with constant time intervals like 5 seconds
+#he wanted to move everything to python
+
+# Move to python and dont use the for loop and use the taskset to get the PIDS  rather than fetching them everytime
+# Allthe results with exponential arrival etime
+# https://stackoverflow.com/questions/19152067/execute-linux-command-and-get-pid
+# Interrupt and which looks like a callback rather than sleep
+# https://stackoverflow.com/questions/27694818/interrupt-sleep-in-bash-with-a-signal-trap
+# sprinted -> pid1 pid2 pid3,.... etc and dont sprint it again use PYTHON
+# pid1 -> estimated start time note them down
+keep note of power energy and dont exceed budget
+yeah
+
+#you want to check for sprinting and killing in the same command 
+
+What can you do with taskset
+1. you can view the CPU affinity of a running process
+2. you can assign a running process to certain number of cores
+3. you can launch a process on a set number of cores
+and theres more but you can use this for now indrajeet saravanan.
+
+RAPL : Running Average Power Limit
+
+https://stackoverflow.com/questions/46725365/why-i-cant-use-perf-event-modifiers-with-power-energy-cores
+
+Hey Nathaniel. I am facing a new issue with rapl-tools. I was already using the following tool for measuring energy and power for the project. 
+https://github.com/kentcz/rapl-tools
+
+Since I am trying to do everything from a single python script, I came across this command "perf stat -a -e power/energy-pkg/,power/energy-cores/,cycles -I 1000 sleep 1000" which outputs the energy consumed. But the values from these two tools vary in terms of thousands. The command says the energy consumed per second is 8 J whereas 
+
+
+---------------------
+Ways to measure power
+1. Perf command on linux machines
+
+sudo perf stat -a -r 1 \
+    -e "power/energy-pkg/" \
+    -e "power/energy-cores/" \
+    -e "power/energy-gpu/" \
+    -e "power/energy-ram/" \
+
+OUTPUTS
+Didn't fix the frequencies of the cores of the machine
+
+Performance counter stats for 'system wide':
+
+             83.80 Joules power/energy-pkg/                                           
+             10.33 Joules power/energy-cores/                                         
+              2.45 Joules power/energy-gpu/                                           
+             15.71 Joules power/energy-ram/                                           
+
+      19.513408441 seconds time elapsed
+
+Fixing the frequency of the cores of the machine to 1.6 GHz
+
+ Performance counter stats for 'system wide':
+
+          1,853.55 Joules power/energy-pkg/                                           
+            789.49 Joules power/energy-cores/                                         
+            174.60 Joules power/energy-gpu/                                           
+            297.97 Joules power/energy-ram/                                           
+
+     204.262354119 seconds time elapsed
+
+2. rapl-tools for checking consistency
+./AppPowerMeter
+
+OUTPUT
+Avg Power: 9.834 W
+Energy consumed : 2041.27 J
+
+IMPORTANt LINKs TO READ
+POWER PROFILING:::::::::::::::::https://developer.mozilla.org/en-US/docs/Mozilla/Performance/Power_profiling_overview
+PERF:::::::::::::::::::::::::https://developer.mozilla.org/en-US/docs/Mozilla/Performance/perf
+TOOLS/POWER/RAPL::::::::::::::::::::::::https://developer.mozilla.org/en-US/docs/Mozilla/Performance/tools_power_rapl
+
+
+CONCLUSION
+For the past few days, we have been thinking about how to measure power reliably. We were using someone's git code to measure power and storing them in a csv file. Then we came across this 'perf' command which makes things easier because its just command line. 
+WE HAVE SEEN THAT BOTH THE RESULTS ARE ALMOST THE SAME HENCE WE CAN GO AHEAD AND PUT THIS COMMAND IN OUR SCRIPT.
+
+I am facing the dumbest of issues man. I cant seem to format the output the way i want it. I need to get just the energy in joules to printed in each line and then maybe store it in an array and then keep a counter to keep on adding to them and hence being in control the energy budget.
+
+append each line into file -> read file recursively and store the values into counter
+
+STACKOVERFLOW ANSWER
+
+You can use -I specific perf option to print the results every 1,2,3,etc seconds.
+
+    perf stat -a -r 1 -e power/energy-pkg/ -I 1000
+
+This command prints system-wide statistics of the energy-pkg plane every 1 second. You can find more examples in the following link: http://www.brendangregg.com/perf.html
+------------------------------------------------
+SOLUTION Suggestion by SHREY
+Have a major script calling these two scripts which will essentially make the return value of energy visible to the script calling google chrome and you can use that as power budget.
+
+Just use a variable to check for return.
+
+we need to get results now. lets try to get some meaningful stuff. but we still have not done the part where once we exceed the power budget what happens. I think we need guidance for that on what to do. we will try to manage with some base results for this meeting.
+**************************************************
+1. modprobe cpufreq_userspace
+2. sudo cpupower frequency-set --governor userspace
+3. sudo cpupower --cpu all frequency-set --freq 1600MHz
+4. cpufreq-info
+***************************************************
