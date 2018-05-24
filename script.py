@@ -11,25 +11,35 @@ from scipy.stats import expon
 import matplotlib.pyplot as plt
 import threading
 
+webpages = sys.argv[1]
+energy_budget = sys.argv[2]
+sprint_timeout = sys.argv[3]
+kill_timeout = sys.argv[4]
+inter_arrival_scale = sys.argv[5]
+base_cores = sys.argv[6]
+sprint_cores = sys.argv[7]
+#base_cores, sprint_cores = '0x1','0x3','0x7','0xf'
+
+file_name = energy_budget + '_' + sprint_timeout + '_' + kill_timeout + '_' + inter_arrival_scale + '_' + base_cores + '_' + sprint_cores
+f = open('%s.txt'% file_name,'wb')
+
+flag = 0
 timesnow_actual = []
 energy_actual = []
-#sum_timesnow_actual = sum(timesnow_actual)
-#sum_energy_actual = sum(energy_actual)
 
-abc = 0
 def printit():
-	if (abc==1):
+	if (flag==1):
 		return
-	threading.Timer(5.0,printit).start()
-	cmd = "perf stat -a -r 1 -e power/energy-pkg/ sleep 5"
+	threading.Timer(1.0,printit).start()
+	cmd = "perf stat -a -r 1 -e power/energy-pkg/ sleep 1"
 	p = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 	out,err = p.communicate()
 	timesnow = err.split('\n')[5]
 	energy = err.split('\n')[3]
 	timesnow_actual.append(float(timesnow.split()[0]))
 	energy_actual.append(float(energy.split()[0]))
-	print 'Total time elapsed : ',sum(timesnow_actual)
-	print 'Total Joules consumed : ',sum(energy_actual)
+	f.write("\nTotal time elapsed : %s\n" % sum(timesnow_actual))
+	f.write("Total Joules consumed : %s\n" % sum(energy_actual))
 
 printit()
 
@@ -38,38 +48,38 @@ def subprocess_cmd(command):
     proc_stdout = process.communicate()[0].strip()
     return proc_stdout
 
-r = expon.rvs(scale=5,size=50,random_state=2)
+r = expon.rvs(scale=int(inter_arrival_scale),size=50,random_state=10)
 a = 0
 
 FNULL = open(os.devnull, 'w')
-sprinted_pids = [];
+sprinted_pids = []
 
-with open(sys.argv[1],'r') as queries:
+with open(webpages,'r') as queries:
 	for line in queries:
-		proc = subprocess.Popen(['taskset','0x1','google-chrome','--load-extension=/home/indrajeet/Downloads/Content','--new-window ',line], shell=False, stdout=FNULL, stderr=subprocess.STDOUT)
-		temp_pids = subprocess_cmd("ps -eo pid,etimes,comm | awk '$3~/chrome/ {print $1}'")
-		temp_etimes = subprocess_cmd("ps -eo pid,etimes,comm | awk '$3~/chrome/ {print $2}'")
-		temp_pids_int = [int(s) for s in temp_pids.split('\n')]
-		temp_etimes_int = [int(s) for s in temp_etimes.split('\n')]
-		for idx,etime in enumerate(temp_etimes_int[10:]):
-			if etime>1 and temp_pids_int[10+idx] not in sprinted_pids:
-				print "------"
-				proc2 = subprocess.Popen(['taskset','-p','0xF',str(temp_pids_int[10+idx])])
-				sprinted_pids.append(temp_pids_int[10+idx])
-				#print sprinted_pids
-			if etime>30:
-				proc1 = subprocess.Popen(['kill','-15',str(temp_pids_int[10+idx])])
-				print "Just Killed",temp_pids_int[10+idx],"!!!"
-
+		proc = subprocess.Popen(['taskset',base_cores,'google-chrome','--load-extension=/home/indrajeet/Downloads/Content','--new-window ',line], shell=False, stdout=FNULL, stderr=subprocess.STDOUT)
+		pids = subprocess_cmd("ps -eo pid,etimes,comm | awk '$3~/chrome/ {print $1}'")
+		etimes = subprocess_cmd("ps -eo pid,etimes,comm | awk '$3~/chrome/ {print $2}'")
+		pids_int = [int(s) for s in pids.split('\n')]
+		etimes_float = [float(s) for s in etimes.split('\n')]
+		for idx,etime in enumerate(etimes_float[6:]):
+			if etime>float(sprint_timeout) and sum(energy_actual) < float(energy_budget) and pids_int[6+idx] not in sprinted_pids:
+				#f.write("\n-----------------------------------\n")
+				proc2 = subprocess.Popen(['taskset','-p',sprint_cores,str(pids_int[6+idx])],stdout=f)
+				sprinted_pids.append(pids_int[6+idx])
+				#for item in sprinted_pids:
+				#	f.write("%s    " % item)
+		for idx,etime in enumerate(etimes_float[10:]):
+			if etime>float(kill_timeout):
+				proc1 = subprocess.Popen(['kill','-15',str(pids_int[10+idx])])
+				#f.write("\nJust Killed %s !!!\n" % pids_int[10+idx])
 		time.sleep(r[a])
 		a = a+1
-abc = 1
+flag = 1
 
-# keep note of power energy and dont exceed budget
-#timeout to sprint varies from 10,15,20,etc...,
-#change number of cores without sprinting and with sprinting give 1,2,3 more cores respectively
-#web of things confernce 
-#num of times you are loading 50 web pages
-#when it crashes have a mechanism to start wheere you left
-#get the excel sheets
+time.sleep(30)
+for pid in pids_int:
+	proc_last = subprocess.Popen(['kill','-9',str(pid)])
 
+print "KILLED ALL CHROME PROCESSES. Time to start the next run....."
+
+# when it crashes have a mechanism to start where you left NOT YET

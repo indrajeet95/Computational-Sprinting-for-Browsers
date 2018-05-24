@@ -921,3 +921,63 @@ we need to get results now. lets try to get some meaningful stuff. but we still 
 3. sudo cpupower --cpu all frequency-set --freq 1600MHz
 4. cpufreq-info
 ***************************************************
+
+22.5.18
+we are here in search of a paper. All we need to do is get some nice results. Lets do this. 
+We need a master script which passes the timeout and everything as arguments so that we can get results.
+We are sure that the taskset works because it says it's doing its work. Don't have to worry about SYS_CAP_NICE permissions.
+Exponential arrival time doesn't seem to be consistent meaning according to the definition the scale paramater and the mean of variables generated will be same. There seems to be a lot of deviation. But it's okay.
+http://bigdata-madesimple.com/how-to-implement-these-5-powerful-probability-distributions-in-python/
+
+All variations in terms of cores
+1 base core - No sprinting
+1 base core - Sprinting with 1 more core
+1 base core - Sprinting with 2 more cores
+1 base core - Sprinting with 3 more cores
+
+Timeout variations
+0,2,4,6,8,10,12,14
+
+Avg. of Inter-arrival time in the exponential function variations
+2.6,4.4,6.6,7.9,8.4
+
+Budget for energy in Joules variations
+200,600,1000,1500,1800,1900
+
+Number of times each config needs to be run
+10 times
+
+
+WHAT ARE you doubtful about?
+1. The manner in which I am collecting energy. I am just doing for some plane. Is this cool or we need to compute how much chrome only consumes?
+2. I only sprint the pids greater than 10 in my list of chrome pids. If I sprint the lesser than pids they result in all the pids being created in the future to be sprinted in advanced. I found the reason. The CPU affinity of the child is inherited from the parent. So essentially 
+
+pstree -p shows you how chrome processes are structured and there are close to 5 processes from which all the other pages branch. When you change the their CPU affinity mask then all other pages loaded will load with that setup. 
+
+I will tell you why you wouldnt want to do that. Because you would be sprinting essentially from the minute you start. what about the budget???
+you are not saving energy by sprinting the parent you fool. you are only wasting energy because all pages even the most fastest one will start with 4 cores instead of one because you are speeding up the parent. 
+
+your only point of concern could be. Rather than sprinting each process seperately, if you speed up the parent you are saving the number of times of sprinting. This might be useful because the energy consumed for each step of sprinting a pid is unknown. BUT i can say for certain that it cant be more than the amount of energy you are saving by loading pages for 10 seconds normally and then sprinting them. 
+
+24.5.18
+CURRENT EXPERIMENTS
+
+1 base core - No sprinting
+1 base core - Sprinting with 3 more cores
+
+Number of times each config needs to be run: 1 time
+
+Budget for energy in Joules variations
+200,600,1000,1500,1900
+
+Timeout variations
+0,4,8,12,16
+
+Avg. of Inter-arrival time in the exponential function variations
+2.6,4.4,6.6,7.9,8.4
+
+100 web pages
+
+LETS START MANNNNNNNNNNNNNNNNNNN
+
+
