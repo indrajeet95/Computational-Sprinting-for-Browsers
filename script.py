@@ -48,7 +48,7 @@ def subprocess_cmd(command):
     proc_stdout = process.communicate()[0].strip()
     return proc_stdout
 
-r = expon.rvs(scale=int(inter_arrival_scale),size=50,random_state=10)
+r = expon.rvs(scale=float(inter_arrival_scale),size=100,random_state=10)
 a = 0
 
 FNULL = open(os.devnull, 'w')
@@ -61,22 +61,25 @@ with open(webpages,'r') as queries:
 		etimes = subprocess_cmd("ps -eo pid,etimes,comm | awk '$3~/chrome/ {print $2}'")
 		pids_int = [int(s) for s in pids.split('\n')]
 		etimes_float = [float(s) for s in etimes.split('\n')]
-		for idx,etime in enumerate(etimes_float[6:]):
-			if etime>float(sprint_timeout) and sum(energy_actual) < float(energy_budget) and pids_int[6+idx] not in sprinted_pids:
-				#f.write("\n-----------------------------------\n")
-				proc2 = subprocess.Popen(['taskset','-p',sprint_cores,str(pids_int[6+idx])],stdout=f)
-				sprinted_pids.append(pids_int[6+idx])
-				#for item in sprinted_pids:
-				#	f.write("%s    " % item)
-		for idx,etime in enumerate(etimes_float[10:]):
+		for idx,etime in enumerate(etimes_float[15:]):
+			try:
+				if etime>float(sprint_timeout) and sum(energy_actual) < float(energy_budget) and pids_int[15+idx] not in sprinted_pids:
+					proc2 = subprocess.Popen(['taskset','-p',sprint_cores,str(pids_int[15+idx])],stdout=f)
+					sprinted_pids.append(pids_int[15+idx])
+			except IndexError:
+				f.write("\nIndex Error\n")
+		for idx,etime in enumerate(etimes_float[15:]):
 			if etime>float(kill_timeout):
-				proc1 = subprocess.Popen(['kill','-15',str(pids_int[10+idx])])
-				#f.write("\nJust Killed %s !!!\n" % pids_int[10+idx])
+				try:
+					proc1 = subprocess.Popen(['kill','-15',str(pids_int[15+idx])])
+					#f.write("\nJust Killed %s !!!\n" % pids_int[10+idx])
+				except IndexError:
+					f.write("\nIndex Error\n")
 		time.sleep(r[a])
 		a = a+1
 flag = 1
 
-time.sleep(30)
+time.sleep(60)
 for pid in pids_int:
 	proc_last = subprocess.Popen(['kill','-9',str(pid)])
 
