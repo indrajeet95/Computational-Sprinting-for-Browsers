@@ -962,13 +962,15 @@ your only point of concern could be. Rather than sprinting each process seperate
 24.5.18
 CURRENT EXPERIMENTS
 
+NULL : Not applicable
+
 1 base core - No sprinting
 1 base core - Sprinting with 3 more cores
 
 Number of times each config needs to be run: 1 time
 
 Budget for energy in Joules variations
-500,1000,2000,3000.4000
+500,3000,4000,5000,30000 or in other words no Budget
 
 Timeout variations
 0,4,8,12,16
@@ -981,5 +983,5 @@ Avg. of Inter-arrival time in the exponential function variations
 LETS START MANNNNNNNNNNNNNNNNNNN
 
 Let make sure loading 100 pages with all cores and with sprinting actually works because only 84 pages are the max amount of finishings i have senn
-that would be your first step.
+that would be your first step. Haha. Late reply bro. It doesnt work like that. Maximum I have seen is 92 pages I guess. Some end up getting failed but I dont think thats an issue.
 
