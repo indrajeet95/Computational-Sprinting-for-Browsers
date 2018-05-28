@@ -968,7 +968,7 @@ CURRENT EXPERIMENTS
 Number of times each config needs to be run: 1 time
 
 Budget for energy in Joules variations
-200,600,1000,1500,1900
+500,1000,2000,3000.4000
 
 Timeout variations
 0,4,8,12,16
@@ -980,4 +980,6 @@ Avg. of Inter-arrival time in the exponential function variations
 
 LETS START MANNNNNNNNNNNNNNNNNNN
 
+Let make sure loading 100 pages with all cores and with sprinting actually works because only 84 pages are the max amount of finishings i have senn
+that would be your first step.
 
