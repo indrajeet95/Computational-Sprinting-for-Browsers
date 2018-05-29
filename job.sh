@@ -282,10 +282,10 @@
 #--------------------------------------------------------------
 
 #OVER
-python script.py Top\ 100\ Pages 30000 0 30 2.6 '0x1' '0xF'
-sleep 30
-python script.py Top\ 100\ Pages 30000 0 30 4.4 '0x1' '0xF'
-sleep 30
+#python script.py Top\ 100\ Pages 30000 0 30 2.6 '0x1' '0xF'
+#sleep 30
+#python script.py Top\ 100\ Pages 30000 0 30 4.4 '0x1' '0xF'
+#sleep 30
 #python script.py Top\ 100\ Pages 30000 0 30 6.6 '0x1' '0xF'
 #sleep 30
 #python script.py Top\ 100\ Pages 30000 0 30 7.9 '0x1' '0xF'
