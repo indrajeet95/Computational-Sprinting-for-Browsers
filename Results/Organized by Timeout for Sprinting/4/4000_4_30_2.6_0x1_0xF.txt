@@ -1,0 +1,1592 @@
+pid 4306's current affinity mask: 1
+pid 4306's new affinity mask: f
+pid 4309's current affinity mask: 1
+pid 4309's new affinity mask: f
+pid 4343's current affinity mask: 1
+pid 4343's new affinity mask: f
+pid 4353's current affinity mask: 1
+pid 4353's new affinity mask: f
+pid 4363's current affinity mask: 1
+pid 4363's new affinity mask: f
+pid 4387's current affinity mask: 1
+pid 4387's new affinity mask: f
+pid 4394's current affinity mask: 1
+pid 4394's new affinity mask: f
+pid 4410's current affinity mask: 1
+pid 4410's new affinity mask: f
+pid 4425's current affinity mask: 1
+pid 4425's new affinity mask: f
+pid 4440's current affinity mask: 1
+pid 4440's new affinity mask: f
+pid 4757's current affinity mask: 1
+pid 4757's new affinity mask: f
+pid 4807's current affinity mask: 1
+pid 4807's new affinity mask: f
+pid 4835's current affinity mask: 1
+pid 4835's new affinity mask: f
+pid 4860's current affinity mask: 1
+pid 4860's new affinity mask: f
+pid 4949's current affinity mask: 1
+pid 4949's new affinity mask: f
+pid 5045's current affinity mask: 1
+pid 5045's new affinity mask: f
+pid 5067's current affinity mask: 1
+pid 5067's new affinity mask: f
+pid 5095's current affinity mask: 1
+pid 5095's new affinity mask: f
+pid 5106's current affinity mask: 1
+pid 5106's new affinity mask: f
+pid 5118's current affinity mask: 1
+pid 5118's new affinity mask: f
+pid 5162's current affinity mask: 1
+pid 5162's new affinity mask: f
+pid 5250's current affinity mask: 1
+pid 5250's new affinity mask: f
+pid 5287's current affinity mask: 1
+pid 5287's new affinity mask: f
+pid 5343's current affinity mask: 1
+pid 5343's new affinity mask: f
+pid 5364's current affinity mask: 1
+pid 5364's new affinity mask: f
+pid 5373's current affinity mask: 1
+pid 5373's new affinity mask: f
+pid 5377's current affinity mask: 1
+pid 5377's new affinity mask: f
+pid 5433's current affinity mask: 1
+pid 5433's new affinity mask: f
+pid 5438's current affinity mask: 1
+pid 5438's new affinity mask: f
+pid 5471's current affinity mask: 1
+pid 5471's new affinity mask: f
+pid 5535's current affinity mask: 1
+pid 5535's new affinity mask: f
+pid 5558's current affinity mask: 1
+pid 5558's new affinity mask: f
+pid 5573's current affinity mask: 1
+pid 5573's new affinity mask: f
+pid 5580's current affinity mask: 1
+pid 5580's new affinity mask: f
+pid 5590's current affinity mask: 1
+pid 5590's new affinity mask: f
+
+Total time elapsed : 1.001084686
+Total Joules consumed : 4.0
+
+Total time elapsed : 2.002197356
+Total Joules consumed : 11.04
+
+Total time elapsed : 3.003271698
+Total Joules consumed : 18.94
+
+Total time elapsed : 4.00454245
+Total Joules consumed : 26.11
+
+Total time elapsed : 5.005645224
+Total Joules consumed : 33.57
+
+Total time elapsed : 6.00709494
+Total Joules consumed : 41.48
+
+Total time elapsed : 7.008099934
+Total Joules consumed : 49.33
+
+Total time elapsed : 8.009182969
+Total Joules consumed : 57.2
+
+Total time elapsed : 9.011082494
+Total Joules consumed : 65.29
+
+Total time elapsed : 10.012213347
+Total Joules consumed : 72.89
+
+Total time elapsed : 11.013390989
+Total Joules consumed : 81.01
+
+Total time elapsed : 12.015378388
+Total Joules consumed : 88.88
+
+Total time elapsed : 13.016698475
+Total Joules consumed : 97.05
+
+Total time elapsed : 14.018504068
+Total Joules consumed : 104.47
+
+Total time elapsed : 15.019813421
+Total Joules consumed : 112.47
+
+Total time elapsed : 16.020952753
+Total Joules consumed : 120.02
+
+Total time elapsed : 17.02231965
+Total Joules consumed : 128.18
+
+Total time elapsed : 18.023682223
+Total Joules consumed : 135.54
+
+Total time elapsed : 19.024843885
+Total Joules consumed : 143.65
+
+Total time elapsed : 20.02622333
+Total Joules consumed : 151.23
+
+Total time elapsed : 21.027302164
+Total Joules consumed : 158.91
+
+Total time elapsed : 22.028413055
+Total Joules consumed : 166.76
+
+Total time elapsed : 23.02953074
+Total Joules consumed : 174.06
+
+Total time elapsed : 24.030898727
+Total Joules consumed : 181.65
+
+Total time elapsed : 25.031841006
+Total Joules consumed : 189.63
+
+Total time elapsed : 26.032943667
+Total Joules consumed : 197.44
+
+Total time elapsed : 27.034049236
+Total Joules consumed : 205.3
+
+Total time elapsed : 28.035276096
+Total Joules consumed : 213.37
+
+Total time elapsed : 29.036912549
+Total Joules consumed : 221.25
+
+Total time elapsed : 30.038403929
+Total Joules consumed : 228.99
+
+Total time elapsed : 31.039753345
+Total Joules consumed : 236.4
+
+Total time elapsed : 32.040846841
+Total Joules consumed : 243.69
+
+Total time elapsed : 33.041910102
+Total Joules consumed : 250.95
+
+Total time elapsed : 34.04303485
+Total Joules consumed : 258.2
+
+Total time elapsed : 35.044055466
+Total Joules consumed : 265.34
+
+Total time elapsed : 36.045753127
+Total Joules consumed : 273.17
+
+Total time elapsed : 37.046813558
+Total Joules consumed : 281.57
+
+Total time elapsed : 38.0478939
+Total Joules consumed : 289.93
+
+Total time elapsed : 39.04902531
+Total Joules consumed : 298.05
+
+Total time elapsed : 40.050141903
+Total Joules consumed : 306.51
+
+Total time elapsed : 41.051850338
+Total Joules consumed : 314.32
+
+Total time elapsed : 42.052951422
+Total Joules consumed : 321.9
+
+Total time elapsed : 43.054998667
+Total Joules consumed : 330.36
+
+Total time elapsed : 44.056193919
+Total Joules consumed : 338.03
+
+Total time elapsed : 45.057545784
+Total Joules consumed : 345.77
+
+Total time elapsed : 46.058669709
+Total Joules consumed : 353.79
+
+Total time elapsed : 47.060272666
+Total Joules consumed : 360.98
+
+Total time elapsed : 48.061328267
+Total Joules consumed : 367.8
+
+Total time elapsed : 49.0625462
+Total Joules consumed : 375.66
+
+Total time elapsed : 50.063616765
+Total Joules consumed : 383.33
+
+Total time elapsed : 51.064735822
+Total Joules consumed : 390.76
+
+Total time elapsed : 52.066217252
+Total Joules consumed : 398.76
+
+Total time elapsed : 53.067664275
+Total Joules consumed : 406.56
+
+Total time elapsed : 54.068772073
+Total Joules consumed : 414.28
+
+Total time elapsed : 55.069885314
+Total Joules consumed : 422.22
+
+Total time elapsed : 56.071365576
+Total Joules consumed : 430.99
+
+Total time elapsed : 57.072532844
+Total Joules consumed : 438.85
+
+Total time elapsed : 58.074035516
+Total Joules consumed : 447.18
+
+Total time elapsed : 59.075551878
+Total Joules consumed : 454.84
+
+Total time elapsed : 60.077326455
+Total Joules consumed : 463.2
+
+Total time elapsed : 61.078492548
+Total Joules consumed : 471.74
+
+Total time elapsed : 62.079682431
+Total Joules consumed : 479.61
+
+Total time elapsed : 63.080780995
+Total Joulepid 5608's current affinity mask: 1
+pid 5608's new affinity mask: f
+pid 5631's current affinity mask: 1
+pid 5631's new affinity mask: f
+pid 5649's current affinity mask: 1
+pid 5649's new affinity mask: f
+pid 5655's current affinity mask: 1
+pid 5655's new affinity mask: f
+pid 5718's current affinity mask: 1
+pid 5718's new affinity mask: f
+pid 5719's current affinity mask: 1
+pid 5719's new affinity mask: f
+pid 5841's current affinity mask: f
+pid 5841's new affinity mask: f
+pid 5845's current affinity mask: f
+pid 5845's new affinity mask: f
+pid 5853's current affinity mask: f
+pid 5853's new affinity mask: f
+pid 5861's current affinity mask: f
+pid 5861's new affinity mask: f
+pid 5872's current affinity mask: 1
+pid 5872's new affinity mask: f
+pid 5882's current affinity mask: 1
+pid 5882's new affinity mask: f
+pid 5904's current affinity mask: 1
+pid 5904's new affinity mask: f
+pid 5925's current affinity mask: 1
+pid 5925's new affinity mask: f
+pid 5953's current affinity mask: 1
+pid 5953's new affinity mask: f
+pid 5968's current affinity mask: 1
+pid 5968's new affinity mask: f
+pid 5985's current affinity mask: 1
+pid 5985's new affinity mask: f
+pid 5994's current affinity mask: 1
+pid 5994's new affinity mask: f
+pid 6022's current affinity mask: 1
+pid 6022's new affinity mask: f
+pid 6030's current affinity mask: 1
+pid 6030's new affinity mask: f
+pid 6062's current affinity mask: 1
+pid 6062's new affinity mask: f
+pid 6092's current affinity mask: 1
+pid 6092's new affinity mask: f
+pid 6095's current affinity mask: 1
+pid 6095's new affinity mask: f
+pid 6130's current affinity mask: 1
+pid 6130's new affinity mask: f
+pid 6183's current affinity mask: 1
+pid 6183's new affinity mask: f
+pid 6201's current affinity mask: 1
+pid 6201's new affinity mask: f
+pid 6235's current affinity mask: 1
+pid 6235's new affinity mask: f
+pid 6261's current affinity mask: 1
+pid 6261's new affinity mask: f
+pid 6270's current affinity mask: 1
+pid 6270's new affinity mask: f
+pid 6304's current affinity mask: 1
+pid 6304's new affinity mask: f
+pid 6313's current affinity mask: 1
+pid 6313's new affinity mask: f
+pid 6354's current affinity mask: 1
+pid 6354's new affinity mask: f
+pid 6364's current affinity mask: 1
+pid 6364's new affinity mask: f
+pid 6396's current affinity mask: 1
+pid 6396's new affinity mask: f
+pid 6405's current affinity mask: 1
+pid 6405's new affinity mask: f
+pid 6423's current affinity mask: 1
+pid 6423's new affinity mask: f
+pid 6509's current affinity mask: 1
+pid 6509's new affinity mask: f
+pid 6527's current affinity mask: 1
+pid 6527's new affinity mask: f
+pid 6541's current affinity mask: 1
+pid 6541's new affinity mask: f
+pid 6561's current affinity mask: 1
+pid 6561's new affinity mask: f
+pid 6573's current affinity mask: 1
+pid 6573's new affinity mask: f
+pid 6593's current affinity mask: 1
+pid 6593's new affinity mask: f
+pid 6635's current affinity mask: 1
+pid 6635's new affinity mask: f
+pid 6650's current affinity mask: 1
+pid 6650's new affinity mask: f
+pid 6671's current affinity mask: 1
+pid 6671's new affinity mask: f
+pid 6685's current affinity mask: 1
+pid 6685's new affinity mask: f
+pid 6697's current affinity mask: 1
+pid 6697's new affinity mask: f
+pid 6758's current affinity mask: 1
+pid 6758's new affinity mask: f
+pid 6798's current affinity mask: 1
+pid 6798's new affinity mask: f
+pid 6799's current affinity mask: 1
+pid 6799's new affinity mask: f
+pid 6824's current affinity mask: 1
+pid 6824's new affinity mask: f
+pid 6847's current affinity mask: 1
+pid 6847's new affinity mask: f
+pid 6871's current affinity mask: 1
+pid 6871's new affinity mask: f
+pid 6888's current affinity mask: 1
+pid 6888's new affinity mask: f
+pid 6889's current affinity mask: 1
+pid 6889's new affinity mask: f
+pid 6917's current affinity mask: 1
+pid 6917's new affinity mask: f
+pid 6934's current affinity mask: 1
+pid 6934's new affinity mask: f
+pid 6969's current affinity mask: 1
+pid 6969's new affinity mask: f
+pid 6980's current affinity mask: 1
+pid 6980's new affinity mask: f
+pid 7004's current affinity mask: 1
+pid 7004's new affinity mask: f
+pid 7012's current affinity mask: 1
+pid 7012's new affinity mask: f
+pid 7030's current affinity mask: 1
+pid 7030's new affinity mask: f
+pid 7072's current affinity mask: 1
+pid 7072's new affinity mask: f
+pid 7095's current affinity mask: 1
+pid 7095's new affinity mask: f
+pid 7135's current affinity mask: 1
+pid 7135's new affinity mask: f
+pid 7174's current affinity mask: 1
+pid 7174's new affinity mask: f
+pid 7178's current affinity mask: 1
+pid 7178's new affinity mask: f
+pid 7205's current affinity mask: 1
+pid 7205's new affinity mask: f
+pid 7224's current affinity mask: 1
+pid 7224's new affinity mask: f
+pid 7225's current affinity mask: 1
+pid 7225's new affinity mask: f
+pid 7232's current affinity mask: 1
+pid 7232's new affinity mask: f
+pid 7250's current affinity mask: 1
+pid 7250's new affinity mask: f
+pid 7267's current affinity mask: 1
+pid 7267's new affinity mask: f
+pid 7282's current affinity mask: 1
+pid 7282's new affinity mask: f
+pid 7284's current affinity mask: 1
+pid 7284's new affinity mask: f
+pid 7307's current affinity mask: 1
+pid 7307's new affinity mask: f
+pid 7308's current affinity mask: 1
+pid 7308's new affinity mask: f
+pid 7340's current affinity mask: 1
+pid 7340's new affinity mask: f
+pid 7342's current affinity mask: 1
+pid 7342's new affinity mask: f
+pid 7348's current affinity mask: 1
+pid 7348's new affinity mask: f
+pid 7408's current affinity mask: 1
+pid 7408's new affinity mask: f
+pid 7431's current affinity mask: 1
+pid 7431's new affinity mask: f
+pid 7437's current affinity mask: 1
+pid 7437's new affinity mask: f
+pid 7488's current affinity mask: 1
+pid 7488's new affinity mask: f
+pid 7516's current affinity mask: 1
+pid 7516's new affinity mask: f
+pid 7558's current affinity mask: 1
+pid 7558's new affinity mask: f
+pid 7566's current affinity mask: 1
+pid 7566's new affinity mask: f
+pid 7601's current affinity mask: 1
+pid 7601's new affinity mask: f
+pid 7646's current affinity mask: 1
+pid 7646's new affinity mask: f
+pid 7653's current affinity mask: 1
+pid 7653's new affinity mask: f
+pid 7676's current affinity mask: 1
+pid 7676's new affinity mask: f
+pid 7690's current affinity mask: 1
+pid 7690's new affinity mask: f
+pid 7704's current affinity mask: 1
+pid 7704's new affinity mask: f
+pid 7740's current affinity mask: 1
+pid 7740's new affinity mask: f
+pid 7759's current affinity mask: 1
+pid 7759's new affinity mask: f
+pid 7768's current affinity mask: 1
+pid 7768's new affinity mask: f
+pid 7780's current affinity mask: 1
+pid 7780's new affinity mask: f
+pid 7786's current affinity mask: 1
+pid 7786's new affinity mask: f
+pid 7802's current affinity mask: 1
+pid 7802's new affinity mask: f
+pid 7821's current affinity mask: 1
+pid 7821's new affinity mask: f
+pid 7849's current affinity mask: 1
+pid 7849's new affinity mask: f
+pid 7875's current affinity mask: 1
+pid 7875's new affinity mask: f
+pid 7926's current affinity mask: 1
+pid 7926's new affinity mask: f
+pid 7944's current affinity mask: 1
+pid 7944's new affinity mask: f
+pid 7967's current affinity mask: 1
+pid 7967's new affinity mask: f
+pid 7977's current affinity mask: 1
+pid 7977's new affinity mask: f
+pid 7982's current affinity mask: 1
+pid 7982's new affinity mask: f
+pid 8010's current affinity mask: 1
+pid 8010's new affinity mask: f
+pid 8025's current affinity mask: 1
+pid 8025's new affinity mask: f
+pid 8036's current affinity mask: 1
+pid 8036's new affinity mask: f
+pid 8048's current affinity mask: 1
+pid 8048's new affinity mask: f
+pid 8113's current affinity mask: 1
+pid 8113's new affinity mask: f
+pid 8136's current affinity mask: 1
+pid 8136's new affinity mask: f
+pid 8182's current affinity mask: 1
+pid 8182's new affinity mask: f
+pid 8201's current affinity mask: 1
+pid 8201's new affinity mask: f
+pid 8209's current affinity mask: 1
+pid 8209's new affinity mask: f
+pid 8220's current affinity mask: 1
+pid 8220's new affinity mask: f
+pid 8242's current affinity mask: 1
+pid 8242's new affinity mask: f
+pid 8263's current affinity mask: 1
+pid 8263's new affinity mask: f
+pid 8300's current affinity mask: 1
+pid 8300's new affinity mask: f
+pid 8311's current affinity mask: 1
+pid 8311's new affinity mask: f
+pid 8334's current affinity mask: 1
+pid 8334's new affinity mask: f
+pid 8337's current affinity mask: 1
+pid 8337's new affinity mask: f
+pid 8358's current affinity mask: 1
+pid 8358's new affinity mask: f
+pid 8372's current affinity mask: 1
+pid 8372's new affinity mask: f
+pid 8410's current affinity mask: 1
+pid 8410's new affinity mask: f
+pid 8432's current affinity mask: 1
+pid 8432's new affinity mask: f
+pid 8471's current affinity mask: 1
+pid 8471's new affinity mask: f
+pid 8486's current affinity mask: 1
+pid 8486's new affinity mask: f
+pid 8505's current affinity mask: 1
+pid 8505's new affinity mask: f
+pid 8523's current affinity mask: 1
+pid 8523's new affinity mask: f
+pid 8538's current affinity mask: 1
+pid 8538's new affinity mask: f
+pid 8584's current affinity mask: 1
+pid 8584's new affinity mask: f
+pid 8597's current affinity mask: 1
+pid 8597's new affinity mask: f
+pid 8633's current affinity mask: 1
+pid 8633's new affinity mask: f
+pid 8635's current affinity mask: 1
+pid 8635's new affinity mask: f
+pid 8653's current affinity mask: 1
+pid 8653's new affinity mask: f
+pid 8669's current affinity mask: 1
+pid 8669's new affinity mask: f
+pid 8703's current affinity mask: 1
+pid 8703's new affinity mask: f
+pid 8730's current affinity mask: 1
+pid 8730's new affinity mask: f
+pid 8765's current affinity mask: 1
+pid 8765's new affinity mask: f
+pid 8773's current affinity mask: 1
+pid 8773's new affinity mask: f
+pid 8824's current affinity mask: 1
+pid 8824's new affinity mask: f
+pid 8825's current affinity mask: 1
+pid 8825's new affinity mask: f
+pid 8843's current affinity mask: 1
+pid 8843's new affinity mask: f
+pid 8878's current affinity mask: 1
+pid 8878's new affinity mask: f
+pid 8880's current affinity mask: 1
+pid 8880's new affinity mask: f
+pid 8906's current affinity mask: 1
+pid 8906's new affinity mask: f
+pid 8932's current affinity mask: 1
+pid 8932's new affinity mask: f
+pid 8955's current affinity mask: 1
+pid 8955's new affinity mask: f
+pid 8974's current affinity mask: 1
+pid 8974's new affinity mask: f
+pid 9011's current affinity mask: 1
+pid 9011's new affinity mask: f
+pid 9035's current affinity mask: 1
+pid 9035's new affinity mask: f
+s consumed : 487.66
+
+Total time elapsed : 64.082234059
+Total Joules consumed : 496.14
+
+Total time elapsed : 65.084630067
+Total Joules consumed : 504.22
+
+Total time elapsed : 66.086040952
+Total Joules consumed : 512.36
+
+Total time elapsed : 67.087430154
+Total Joules consumed : 520.5
+
+Total time elapsed : 68.089004789
+Total Joules consumed : 528.65
+
+Total time elapsed : 69.090759918
+Total Joules consumed : 537.06
+
+Total time elapsed : 70.091938872
+Total Joules consumed : 545.31
+
+Total time elapsed : 71.095331047
+Total Joules consumed : 553.65
+
+Total time elapsed : 72.097000644
+Total Joules consumed : 562.41
+
+Total time elapsed : 73.098397263
+Total Joules consumed : 570.61
+
+Total time elapsed : 74.099767241
+Total Joules consumed : 579.4
+
+Total time elapsed : 75.101102947
+Total Joules consumed : 587.51
+
+Total time elapsed : 76.102185571
+Total Joules consumed : 596.18
+
+Total time elapsed : 77.103663094
+Total Joules consumed : 605.06
+
+Total time elapsed : 78.105194283
+Total Joules consumed : 613.19
+
+Total time elapsed : 79.106353808
+Total Joules consumed : 621.54
+
+Total time elapsed : 80.107442201
+Total Joules consumed : 629.79
+
+Total time elapsed : 81.10862122
+Total Joules consumed : 638.16
+
+Total time elapsed : 82.110005856
+Total Joules consumed : 646.19
+
+Total time elapsed : 83.111338568
+Total Joules consumed : 654.45
+
+Total time elapsed : 84.112521533
+Total Joules consumed : 662.82
+
+Total time elapsed : 85.113760763
+Total Joules consumed : 671.61
+
+Total time elapsed : 86.115209927
+Total Joules consumed : 680.23
+
+Total time elapsed : 87.11665885
+Total Joules consumed : 688.39
+
+Total time elapsed : 88.118429982
+Total Joules consumed : 697.52
+
+Total time elapsed : 89.119711317
+Total Joules consumed : 706.3
+
+Total time elapsed : 90.120981989
+Total Joules consumed : 714.05
+
+Total time elapsed : 91.122161769
+Total Joules consumed : 721.67
+
+Total time elapsed : 92.12374907
+Total Joules consumed : 729.37
+
+Total time elapsed : 93.126672801
+Total Joules consumed : 737.24
+
+Total time elapsed : 94.127727259
+Total Joules consumed : 745.41
+
+Total time elapsed : 95.128907093
+Total Joules consumed : 753.88
+
+Total time elapsed : 96.130313727
+Total Joules consumed : 762.27
+
+Total time elapsed : 97.131839974
+Total Joules consumed : 770.46
+
+Total time elapsed : 98.132936756
+Total Joules consumed : 778.87
+
+Total time elapsed : 99.134031464
+Total Joules consumed : 787.07
+
+Total time elapsed : 100.135189713
+Total Joules consumed : 795.36
+
+Total time elapsed : 101.136747504
+Total Joules consumed : 803.56
+
+Total time elapsed : 102.137997715
+Total Joules consumed : 811.69
+
+Total time elapsed : 103.139206418
+Total Joules consumed : 820.43
+
+Total time elapsed : 104.14069395
+Total Joules consumed : 829.48
+
+Total time elapsed : 105.142212747
+Total Joules consumed : 837.75
+
+Total time elapsed : 106.143696868
+Total Joules consumed : 845.66
+
+Total time elapsed : 107.14757319
+Total Joules consumed : 853.96
+
+Total time elapsed : 108.148631567
+Total Joules consumed : 862.13
+
+Total time elapsed : 109.150213946
+Total Joules consumed : 871.03
+
+Total time elapsed : 110.151960824
+Total Joules consumed : 879.59
+
+Total time elapsed : 111.153376405
+Total Joules consumed : 888.04
+
+Total time elapsed : 112.154840634
+Total Joules consumed : 896.46
+
+Total time elapsed : 113.155978193
+Total Joules consumed : 904.82
+
+Total time elapsed : 114.158908243
+Total Joules consumed : 913.42
+
+Total time elapsed : 115.160352417
+Total Joules consumed : 921.67
+
+Total time elapsed : 116.161819486
+Total Joules consumed : 930.8
+
+Total time elapsed : 117.163288596
+Total Joules consumed : 939.38
+
+Total time elapsed : 118.164479532
+Total Joules consumed : 947.73
+
+Total time elapsed : 119.165919927
+Total Joules consumed : 956.28
+
+Total time elapsed : 120.167171249
+Total Joules consumed : 965.28
+
+Total time elapsed : 121.168665542
+Total Joules consumed : 973.61
+
+Total time elapsed : 122.170193532
+Total Joules consumed : 982.41
+
+Total time elapsed : 123.182388046
+Total Joules consumed : 991.15
+
+Total time elapsed : 124.184236462
+Total Joules consumed : 1000.46
+
+Total time elapsed : 125.1857458pid 9049's current affinity mask: 1
+pid 9049's new affinity mask: f
+pid 9077's current affinity mask: 1
+pid 9077's new affinity mask: f
+pid 9079's current affinity mask: 1
+pid 9079's new affinity mask: f
+pid 9128's current affinity mask: 1
+pid 9128's new affinity mask: f
+pid 9137's current affinity mask: 1
+pid 9137's new affinity mask: f
+pid 9161's current affinity mask: 1
+pid 9161's new affinity mask: f
+pid 9171's current affinity mask: 1
+pid 9171's new affinity mask: f
+pid 9176's current affinity mask: 1
+pid 9176's new affinity mask: f
+pid 9204's current affinity mask: 1
+pid 9204's new affinity mask: f
+pid 9220's current affinity mask: 1
+pid 9220's new affinity mask: f
+pid 9245's current affinity mask: 1
+pid 9245's new affinity mask: f
+pid 9252's current affinity mask: 1
+pid 9252's new affinity mask: f
+pid 9299's current affinity mask: 1
+pid 9299's new affinity mask: f
+pid 9300's current affinity mask: 1
+pid 9300's new affinity mask: f
+pid 9303's current affinity mask: 1
+pid 9303's new affinity mask: f
+pid 9321's current affinity mask: 1
+pid 9321's new affinity mask: f
+pid 9341's current affinity mask: 1
+pid 9341's new affinity mask: f
+pid 9343's current affinity mask: 1
+pid 9343's new affinity mask: f
+pid 9392's current affinity mask: 1
+pid 9392's new affinity mask: f
+pid 9415's current affinity mask: 1
+pid 9415's new affinity mask: f
+pid 9432's current affinity mask: 1
+pid 9432's new affinity mask: f
+pid 9450's current affinity mask: 1
+pid 9450's new affinity mask: f
+pid 9467's current affinity mask: 1
+pid 9467's new affinity mask: f
+pid 9584's current affinity mask: 1
+pid 9584's new affinity mask: f
+pid 9620's current affinity mask: 1
+pid 9620's new affinity mask: f
+pid 9628's current affinity mask: 1
+pid 9628's new affinity mask: f
+pid 9680's current affinity mask: 1
+pid 9680's new affinity mask: f
+pid 9687's current affinity mask: 1
+pid 9687's new affinity mask: f
+pid 9727's current affinity mask: 1
+pid 9727's new affinity mask: f
+pid 9738's current affinity mask: 1
+pid 9738's new affinity mask: f
+pid 9747's current affinity mask: 1
+pid 9747's new affinity mask: f
+pid 9785's current affinity mask: 1
+pid 9785's new affinity mask: f
+pid 9790's current affinity mask: 1
+pid 9790's new affinity mask: f
+pid 9804's current affinity mask: 1
+pid 9804's new affinity mask: f
+pid 9814's current affinity mask: 1
+pid 9814's new affinity mask: f
+pid 9860's current affinity mask: 1
+pid 9860's new affinity mask: f
+pid 9867's current affinity mask: 1
+pid 9867's new affinity mask: f
+pid 9904's current affinity mask: 1
+pid 9904's new affinity mask: f
+pid 9934's current affinity mask: 1
+pid 9934's new affinity mask: f
+pid 9940's current affinity mask: 1
+pid 9940's new affinity mask: f
+pid 9956's current affinity mask: 1
+pid 9956's new affinity mask: f
+pid 9960's current affinity mask: 1
+pid 9960's new affinity mask: f
+pid 9992's current affinity mask: 1
+pid 9992's new affinity mask: f
+pid 10031's current affinity mask: 1
+pid 10031's new affinity mask: f
+pid 10053's current affinity mask: 1
+pid 10053's new affinity mask: f
+pid 10068's current affinity mask: 1
+pid 10068's new affinity mask: f
+pid 10091's current affinity mask: 1
+pid 10091's new affinity mask: f
+pid 10113's current affinity mask: 1
+pid 10113's new affinity mask: f
+pid 10114's current affinity mask: 1
+pid 10114's new affinity mask: f
+pid 10133's current affinity mask: 1
+pid 10133's new affinity mask: f
+pid 10160's current affinity mask: 1
+pid 10160's new affinity mask: f
+pid 10181's current affinity mask: 1
+pid 10181's new affinity mask: f
+pid 10196's current affinity mask: 1
+pid 10196's new affinity mask: f
+pid 10236's current affinity mask: 1
+pid 10236's new affinity mask: f
+pid 10254's current affinity mask: 1
+pid 10254's new affinity mask: f
+pid 10271's current affinity mask: 1
+pid 10271's new affinity mask: f
+pid 10309's current affinity mask: 1
+pid 10309's new affinity mask: f
+pid 10331's current affinity mask: 1
+pid 10331's new affinity mask: f
+pid 10354's current affinity mask: 1
+pid 10354's new affinity mask: f
+pid 10376's current affinity mask: 1
+pid 10376's new affinity mask: f
+pid 10402's current affinity mask: 1
+pid 10402's new affinity mask: f
+pid 10413's current affinity mask: 1
+pid 10413's new affinity mask: f
+pid 10448's current affinity mask: 1
+pid 10448's new affinity mask: f
+pid 10495's current affinity mask: 1
+pid 10495's new affinity mask: f
+pid 10530's current affinity mask: 1
+pid 10530's new affinity mask: f
+pid 10540's current affinity mask: 1
+pid 10540's new affinity mask: f
+pid 10551's current affinity mask: 1
+pid 10551's new affinity mask: f
+pid 10576's current affinity mask: 1
+pid 10576's new affinity mask: f
+pid 10610's current affinity mask: 1
+pid 10610's new affinity mask: f
+pid 10615's current affinity mask: 1
+pid 10615's new affinity mask: f
+pid 10645's current affinity mask: 1
+pid 10645's new affinity mask: f
+pid 10654's current affinity mask: 1
+pid 10654's new affinity mask: f
+pid 10692's current affinity mask: 1
+pid 10692's new affinity mask: f
+pid 10714's current affinity mask: 1
+pid 10714's new affinity mask: f
+pid 10729's current affinity mask: 1
+pid 10729's new affinity mask: f
+pid 10742's current affinity mask: 1
+pid 10742's new affinity mask: f
+pid 10762's current affinity mask: 1
+pid 10762's new affinity mask: f
+pid 10781's current affinity mask: 1
+pid 10781's new affinity mask: f
+pid 10808's current affinity mask: 1
+pid 10808's new affinity mask: f
+pid 10816's current affinity mask: 1
+pid 10816's new affinity mask: f
+pid 10839's current affinity mask: 1
+pid 10839's new affinity mask: f
+pid 10850's current affinity mask: 1
+pid 10850's new affinity mask: f
+pid 10871's current affinity mask: 1
+pid 10871's new affinity mask: f
+pid 10876's current affinity mask: 1
+pid 10876's new affinity mask: f
+pid 10888's current affinity mask: 1
+pid 10888's new affinity mask: f
+pid 10940's current affinity mask: 1
+pid 10940's new affinity mask: f
+pid 10949's current affinity mask: 1
+pid 10949's new affinity mask: f
+pid 10975's current affinity mask: 1
+pid 10975's new affinity mask: f
+pid 11010's current affinity mask: 1
+pid 11010's new affinity mask: f
+pid 11034's current affinity mask: 1
+pid 11034's new affinity mask: f
+pid 11039's current affinity mask: 1
+pid 11039's new affinity mask: f
+pid 11078's current affinity mask: 1
+pid 11078's new affinity mask: f
+pid 11102's current affinity mask: 1
+pid 11102's new affinity mask: f
+pid 11115's current affinity mask: 1
+pid 11115's new affinity mask: f
+pid 11143's current affinity mask: 1
+pid 11143's new affinity mask: f
+pid 11144's current affinity mask: 1
+pid 11144's new affinity mask: f
+pid 11169's current affinity mask: 1
+pid 11169's new affinity mask: f
+pid 11213's current affinity mask: 1
+pid 11213's new affinity mask: f
+pid 11222's current affinity mask: 1
+pid 11222's new affinity mask: f
+pid 11244's current affinity mask: 1
+pid 11244's new affinity mask: f
+pid 11252's current affinity mask: 1
+pid 11252's new affinity mask: f
+pid 11283's current affinity mask: 1
+pid 11283's new affinity mask: f
+pid 11288's current affinity mask: 1
+pid 11288's new affinity mask: f
+pid 11327's current affinity mask: 1
+pid 11327's new affinity mask: f
+pid 11365's current affinity mask: 1
+pid 11365's new affinity mask: f
+pid 11395's current affinity mask: 1
+pid 11395's new affinity mask: f
+pid 11402's current affinity mask: 1
+pid 11402's new affinity mask: f
+pid 11410's current affinity mask: 1
+pid 11410's new affinity mask: f
+pid 11438's current affinity mask: 1
+pid 11438's new affinity mask: f
+pid 11467's current affinity mask: 1
+pid 11467's new affinity mask: f
+pid 11479's current affinity mask: 1
+pid 11479's new affinity mask: f
+pid 11504's current affinity mask: 1
+pid 11504's new affinity mask: f
+pid 11525's current affinity mask: 1
+pid 11525's new affinity mask: f
+pid 11565's current affinity mask: 1
+pid 11565's new affinity mask: f
+pid 11576's current affinity mask: 1
+pid 11576's new affinity mask: f
+pid 11577's current affinity mask: 1
+pid 11577's new affinity mask: f
+pid 11579's current affinity mask: 1
+pid 11579's new affinity mask: f
+pid 11608's current affinity mask: 1
+pid 11608's new affinity mask: f
+pid 11617's current affinity mask: 1
+pid 11617's new affinity mask: f
+pid 11636's current affinity mask: 1
+pid 11636's new affinity mask: f
+pid 11663's current affinity mask: 1
+pid 11663's new affinity mask: f
+pid 11675's current affinity mask: 1
+pid 11675's new affinity mask: f
+pid 11698's current affinity mask: 1
+pid 11698's new affinity mask: f
+pid 11721's current affinity mask: 1
+pid 11721's new affinity mask: f
+pid 11740's current affinity mask: 1
+pid 11740's new affinity mask: f
+pid 11776's current affinity mask: 1
+pid 11776's new affinity mask: f
+pid 11786's current affinity mask: 1
+pid 11786's new affinity mask: f
+pid 11820's current affinity mask: 1
+pid 11820's new affinity mask: f
+pid 11837's current affinity mask: 1
+pid 11837's new affinity mask: f
+pid 11855's current affinity mask: 1
+pid 11855's new affinity mask: f
+pid 11867's current affinity mask: 1
+pid 11867's new affinity mask: f
+pid 11918's current affinity mask: 1
+pid 11918's new affinity mask: f
+pid 11929's current affinity mask: 1
+pid 11929's new affinity mask: f
+pid 11954's current affinity mask: 1
+pid 11954's new affinity mask: f
+pid 11956's current affinity mask: 1
+pid 11956's new affinity mask: f
+57
+Total Joules consumed : 1008.85
+
+Total time elapsed : 126.186868973
+Total Joules consumed : 1016.74
+
+Total time elapsed : 127.187984565
+Total Joules consumed : 1024.61
+
+Total time elapsed : 128.189123299
+Total Joules consumed : 1032.38
+
+Total time elapsed : 129.190327114
+Total Joules consumed : 1040.3
+
+Total time elapsed : 130.191880727
+Total Joules consumed : 1048.93
+
+Total time elapsed : 131.195267939
+Total Joules consumed : 1058.36
+
+Total time elapsed : 132.196652431
+Total Joules consumed : 1067.16
+
+Total time elapsed : 133.197776613
+Total Joules consumed : 1076.28
+
+Total time elapsed : 134.205509026
+Total Joules consumed : 1085.17
+
+Total time elapsed : 135.206944518
+Total Joules consumed : 1092.92
+
+Total time elapsed : 136.208134368
+Total Joules consumed : 1101.45
+
+Total time elapsed : 137.209943942
+Total Joules consumed : 1110.31
+
+Total time elapsed : 138.214682031
+Total Joules consumed : 1119.65
+
+Total time elapsed : 139.216100986
+Total Joules consumed : 1128.4
+
+Total time elapsed : 140.219780746
+Total Joules consumed : 1137.18
+
+Total time elapsed : 141.221268737
+Total Joules consumed : 1146.21
+
+Total time elapsed : 142.222686578
+Total Joules consumed : 1154.76
+
+Total time elapsed : 143.224920879
+Total Joules consumed : 1162.92
+
+Total time elapsed : 144.226058314
+Total Joules consumed : 1172.33
+
+Total time elapsed : 145.227464419
+Total Joules consumed : 1181.55
+
+Total time elapsed : 146.22969293
+Total Joules consumed : 1190.62
+
+Total time elapsed : 147.232735155
+Total Joules consumed : 1199.42
+
+Total time elapsed : 148.234238635
+Total Joules consumed : 1207.56
+
+Total time elapsed : 149.235600288
+Total Joules consumed : 1215.12
+
+Total time elapsed : 150.236779826
+Total Joules consumed : 1223.52
+
+Total time elapsed : 151.237828409
+Total Joules consumed : 1231.41
+
+Total time elapsed : 152.239030704
+Total Joules consumed : 1239.62
+
+Total time elapsed : 153.240398304
+Total Joules consumed : 1248.69
+
+Total time elapsed : 154.241889836
+Total Joules consumed : 1257.58
+
+Total time elapsed : 155.243490558
+Total Joules consumed : 1266.13
+
+Total time elapsed : 156.244800918
+Total Joules consumed : 1274.28
+
+Total time elapsed : 157.24761139
+Total Joules consumed : 1282.55
+
+Total time elapsed : 158.248703677
+Total Joules consumed : 1290.96
+
+Total time elapsed : 159.250031671
+Total Joules consumed : 1299.41
+
+Total time elapsed : 160.251427302
+Total Joules consumed : 1308.22
+
+Total time elapsed : 161.256408291
+Total Joules consumed : 1316.95
+
+Total time elapsed : 162.257914884
+Total Joules consumed : 1325.12
+
+Total time elapsed : 163.259235914
+Total Joules consumed : 1333.4
+
+Total time elapsed : 164.260335221
+Total Joules consumed : 1341.07
+
+Total time elapsed : 165.261538658
+Total Joules consumed : 1349.24
+
+Total time elapsed : 166.263061598
+Total Joules consumed : 1357.72
+
+Total time elapsed : 167.265385839
+Total Joules consumed : 1366.76
+
+Total time elapsed : 168.266892936
+Total Joules consumed : 1375.81
+
+Total time elapsed : 169.26835103
+Total Joules consumed : 1384.62
+
+Total time elapsed : 170.269491922
+Total Joules consumed : 1392.71
+
+Total time elapsed : 171.270811753
+Total Joules consumed : 1401.54
+
+Total time elapsed : 172.273330712
+Total Joules consumed : 1410.85
+
+Total time elapsed : 173.282904634
+Total Joules consumed : 1419.52
+
+Total time elapsed : 174.284418011
+Total Joules consumed : 1427.7
+
+Total time elapsed : 175.286435133
+Total Joules consumed : 1435.19
+
+Total time elapsed : 176.287621894
+Total Joules consumed : 1443.33
+
+Total time elapsed : 177.289048932
+Total Joules consumed : 1451.33
+
+Total time elapsed : 178.290142652
+Total Joules consumed : 1458.92
+
+Total time elapsed : 179.291259799
+Total Joules consumed : 1466.91
+
+Total time elapsed : 180.292665391
+Total Joules consumed : 1474.7
+
+Total time elapsed : 181.294162568
+Total Joules consumed : 1483.03
+
+Total time elapsed : 182.296811611
+Total Joules consumed : 1492.12
+
+Total time elapsed : 183.298226725
+Total Joules consumed : 1501.06
+
+Total time elapsed : 184.299637091
+Total Joules consumed : 1509.05
+
+Total time elapsed : 185.300990491
+Total Joules consumedpid 11994's current affinity mask: 1
+pid 11994's new affinity mask: f
+pid 12022's current affinity mask: 1
+pid 12022's new affinity mask: f
+pid 12051's current affinity mask: 1
+pid 12051's new affinity mask: f
+pid 12074's current affinity mask: 1
+pid 12074's new affinity mask: f
+pid 12090's current affinity mask: 1
+pid 12090's new affinity mask: f
+pid 12131's current affinity mask: 1
+pid 12131's new affinity mask: f
+pid 12145's current affinity mask: 1
+pid 12145's new affinity mask: f
+pid 12183's current affinity mask: 1
+pid 12183's new affinity mask: f
+pid 12187's current affinity mask: 1
+pid 12187's new affinity mask: f
+pid 12204's current affinity mask: 1
+pid 12204's new affinity mask: f
+pid 12235's current affinity mask: 1
+pid 12235's new affinity mask: f
+pid 12258's current affinity mask: 1
+pid 12258's new affinity mask: f
+pid 12285's current affinity mask: 1
+pid 12285's new affinity mask: f
+pid 12328's current affinity mask: 1
+pid 12328's new affinity mask: f
+pid 12332's current affinity mask: 1
+pid 12332's new affinity mask: f
+pid 12357's current affinity mask: 1
+pid 12357's new affinity mask: f
+pid 12372's current affinity mask: 1
+pid 12372's new affinity mask: f
+pid 12377's current affinity mask: 1
+pid 12377's new affinity mask: f
+pid 12411's current affinity mask: 1
+pid 12411's new affinity mask: f
+pid 12412's current affinity mask: 1
+pid 12412's new affinity mask: f
+pid 13238's current affinity mask: 1
+pid 13238's new affinity mask: f
+pid 13249's current affinity mask: f
+pid 13249's new affinity mask: f
+pid 13280's current affinity mask: f
+pid 13280's new affinity mask: f
+pid 13467's current affinity mask: 1
+pid 13467's new affinity mask: f
+pid 13527's current affinity mask: 1
+pid 13527's new affinity mask: f
+pid 13563's current affinity mask: 1
+pid 13563's new affinity mask: f
+pid 13585's current affinity mask: 1
+pid 13585's new affinity mask: f
+pid 13599's current affinity mask: 1
+pid 13599's new affinity mask: f
+pid 13608's current affinity mask: 1
+pid 13608's new affinity mask: f
+pid 13627's current affinity mask: 1
+pid 13627's new affinity mask: f
+pid 13646's current affinity mask: 1
+pid 13646's new affinity mask: f
+pid 13671's current affinity mask: 1
+pid 13671's new affinity mask: f
+pid 13738's current affinity mask: 1
+pid 13738's new affinity mask: f
+pid 13778's current affinity mask: 1
+pid 13778's new affinity mask: f
+pid 13849's current affinity mask: 1
+pid 13849's new affinity mask: f
+pid 13891's current affinity mask: 1
+pid 13891's new affinity mask: f
+pid 13930's current affinity mask: 1
+pid 13930's new affinity mask: f
+pid 13943's current affinity mask: 1
+pid 13943's new affinity mask: f
+pid 13974's current affinity mask: 1
+pid 13974's new affinity mask: f
+pid 13976's current affinity mask: 1
+pid 13976's new affinity mask: f
+pid 14004's current affinity mask: 1
+pid 14004's new affinity mask: f
+pid 14059's current affinity mask: 1
+pid 14059's new affinity mask: f
+pid 14072's current affinity mask: 1
+pid 14072's new affinity mask: f
+pid 14086's current affinity mask: 1
+pid 14086's new affinity mask: f
+pid 14103's current affinity mask: 1
+pid 14103's new affinity mask: f
+pid 14126's current affinity mask: 1
+pid 14126's new affinity mask: f
+pid 14144's current affinity mask: 1
+pid 14144's new affinity mask: f
+pid 14158's current affinity mask: 1
+pid 14158's new affinity mask: f
+pid 14207's current affinity mask: 1
+pid 14207's new affinity mask: f
+pid 14208's current affinity mask: 1
+pid 14208's new affinity mask: f
+pid 14250's current affinity mask: 1
+pid 14250's new affinity mask: f
+pid 14261's current affinity mask: 1
+pid 14261's new affinity mask: f
+pid 14278's current affinity mask: 1
+pid 14278's new affinity mask: f
+pid 14286's current affinity mask: 1
+pid 14286's new affinity mask: f
+pid 14294's current affinity mask: 1
+pid 14294's new affinity mask: f
+pid 14425's current affinity mask: 1
+pid 14425's new affinity mask: f
+pid 14426's current affinity mask: 1
+pid 14426's new affinity mask: f
+pid 14432's current affinity mask: 1
+pid 14432's new affinity mask: f
+pid 14714's current affinity mask: 1
+pid 14714's new affinity mask: f
+pid 14757's current affinity mask: 1
+pid 14757's new affinity mask: f
+pid 14784's current affinity mask: 1
+pid 14784's new affinity mask: f
+pid 14858's current affinity mask: 1
+pid 14858's new affinity mask: f
+pid 14885's current affinity mask: 1
+pid 14885's new affinity mask: f
+pid 14908's current affinity mask: 1
+pid 14908's new affinity mask: f
+pid 14928's current affinity mask: 1
+pid 14928's new affinity mask: f
+pid 14942's current affinity mask: 1
+pid 14942's new affinity mask: f
+pid 14948's current affinity mask: 1
+pid 14948's new affinity mask: f
+pid 15010's current affinity mask: 1
+pid 15010's new affinity mask: f
+pid 15048's current affinity mask: 1
+pid 15048's new affinity mask: f
+pid 15054's current affinity mask: 1
+pid 15054's new affinity mask: f
+pid 15059's current affinity mask: 1
+pid 15059's new affinity mask: f
+pid 15168's current affinity mask: 1
+pid 15168's new affinity mask: f
+pid 15220's current affinity mask: 1
+pid 15220's new affinity mask: f
+pid 15223's current affinity mask: 1
+pid 15223's new affinity mask: f
+pid 15285's current affinity mask: 1
+pid 15285's new affinity mask: f
+pid 15299's current affinity mask: 1
+pid 15299's new affinity mask: f
+pid 15332's current affinity mask: 1
+pid 15332's new affinity mask: f
+ : 1517.3
+
+Total time elapsed : 186.30245898
+Total Joules consumed : 1525.24
+
+Total time elapsed : 187.303829121
+Total Joules consumed : 1533.32
+
+Total time elapsed : 188.30491424
+Total Joules consumed : 1541.61
+
+Total time elapsed : 189.307852604
+Total Joules consumed : 1550.34
+
+Total time elapsed : 190.309758689
+Total Joules consumed : 1559.06
+
+Total time elapsed : 191.311203338
+Total Joules consumed : 1566.87
+
+Total time elapsed : 192.312358995
+Total Joules consumed : 1574.74
+
+Total time elapsed : 193.313805709
+Total Joules consumed : 1582.98
+
+Total time elapsed : 194.314884953
+Total Joules consumed : 1590.98
+
+Total time elapsed : 195.317146101
+Total Joules consumed : 1602.31
+
+Total time elapsed : 196.326175311
+Total Joules consumed : 1612.02
+
+Total time elapsed : 197.32837307
+Total Joules consumed : 1621.37
+
+Total time elapsed : 198.329539539
+Total Joules consumed : 1630.55
+
+Total time elapsed : 199.332403755
+Total Joules consumed : 1639.8
+
+Total time elapsed : 200.33414132
+Total Joules consumed : 1648.44
+
+Total time elapsed : 201.335229046
+Total Joules consumed : 1658.17
+
+Total time elapsed : 202.350708501
+Total Joules consumed : 1667.56
+
+Total time elapsed : 203.35224694
+Total Joules consumed : 1677.14
+
+Total time elapsed : 204.353456051
+Total Joules consumed : 1685.99
+
+Total time elapsed : 205.354820838
+Total Joules consumed : 1695.74
+
+Total time elapsed : 206.356251157
+Total Joules consumed : 1703.48
+
+Total time elapsed : 207.357443735
+Total Joules consumed : 1710.67
+
+Total time elapsed : 208.358578797
+Total Joules consumed : 1717.91
+
+Total time elapsed : 209.36004428
+Total Joules consumed : 1725.21
+
+Total time elapsed : 210.363480903
+Total Joules consumed : 1733.19
+
+Total time elapsed : 211.364793578
+Total Joules consumed : 1741.17
+
+Total time elapsed : 212.366136533
+Total Joules consumed : 1749.53
+
+Total time elapsed : 213.367517248
+Total Joules consumed : 1757.31
+
+Total time elapsed : 214.368702373
+Total Joules consumed : 1765.73
+
+Total time elapsed : 215.370565481
+Total Joules consumed : 1773.27
+
+Total time elapsed : 216.372017081
+Total Joules consumed : 1781.46
+
+Total time elapsed : 217.373387927
+Total Joules consumed : 1789.03
+
+Total time elapsed : 218.374434464
+Total Joules consumed : 1796.94
+
+Total time elapsed : 219.375454889
+Total Joules consumed : 1805.3
+
+Total time elapsed : 220.377033202
+Total Joules consumed : 1813.47
+
+Total time elapsed : 221.37875879
+Total Joules consumed : 1821.92
+
+Total time elapsed : 222.385004364
+Total Joules consumed : 1830.28
+
+Total time elapsed : 223.401217341
+Total Joules consumed : 1839.59
+
+Total time elapsed : 224.402491016
+Total Joules consumed : 1847.84
+
+Total time elapsed : 225.403835179
+Total Joules consumed : 1856.48
+
+Total time elapsed : 226.405248145
+Total Joules consumed : 1865.19
+
+Total time elapsed : 227.406695614
+Total Joules consumed : 1874.27
+
+Total time elapsed : 228.408088831
+Total Joules consumed : 1882.87
+
+Total time elapsed : 229.409614358
+Total Joules consumed : 1891.65
+
+Total time elapsed : 230.411021401
+Total Joules consumed : 1900.03
+
+Total time elapsed : 231.412474369
+Total Joules consumed : 1908.72
+
+Total time elapsed : 232.413614969
+Total Joules consumed : 1917.18
+
+Total time elapsed : 233.415481352
+Total Joules consumed : 1926.19
+
+Total time elapsed : 234.423944588
+Total Joules consumed : 1935.45
+
+Total time elapsed : 235.425542952
+Total Joules consumed : 1944.51
+
+Total time elapsed : 236.427171131
+Total Joules consumed : 1954.01
+
+Total time elapsed : 237.429680624
+Total Joules consumed : 1962.98
+
+Total time elapsed : 238.435745838
+Total Joules consumed : 1971.0
+
+Total time elapsed : 239.437149196
+Total Joules consumed : 1978.81
+
+Total time elapsed : 240.44095394
+Total Joules consumed : 1986.8
+
+Total time elapsed : 241.442543686
+Total Joules consumed : 1994.82
+
+Total time elapsed : 242.443685569
+Total Joules consumed : 2003.5
+
+Total time elapsed : 243.44529863
+Total Joules consumed : 2011.56
+
+Total time elapsed : 244.446698219
+Total Joules consumed : 2020.13
+
+Total time elapsed : 245.448036448
+Total Joules consumed : 2028.38
+
+Total time elapsed pid 15371's current affinity mask: 1
+pid 15371's new affinity mask: f
+pid 15425's current affinity mask: 1
+pid 15425's new affinity mask: f
+pid 15478's current affinity mask: 1
+pid 15478's new affinity mask: f
+pid 15491's current affinity mask: 1
+pid 15491's new affinity mask: f
+pid 15492's current affinity mask: 1
+pid 15492's new affinity mask: f
+pid 15536's current affinity mask: 1
+pid 15536's new affinity mask: f
+pid 15549's current affinity mask: 1
+pid 15549's new affinity mask: f
+pid 15600's current affinity mask: 1
+pid 15600's new affinity mask: f
+pid 15629's current affinity mask: 1
+pid 15629's new affinity mask: f
+pid 15642's current affinity mask: 1
+pid 15642's new affinity mask: f
+pid 15674's current affinity mask: 1
+pid 15674's new affinity mask: f
+pid 15773's current affinity mask: 1
+pid 15773's new affinity mask: f
+pid 15811's current affinity mask: 1
+pid 15811's new affinity mask: f
+pid 15848's current affinity mask: 1
+pid 15848's new affinity mask: f
+pid 15856's current affinity mask: 1
+pid 15856's new affinity mask: f
+: 246.449078017
+Total Joules consumed : 2035.76
+
+Total time elapsed : 247.450180866
+Total Joules consumed : 2043.9
+
+Total time elapsed : 248.451574796
+Total Joules consumed : 2051.38
+
+Total time elapsed : 249.452750827
+Total Joules consumed : 2059.64
+
+Total time elapsed : 250.454733711
+Total Joules consumed : 2068.01
+
+Total time elapsed : 251.456268067
+Total Joules consumed : 2075.85
+
+Total time elapsed : 252.457515664
+Total Joules consumed : 2084.42
+
+Total time elapsed : 253.458917833
+Total Joules consumed : 2093.12
+
+Total time elapsed : 254.460052015
+Total Joules consumed : 2101.08
