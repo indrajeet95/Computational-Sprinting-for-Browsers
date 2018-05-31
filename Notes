@@ -972,7 +972,7 @@ Number of times each config needs to be run: 1 time
 Budget for energy in Joules variations
 500,3000,4000,5000,30000 or in other words no Budget
 
-Timeout variations
+Timeout variations for sprinting
 0,4,8,12,16
 
 Avg. of Inter-arrival time in the exponential function variations
@@ -985,3 +985,24 @@ LETS START MANNNNNNNNNNNNNNNNNNN
 Let make sure loading 100 pages with all cores and with sprinting actually works because only 84 pages are the max amount of finishings i have senn
 that would be your first step. Haha. Late reply bro. It doesnt work like that. Maximum I have seen is 92 pages I guess. Some end up getting failed but I dont think thats an issue.
 
+How to make the graphs is the question?
+Doubt: We have some sites which do not load. They time out and fail. When we are trying to compute the average load time, should we just leave them or should we say 30 seconds for them since that is the timeout?
+
+
+Energy Budget
+Timeout for sprinting
+avg. inter arrival time
+energy consumed
+No of web pages failed vs no of web pages successful
+
+Tips from Chris
+1. Run sets of experiments with timeout for sprinting being 32 and hence we wont get any sprinting in actuality but lets see the results. 
+
+MAJOR PROBLEM STOPPED US FROM THINKING FORWARD
+Even though we have a kill timeout of 30 seconds when we look at the results we can see clearly some pages taking close to 60 or 70 seconds to load. How is this possible? We don't let any process run for more than 30 seconds right?
+
+So I have two solutions. 
+You can see some pages at the very end, say last 20 pages taking more than 30 seconds to load. This is because by this time we would have sent out all requests and essentially the script is done running and hence it does not check for processes that are running for more than 30 seconds. THis is why we have some pages taking so much to load at the end.
+The other explanation is for the ones observed in the middle. These pages take only 40 or 45 seconds max. This is because we only check for processes running for more than 30 seconds every time a new request is sent. This doesnt mean that this is done every second. So as sir suggested, right at 30 seconds we dont send the kill command. So CHILL BRO. Go ahead with the results.
+
+We will be converting every result which has more than 30 seconds to 30 seconds and compute the average load time.
