@@ -1,6 +1,6 @@
 import os
 
-path = '/Users/indrajeet/Desktop/Results/30000/'
+path = '/Users/indrajeet/Desktop/Comp_Sprint/Results/Organized By Inter-Arrival Time/2.6'
 for root,dirs,files in os.walk(path):
 	for file in files:
 		counter = 0
