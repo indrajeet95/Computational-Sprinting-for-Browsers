@@ -1,0 +1,2224 @@
+pid 3218's current affinity mask: 1
+pid 3218's new affinity mask: f
+pid 3250's current affinity mask: 1
+pid 3250's new affinity mask: f
+pid 3365's current affinity mask: 1
+pid 3365's new affinity mask: f
+pid 3379's current affinity mask: 1
+pid 3379's new affinity mask: f
+pid 3390's current affinity mask: 1
+pid 3390's new affinity mask: f
+pid 3414's current affinity mask: 1
+pid 3414's new affinity mask: f
+pid 3616's current affinity mask: 1
+pid 3616's new affinity mask: f
+pid 3636's current affinity mask: 1
+pid 3636's new affinity mask: f
+pid 3650's current affinity mask: 1
+pid 3650's new affinity mask: f
+pid 3818's current affinity mask: 1
+pid 3818's new affinity mask: f
+pid 3834's current affinity mask: 1
+pid 3834's new affinity mask: f
+pid 3850's current affinity mask: 1
+pid 3850's new affinity mask: f
+pid 3851's current affinity mask: 1
+pid 3851's new affinity mask: f
+pid 3870's current affinity mask: 1
+pid 3870's new affinity mask: f
+
+Total time elapsed : 1.001059076
+Total Joules consumed : 5.26
+
+Total time elapsed : 2.002107138
+Total Joules consumed : 12.65
+
+Total time elapsed : 3.003322119
+Total Joules consumed : 18.62
+
+Total time elapsed : 4.00480584
+Total Joules consumed : 25.96
+
+Total time elapsed : 5.006085323
+Total Joules consumed : 33.87
+
+Total time elapsed : 6.007247103
+Total Joules consumed : 41.73
+
+Total time elapsed : 7.008302838
+Total Joules consumed : 49.55
+
+Total time elapsed : 8.009910889
+Total Joules consumed : 57.72
+
+Total time elapsed : 9.011082865
+Total Joules consumed : 66.04
+
+Total time elapsed : 10.012236769
+Total Joules consumed : 73.9
+
+Total time elapsed : 11.013736681
+Total Joules consumed : 80.24
+
+Total time elapsed : 12.014802121
+Total Joules consumed : 85.43
+
+Total time elapsed : 13.015978961
+Total Joules consumed : 91.42
+
+Total time elapsed : 14.017098093
+Total Joules consumed : 99.11
+
+Total time elapsed : 15.018215299
+Total Joules consumed : 108.24
+
+Total time elapsed : 16.019723761
+Total Joules consumed : 116.75
+
+Total time elapsed : 17.020934089
+Total Joules consumed : 125.55
+
+Total time elapsed : 18.0237675
+Total Joules consumed : 133.5
+
+Total time elapsed : 19.024959176
+Total Joules consumed : 138.78
+
+Total time elapsed : 20.026168576
+Total Joules consumed : 144.36
+
+Total time elapsed : 21.02785535
+Total Joules consumed : 149.8
+
+Total time elapsed : 22.029014759
+Total Joules consumed : 157.87
+
+Total time elapsed : 23.030853552
+Total Joules consumed : 166.61
+
+Total time elapsed : 24.032158429
+Total Joules consumed : 175.15
+
+Total time elapsed : 25.033812612
+Total Joules consumed : 183.74
+
+Total time elapsed : 26.035238727
+Total Joules consumed : 192.49
+
+Total time elapsed : 27.036791383
+Total Joules consumed : 201.06
+
+Total time elapsed : 28.038789087
+Total Joules consumed : 209.89
+
+Total time elapsed : 29.039992555
+Total Joules consumed : 218.11
+
+Total time elapsed : 30.041120643
+Total Joules consumed : 226.58
+
+Total time elapsed : 31.042989776
+Total Joules consumed : 234.66
+
+Total time elapsed : 32.044135958
+Total Joules consumed : 242.07
+
+Total time elapsed : 33.045477956
+Total Joules consumed : 250.31
+
+Total time elapsed : 34.047241758
+Total Joules consumed : 259.06
+
+Total time elapsed : 35.048582691
+Total Joules consumed : 267.72
+
+Total time elapsed : 36.049800759
+Total Joules consumed : 276.36
+
+Total time elapsed : 37.051422914
+Total Joules consumed : 284.39
+
+Total time elapsed : 38.052869252
+Total Joules consumed : 293.46
+
+Total time elapsed : 39.054888609
+Total Joules consumed : 301.84
+
+Total time elapsed : 40.056675522
+Total Joules consumed : 310.9
+
+Total time elapsed : 41.058165671
+Total Joules consumed : 319.58
+
+Total time elapsed : 42.059314613
+Total Joules consumed : 328.27
+
+Total time elapsed : 43.061906216
+Total Joules consumed : 337.28
+
+Total time elapsed : 44.063270812
+Total Joules consumed : 345.95
+
+Total time elapsed : 45.065967993
+Total Joules consumed : 354.86
+
+Total time elapsed : 46.067147281
+Total Joules consumed : 363.44
+
+Total time elapsed : 47.068454277
+Total Joules consumed : 372.21
+
+Total time elapsed : 48.069705671
+Total Joules consumed : 380.96
+
+Total time elapsed : 49.071062701
+Total Joules consumed : 389.29
+
+Total time elapsed : 50.072699022
+Total Joules consumed : 398.03
+
+Total time elapsed : 51.073866666
+Total Joules consumed : 406.85
+
+Total time elapsed : 52.075270036
+Total Joules consumed : 415.94
+
+Total time elapsed : 53.076733737
+Total Joules consumed : 425.26
+
+Total time elapsed : 54.077989002
+Total Joules consumed : 434.17
+
+Total time elapsed : 55.080059215
+Total Joules consumed : 443.26
+
+Total time elapsed : 56.081487868
+Total Joules consumed : 453.44
+
+Total time elapsed : 57.082901594
+Total Joules consumed : 462.6
+
+Total time elapsed : 58.099043448
+Total Joules consumed : 471.37
+
+Total time elapsed : 59.100515664
+Total Joules consumed : 479.96
+
+Total time elapsed : 60.101813198
+Total Joules consumed : 489.14
+
+Total time elapsed : 61.103704895
+Total Joules consumed : 497.67
+
+Total time elapsed : 62.105102319
+Total Joules consumed : 505.82
+
+Total time elapsed : 63.106639756
+Total Joules consumed : 514.31
+
+Total time elapsed : 64.108741394
+Total Joules consumed : 522.92
+
+Total time elapsed : 65.110282544
+Total Joules consumed : 532.76
+
+Total time elapsed : 66.111439219
+Total Joules consumed : 542.41
+
+Total time elapsed : 67.11292155
+Total Joules consumed : 552.44
+
+Total time elapsed : 68.11421923
+Total Joules consumed : 562.43
+
+Total time elapsed : 69.117464058
+Total Joules consumed : 571.73
+
+Total time elapsed : 70.118986142
+Total Joules consumed : 580.82
+
+Total time elapsed : 71.121412427
+Total Joules consumed : 590.03
+
+Total time elapsed : 72.122606205
+Total Joules consumed : 599.52
+
+Total time elapsed : 73.125067954
+Total Joules consumed : 609.57
+
+Total time elapsed : 74.126574138
+Total Joules consumed : 618.95
+
+Total time elapsed : 75.128261085
+Total Joules consumed : 628.15
+
+Total time elapsed : 76.130898482
+Total Joules consumed : 637.66
+
+Total time elapsed : 77.132560718
+Total Joules consumed : 647.02
+
+Total time elapsed : 78.133984745
+Total Joules consumed : 656.43
+
+Total time elapsed : 79.135175072
+Total Joules consumed : 665.0
+
+Total time elapsed : 80.136517405
+Total Joules consumed : 673.82
+
+Total time elapsed : 81.13829236
+Total Joules consumed : 683.14
+
+Total time elapsed : 82.139472738
+Total Joules consumed : 692.53
+
+Total time elapsed : 83.141810034
+Total Joules consumed : 701.96
+
+Total time elapsed : 84.14485305
+Total Joules consumed : 711.68
+
+Total time elapsed : 85.148116657
+Total Joules consumed : 720.45
+
+Total time elapsed : 86.149625383
+Total Joules consumed : 727.17
+
+Total time elapsed : 87.150818842
+Total Joules consumed : 734.36
+
+Total time elapsed : 88.152117491
+Total Joules consumed : 742.16
+
+Total time elapsed : 89.153582699
+Total Joules consumed : 749.31
+
+Total time elapsed : 90.154812707
+Total Joules consumed : 757.95
+
+Total time elapsed : 91.156220323
+Total Joules consumed : 767.02
+
+Total time elapsed : 92.158573601
+Total Joules consumed : 776.05
+
+Total time elapsed : 93.159956941
+Total Joules consumed : 784.39
+
+Total time elapsed : 94.16155952
+Total Joules consumed : 793.42
+
+Total time elapsed : 95.162908498
+Total Joules consumed : 802.45
+
+Total time elapsed : 96.164135909
+Total Joules consumed : 811.27
+
+Total time elapsed : 97.165502295
+Total Joules consumed : 820.21
+
+Total time elapsed : 98.168138431
+Total Joules consumed : 828.98
+
+Total time elapsed : 99.170062719
+Total Joules consumed : 837.79
+
+Total time elapsed : 100.171354939
+Total Joules consumed : 846.85
+
+Total time elapsed : 101.172801131
+Total Joules consumed : 855.63
+
+Total time elapsed : 102.174577873
+Total Joules consumed : 864.42
+
+Total time elapsed : 103.175820052
+Total Joules consumed : 873.23
+
+Total time elapsed : 104.178670489
+Total Joules consumed : 882.22
+
+Total time elapsed : 105.180401487
+Total Joules consumed : 891.45
+
+Total time elapsed : 106.182985799
+Total Joules consumed : 900.85
+
+Total time elapsed : 107.1855931
+Total Joules consumed : 909.84
+
+Total time elapsed : 108.188136817
+Total Joules consumed : 918.7
+
+Total time elapsed : 109.189585855
+Total Joules consumed : 927.58
+
+Total time elapsed : 110.190927523
+Total Joules consumed : 936.47
+
+Total time elapsed : 111.192071984
+Total Joules consumed : 945.6
+
+Total time elapsed : 112.193902759
+Total Joules consumed : 954.84
+
+Total time elapsed : 113.196499111
+Total Joules consumed : 963.53
+
+Total time elapsed : 114.201104234
+Total Joules consumed : 972.07
+
+Total time elapsed : 115.202442882
+Total Joules consumed : 980.24
+
+Total time elapsed : 116.204361202
+Total Joules consumed : 988.97
+
+Total time elapsed : 117.20612229
+Total Joules consumed : 997.77
+
+Total time elapsed : 118.20769166
+Total Joules consumed : 1006.1
+
+Total time elapsed : 119.208889769
+Total Joules consumed : 1014.8
+
+Total time elapsed : 120.210452016
+Total Joules consumed : 1023.65
+
+Total time elapsed : 121.21153343
+Total Joules consumed : 1032.52
+
+Total time elapsed : 122.212708073
+Total Joules consumed : 1041.11
+
+Total time elapsed : 123.213868344
+Total Joules consumed : 1049.7
+
+Total time elapsed : 124.215072738
+Total Joules consumed : 1057.85
+
+Total time elapsed : 125.216596597
+Total Joules consumed : 1066.17
+
+Total time elapsed : 126.21787074
+Total Joules consumed : 1074.44
+
+Total time elapsed : 127.219251335
+Total Joules consumed : 1083.22
+
+Total time elapsed : 128.220750493
+Total Joules consumed : 1091.31
+
+Total time elapsed : 129.222093196
+Total Joules consumed : 1099.66
+
+Total time elapsed : 130.223441995
+Total Joules consumed : 1108.21
+
+Total time elapsed : 131.224805626
+Total Joules consumed : 1116.53
+
+Total time elapsed : 132.226060263
+Total Joules consumed : 1125.03
+
+Total time elapsed : 133.227250045
+Total Joules consumed : 1133.35
+
+Total time elapsed : 134.229045467
+Total Joules consumed : 1142.21
+
+Total time elapsed : 135.230231412
+Total Joules consumed : 1150.7
+
+Total time elapsed : 136.231824221
+Total Joules consumed : 1159.21
+
+Total time elapsed : 137.233004409
+Total Joules consumed : 1167.75
+
+Total time elapsed : 138.234534577
+Total Joules consumed : 1176.17
+
+Total time elapsed : 139.236040675
+Total Joules consumed : 1184.66
+
+Total time elapsed : 140.237555909
+Total Joules consumed : 1193.36
+
+Total time elapsed : 141.240516057
+Total Joules consumed : 1202.03
+
+Total time elapsed : 142.241843693
+Total Joules consumed : 1210.23
+
+Total time elapsed : 143.24318392
+Total Joules consumed : 1218.73
+
+Total time elapsed : 144.244338314
+Total Joules consumed : 1227.42
+
+Total time elapsed : 145.245452213
+Total Joules consumed : 1235.79
+
+Total time elapsed : 146.247562454
+Total Joules consumed : 1243.64
+
+Total time elapsed : 147.248751321
+Total Joules consumed : 1251.49
+
+Total time elapsed : 148.250010296
+Total Joules consumed : 1260.33
+
+Total time elapsed : 149.251446621
+Total Joules consumed : 1269.1
+
+Total time elapsed : 150.252580637
+Total Joules consumed : 1277.73
+
+Total time elapsed : 151.253933883
+Total Joules consumed : 1285.9
+
+Total time elapsed : 152.255667786
+Total Joules consumed : 1294.45
+
+Total time elapsed : 153.256997981
+Total Joules consumed : 1303.26
+
+Total time elapsed : 154.258122389
+Total Joules consumed : 1311.8
+
+Total time elapsed : 155.259707853
+Total Joules consumed : 1320.78
+
+Total time elapsed : 156.262198553
+Total Joules consumed : 1329.22
+
+Total time elapsed : 157.263991819
+Total Joules consumed : 1337.8
+
+Total time elapsed : 158.265377287
+Total Joules consumed : 1346.27
+
+Total time elapsed : 159.266980919
+Total Joules consumed : 1354.89
+
+Total time elapsed : 160.268150329
+Total Joules consumed : 1363.6
+
+Total time elapsed : 161.270013192
+Total Joules consumed : 1372.29
+
+Total time elapsed : 162.271316702
+Total Joules consumed : 1380.64
+
+Total time elapsed : 163.272461768
+Total Joules consumed : 1389.26
+
+Total time elapsed : 164.273662621
+Total Joules consumed : 1397.95
+
+Total time elapsed : 165.274807555
+Total Joules consumed : 1406.34
+
+Total time elapsed : 166.276143693
+Total Joules consumed : 1414.96
+
+Total time elapsed : 167.277328812
+Total Joules consumed : 1423.68
+
+Total time elapsed : 168.278765212
+Total Joules consumed : 1432.35
+
+Total time elapsed : 169.280736818
+Total Joules consumed : 1440.69
+
+Total time elapsed : 170.282116508
+Total Joules consumed : 1449.13
+
+Total time elapsed : 171.283619248
+Total Joules consumed : 1457.64
+
+Total time elapsed : 172.284684028
+Total Joules consumed : 1465.91
+
+Total time elapsed : 173.286446005
+Total Joules consumed : 1473.9
+
+Total time elapsed : 174.287843002
+Total Joules consumed : 1481.76
+
+Total time elapsed : 175.289136444
+Total Joules consumed : 1490.28
+
+Total time elapsed : 176.290611083
+Total Joules consumed : 1498.87
+
+Total time elapsed : 177.292077768
+Total Joules consumed : 1507.12
+
+Total time elapsed : 178.293454106
+Total Joules consumed : 1515.59
+
+Total time elapsed : 179.294890742
+Total Joules consumed : 1524.25
+
+Total time elapsed : 180.296074573
+Total Joules consumed : 1532.69
+
+Total time elapsed : 181.297797768
+Total Joules consumed : 1541.09
+
+Total time elapsed : 182.299991973
+Total Joules consumed : 1549.22
+
+Total time elapsed : 183.301286017
+Total Joules consumed : 1557.39
+
+Total time elapsed : 184.302991072
+Total Joules consumed : 1565.55
+
+Total time elapsed : 185.304332467
+Total Joules consumed : 1573.51
+
+Total time elapsed : 186.305442367
+Total Joules consumed : 1581.74
+
+Total time elapsed : 187.306932655
+Total Joules consumed : 1590.12
+
+Total time elapsed : 188.308083156
+Total Joules consumed : 1598.54
+
+Total time elapsed : 189.309303386
+Total Joules consumed : 1606.76
+
+Total time elapsed : 190.310555291
+Total Joules consumed : 1614.78
+
+Total time elapsed : 191.313483226
+Total Joules consumed : 1623.12
+
+Total time elapsed : 192.314636087
+Total Joules consumed : 1631.45
+
+Total time elapsed : 193.315780783
+Total Joules consumed : 1639.73
+
+Total time elapsed : 194.317441778
+Total Joules consumed : 1648.27
+
+Total time elapsed : 195.318879255
+Total Joules consumed : 1656.5
+
+Total time elapsed : 196.320367592
+Total Joules consumed : 1665.02
+
+Total time elapsed : 197.321709587
+Total Joules consumed : 1673.07
+
+Total time elapsed : 198.322999871
+Total Joules consumed : 1681.43
+
+Total time elapsed : 199.324122318
+Total Joules consumed : 1689.55
+
+Total time elapsed : 200.326398782
+Total Joules consumed : 1697.43
+
+Total time elapsed : 201.327904871
+Total Joules consumed : 1705.21
+
+Total time elapsed : 202.329329614
+Total Joules consumed : 1713.8
+
+Total time elapsed : 203.330986693
+Total Joules consumed : 1722.24
+
+Total time elapsed : 204.33354716
+Total Joules consumed : 1730.59
+
+Total time elapsed : 205.335004367
+Total Joules consumed : 1738.86
+
+Total time elapsed : 206.340141611
+Total Joules consumed : 1747.63
+
+Total time elapsed : 207.34131466
+Total Joules consumed : 1756.06
+
+Total time elapsed : 208.343046982
+Total Joules consumed : 1764.29
+
+Total time elapsed : 209.350964257
+Total Joules consumed : 1772.86
+
+Total time elapsed : 210.352248209
+Total Joules consumed : 1781.17
+
+Total time elapsed : 211.35361599
+Total Joules consumed : 1789.59
+
+Total time elapsed : 212.355778458
+Total Joules consumed : 1797.92
+
+Total time elapsed : 213.357382819
+Total Joules consumed : 1805.95
+
+Total time elapsed : 214.359398812
+Total Joules consumed : 1813.92
+
+Total time elapsed : 215.361051684
+Total Joules consumed : 1821.93
+
+Total time elapsed : 216.36221082
+Total Joules consumed : 1829.97
+
+Total time elapsed : 217.363648451
+Total Joules consumed : 1838.26
+
+Total time elapsed : 218.366019891
+Total Joules consumed : 1846.59
+
+Total time elapsed : 219.367752402
+Total Joules consumed : 1855.11
+
+Total time elapsed : 220.36883288
+Total Joules consumed : 1863.21
+
+Total time elapsed : 221.370169511
+Total Joules consumed : 1871.36
+
+Total time elapsed : 222.371400084
+Total Joules consumed : 1879.69
+
+Total time elapsed : 223.372877443
+Total Joules consumed : 1887.81
+
+Total time elapsed : 224.37424719
+Total Joules consumed : 1895.79
+
+Total time elapsed : 225.375763473
+Total Joules consumed : 1904.11
+
+Total time elapsed : 226.377085755
+Total Joules consumed : 1912.46
+
+Total time elapsed : 227.378451599
+Total Joules consumed : 1920.49
+
+Total time elapsed : 228.382800629
+Total Joules consumed : 1928.65
+
+Total time elapsed : 229.384251438
+Total Joules consumed : 1937.69
+
+Total time elapsed : 230.385535556
+Total Joules consumed : 1945.98
+
+Total time elapsed : 231.387484215
+Total Joules consumed : 1954.38
+
+Total time elapsed : 232.388660978
+Total Joules consumed : 1962.91
+
+Total time elapsed : 233.390067984
+Total Joules consumed : 1971.22
+
+Total time elapsed : 234.391436626
+Total Joules consumed : 1979.45
+
+Total time elapsed : 235.393075105
+Total Joules consumed : 1987.98
+
+Total time elapsed : 236.394569001
+Total Joules consumed : 1996.35
+
+Total time elapsed : 237.395817692
+Total Joules consumed : 2004.46
+
+Total time elapsed : 238.397561005
+Total Joules consumed : 2012.62
+
+Total time elapsed : 239.399112818
+Total Joules consumed : 2021.36
+
+Total time elapsed : 240.400405427
+Total Joules consumed : 2029.64
+
+Total time elapsed : 241.401582626
+Total Joules consumed : 2038.03
+
+Total time elapsed : 242.403295183
+Total Joules consumed : 2046.5
+
+Total time elapsed : 243.404668928
+Total Joules consumed : 2055.04
+
+Total time elapsed : 244.40623713
+Total Joules consumed : 2063.16
+
+Total time elapsed : 245.407548024
+Total Joules consumed : 2071.77
+
+Total time elapsed : 246.408808434
+Total Joules consumed : 2079.79
+
+Total time elapsed : 247.412227621
+Total Joules consumed : 2088.01
+
+Total time elapsed : 248.413745695
+Total Joules consumed : 2096.41
+
+Total time elapsed : 249.415507967
+Total Joules consumed : 2104.68
+
+Total time elapsed : 250.417030628
+Total Joules consumed : 2113.14
+
+Total time elapsed : 251.418191718
+Total Joules consumed : 2121.52
+
+Total time elapsed : 252.41979228
+Total Joules consumed : 2129.67
+
+Total time elapsed : 253.422326866
+Total Joules consumed : 2138.03
+
+Total time elapsed : 254.42343175
+Total Joules consumed : 2146.23
+
+Total time elapsed : 255.424983721
+Total Joules consumed : 2154.54
+
+Total time elapsed : 256.426187039
+Total Joules consumed : 2163.16
+
+Total time elapsed : 257.427582664
+Total Joules consumed : 2172.06
+
+Total time elapsed : 258.428984072
+Total Joules consumed : 2180.79
+
+Total time elapsed : 259.430375596
+Total Joules consumed : 2189.07
+
+Total time elapsed : 260.431540757
+Total Joules consumed : 2197.7
+
+Total time elapsed : 261.432636476
+Total Joules consumed : 2206.11
+
+Total time elapsed : 262.434126869
+Total Joules consumed : 2214.45
+
+Total time elapsed : 263.435525533
+Total Joules consumed : 2222.88
+
+Total time elapsed : 264.436758289
+Total Joules consumed : 2231.1
+
+Total time elapsed : 265.438073056
+Total Joules consumed : 2239.38
+
+Total time elapsed : 266.43925597
+Total Joules consumed : 2247.84
+
+Total time elapsed : 267.440704503
+Total Joules consumed : 2256.24
+
+Total time elapsed : 268.44216751
+Total Joules consumed : 2264.33
+
+Total time elapsed : 269.443994757
+Total Joules consumed : 2272.91
+
+Total time elapsed : 270.44545508
+Total Joules consumed : 2281.26
+
+Total time elapsed : 271.446810591
+Total Joules consumed : 2290.04
+
+Total time elapsed : 272.451183973
+Total Joules consumed : 2299.15
+
+Total time elapsed : 273.453142087
+Total Joules consumed : 2308.54
+
+Total time elapsed : 274.456145496
+Total Joules consumed : 2316.99
+
+Total time elapsed : 275.457741923
+Total Joules consumed : 2325.32
+
+Total time elapsed : 276.462419552
+Total Joules consumed : 2334.46
+
+Total time elapsed : 277.463869627
+Total Joules consumed : 2342.86
+
+Total time elapsed : 278.465250981
+Total Joules consumed : 2351.55
+
+Total time elapsed : 279.466423204
+Total Joules consumed : 2360.12
+
+Total time elapsed : 280.467600132
+Total Joules consumed : 2368.69
+
+Total time elapsed : 281.469173359
+Total Joules consumed : 2377.39
+
+Total time elapsed : 282.470576898
+Total Joules consumed : 2386.58
+
+Total time elapsed : 283.476165949
+Total Joules consumed : 2395.76
+
+Total time elapsed : 284.478553386
+Total Joules consumed : 2405.09
+
+Total time elapsed : 285.480105701
+Total Joules consumed : 2414.03
+
+Total time elapsed : 286.481545044
+Total Joules consumed : 2422.21
+
+Total time elapsed : 287.483027155
+Total Joules consumed : 2430.99
+
+Total time elapsed : 288.484330401
+Total Joules consumed : 2439.4
+
+Total time elapsed : 289.486562968
+Total Joules consumed : 2447.77
+
+Total time elapsed : 290.487971916
+Total Joules consumed : 2456.01
+
+Total time elapsed : 291.489252965
+Total Joules consumed : 2464.41
+
+Total time elapsed : 292.490616678
+Total Joules consumed : 2473.17
+
+Total time elapsed : 293.491775273
+Total Joules consumed : 2481.51
+
+Total time elapsed : 294.493200557
+Total Joules consumed : 2489.83
+
+Total time elapsed : 295.494359082
+Total Joules consumed : 2498.47
+
+Total time elapsed : 296.495967821
+Total Joules consumed : 2506.73
+
+Total time elapsed : 297.497225504
+Total Joules consumed : 2515.02
+
+Total time elapsed : 298.498990382
+Total Joules consumed : 2523.64
+
+Total time elapsed : 299.500370686
+Total Joules consumed : 2532.02
+
+Total time elapsed : 300.501746055
+Total Joules consumed : 2541.06
+
+Total time elapsed : 301.503171056
+Total Joules consumed : 2549.04
+
+Total time elapsed : 302.504217961
+Total Joules consumed : 2557.42
+
+Total time elapsed : 303.50542711
+Total Joules consumed : 2565.6
+
+Total time elapsed : 304.506859345
+Total Joules consumed : 2574.15
+
+Total time elapsed : 305.508250711
+Total Joules consumed : 2582.71
+
+Total time elapsed : 306.50970705
+Total Joules consumed : 2590.84
+
+Total time elapsed : 307.516447204
+Total Joules consumed : 2599.65
+
+Total time elapsed : 308.517726756
+Total Joules consumed : 2608.1
+
+Total time elapsed : 309.518869979
+Total Joules consumed : 2616.37
+
+Total time elapsed : 310.520073201
+Total Joules consumed : 2624.85
+
+Total time elapsed : 311.521245477
+Total Joules consumed : 2633.41
+
+Total time elapsed : 312.522381084
+Total Joules consumed : 2641.8
+
+Total time elapsed : 313.523905127
+Total Joules consumed : 2650.56
+
+Total time elapsed : 314.525393443
+Total Joules consumed : 2659.44
+
+Total time elapsed : 315.527036311
+Total Joules consumed : 2668.68
+
+Total time elapsed : 316.529001634
+Total Joules consumed : 2677.23
+
+Total time elapsed : 317.531462258
+Total Joules consumed : 2685.9
+
+Total time elapsed : 318.533328129
+Total Joules consumed : 2694.39
+
+Total time elapsed : 319.535155344
+Total Joules consumed : 2704.03
+
+Total time elapsed : 320.543269677
+Total Joules consumed : 2713.52
+
+Total time elapsed : 321.544712728
+Total Joules consumed : 2722.02
+
+Total time elapsed : 322.545799623
+Total Joules consumed : 2730.31
+
+Total time elapsed : 323.547229112
+Total Joules consumed : 2738.9
+
+Total time elapsed : 324.54870276
+Total Joules consumed : 2747.34
+
+Total time elapsed : 325.550701447
+Total Joules consumed : 2756.24
+
+Total time elapsed : 326.551840794
+Total Joules consumed : 2764.67
+
+Total time elapsed : 327.553203521
+Total Joules consumed : 2773.01
+
+Total time elapsed : 328.554519653
+Total Joules consumed : 2780.41
+
+Total time elapsed : 329.555620934
+Total Joules consumed : 2789.07
+
+Total time elapsed : 330.557627777
+Total Joules consumed : 2797.51
+
+Total time elapsed : 331.559804271
+Total Joules consumed : 2805.54
+
+Total time elapsed : 332.560901444
+Total Joules consumed : 2814.18
+
+Total time elapsed : 333.562412416
+Total Joules consumed : 2822.56
+
+Total time elapsed : 334.564237473
+Total Joules consumed : 2831.13
+
+Total time elapsed : 335.565750345
+Total Joules consumed : 2839.53
+
+Total time elapsed : 336.56693676
+Total Joules consumed : 2847.83
+
+Total time elapsed : 337.568243965
+Total Joules consumed : 2856.32
+
+Total time elapsed : 338.569558554
+Total Joules consumed : 2864.79
+
+Total time elapsed : 339.571772859
+Total Joules consumed : 2873.04
+
+Total time elapsed : 340.573244802
+Total Joules consumed : 2881.34
+
+Total time elapsed : 341.57538962
+Total Joules consumed : 2889.91
+
+Total time elapsed : 342.576869136
+Total Joules consumed : 2898.33
+
+Total time elapsed : 343.580203993
+Total Joules consumed : 2906.71
+
+Total time elapsed : 344.581269458
+Total Joules consumed : 2915.27
+
+Total time elapsed : 345.582471041
+Total Joules consumed : 2923.91
+
+Total time elapsed : 346.584093821
+Total Joules consumed : 2932.64
+
+Total time elapsed : 347.585608275
+Total Joules consumed : 2941.01
+
+Total time elapsed : 348.586912175
+Total Joules consumed : 2949.8
+
+Total time elapsed : 349.589031453
+Total Joules consumed : 2958.31
+
+Total time elapsed : 350.590394271
+Total Joules consumed : 2966.71
+
+Total time elapsed : 351.591872336
+Total Joules consumed : 2975.71
+
+Total time elapsed : 352.593614708
+Total Joules consumed : 2984.69
+
+Total time elapsed : 353.59479035
+Total Joules consumed : 2993.1
+
+Total time elapsed : 354.596569043
+Total Joules consumed : 3001.64
+
+Total time elapsed : 355.59822131
+Total Joules consumed : 3010.34
+
+Total time elapsed : 356.599573836
+Total Joules consumed : 3018.72
+
+Total time elapsed : 357.600957117
+Total Joules consumed : 3027.15
+
+Total time elapsed : 358.602030404
+Total Joules consumed : 3035.56
+
+Total time elapsed : 359.603305027
+Total Joules consumed : 3044.11
+
+Total time elapsed : 360.604647066
+Total Joules consumed : 3052.7
+
+Total time elapsed : 361.605771514
+Total Joules consumed : 3061.39
+
+Total time elapsed : 362.607308089
+Total Joules consumed : 3070.0
+
+Total time elapsed : 363.608726324
+Total Joules consumed : 3078.47
+
+Total time elapsed : 364.61010022
+Total Joules consumed : 3086.95
+
+Total time elapsed : 365.611659775
+Total Joules consumed : 3095.72
+
+Total time elapsed : 366.613946805
+Total Joules consumed : 3104.27
+
+Total time elapsed : 367.61543588
+Total Joules consumed : 3112.6
+
+Total time elapsed : 368.616626083
+Total Joules consumed : 3120.84
+
+Total time elapsed : 369.618219401
+Total Joules consumed : 3129.35
+
+Total time elapsed : 370.619778288
+Total Joules consumed : 3137.78
+
+Total time elapsed : 371.621257435
+Total Joules consumed : 3146.11
+
+Total time elapsed : 372.622500085
+Total Joules consumed : 3154.7
+
+Total time elapsed : 373.623578977
+Total Joules consumed : 3163.38
+
+Total time elapsed : 374.62534592
+Total Joules consumed : 3172.38
+
+Total time elapsed : 375.626498033
+Total Joules consumed : 3181.31
+
+Total time elapsed : 376.62859199
+Total Joules consumed : 3190.2
+
+Total time elapsed : 377.63099919
+Total Joules consumed : 3199.0
+
+Total time elapsed : 378.632161743
+Total Joules consumed : 3207.39
+
+Total time elapsed : 379.633619811
+Total Joules consumed : 3216.18
+
+Total time elapsed : 380.635039886
+Total Joules consumed : 3224.85
+
+Total time elapsed : 381.636904087
+Total Joules consumed : 3233.68
+
+Total time elapsed : 382.638004956
+Total Joules consumed : 3242.46
+
+Total time elapsed : 383.639443471
+Total Joules consumed : 3251.28
+
+Total time elapsed : 384.641242659
+Total Joules consumed : 3259.92
+
+Total time elapsed : 385.642709402
+Total Joules consumed : 3268.42
+
+Total time elapsed : 386.644188933
+Total Joules consumed : 3277.55
+
+Total time elapsed : 387.645651829
+Total Joules consumed : 3286.88
+
+Total time elapsed : 388.647052241
+Total Joules consumed : 3295.72
+
+Total time elapsed : 389.648422581
+Total Joules consumed : 3304.91
+
+Total time elapsed : 390.649669903
+Total Joules consumed : 3314.12
+
+Total time elapsed : 391.650885696
+Total Joules consumed : 3322.88
+
+Total time elapsed : 392.652381503
+Total Joules consumed : 3331.45
+
+Total time elapsed : 393.653763783
+Total Joules consumed : 3340.14
+
+Total time elapsed : 394.65505156
+Total Joules consumed : 3349.28
+
+Total time elapsed : 395.656409812
+Total Joules consumed : 3358.2
+
+Total time elapsed : 396.65755011
+Total Joules consumed : 3366.92
+
+Total time elapsed : 397.659011725
+Total Joules consumed : 3375.08
+
+Total time elapsed : 398.660303912
+Total Joules consumed : 3383.45
+
+Total time elapsed : 399.662437993
+Total Joules consumed : 3391.72
+
+Total time elapsed : 400.663789443
+Total Joules consumed : 3400.13
+
+Total time elapsed : 401.664852086
+Total Joules consumed : 3408.42
+
+Total time elapsed : 402.666040236
+Total Joules consumed : 3415.72
+
+Total time elapsed : 403.667156845
+Total Joules consumed : 3424.1
+
+Total time elapsed : 404.668308053
+Total Joules consumed : 3432.79
+
+Total time elapsed : 405.669459315
+Total Joules consumed : 3440.93
+
+Total time elapsed : 406.670694473
+Total Joules consumed : 3449.38
+
+Total time elapsed : 407.673085802
+Total Joules consumed : 3458.33
+
+Total time elapsed : 408.674142156
+Total Joules consumed : 3466.82
+
+Total time elapsed : 409.675301017
+Total Joules consumed : 3475.27
+
+Total time elapsed : 410.676543665
+Total Joules consumed : 3483.73
+
+Total time elapsed : 411.677856806
+Total Joules consumed : 3492.56
+
+Total time elapsed : 412.679355351
+Total Joules consumed : 3501.29
+
+Total time elapsed : 413.680847563
+Total Joules consumed : 3509.88
+
+Total time elapsed : 414.682484671
+Total Joules consumed : 3518.78
+
+Total time elapsed : 415.684550779
+Total Joules consumed : 3527.41
+
+Total time elapsed : 416.689177559
+Total Joules consumed : 3536.08
+
+Total time elapsed : 417.690590573
+Total Joules consumed : 3544.92
+
+Total time elapsed : 418.691845987
+Total Joules consumed : 3553.51
+
+Total time elapsed : 419.692981666
+Total Joules consumed : 3562.37
+
+Total time elapsed : 420.694178144
+Total Joules consumed : 3570.86
+
+Total time elapsed : 421.695868211
+Total Joules consumed : 3579.69
+
+Total time elapsed : 422.69738154
+Total Joules consumed : 3588.23
+
+Total time elapsed : 423.70043437
+Total Joules consumed : 3596.48
+
+Total time elapsed : 424.701664467
+Total Joules consumed : 3604.93
+
+Total time elapsed : 425.703121917
+Total Joules consumed : 3613.69
+
+Total time elapsed : 426.704263459
+Total Joules consumed : 3622.18
+
+Total time elapsed : 427.705890015
+Total Joules consumed : 3630.54
+
+Total time elapsed : 428.707040957
+Total Joules consumed : 3639.19
+
+Total time elapsed : 429.708504382
+Total Joules consumed : 3647.99
+
+Total time elapsed : 430.709912103
+Total Joules consumed : 3656.65
+
+Total time elapsed : 431.711330662
+Total Joules consumed : 3665.21
+
+Total time elapsed : 432.712634035
+Total Joules consumed : 3673.24
+
+Total time elapsed : 433.713953975
+Total Joules consumed : 3681.75
+
+Total time elapsed : 434.715429003
+Total Joules consumed : 3690.58
+
+Total time elapsed : 435.716625
+Total Joules consumed : 3699.28
+
+Total time elapsed : 436.717897113
+Total Joules consumed : 3708.08
+
+Total time elapsed : 437.719126048
+Total Joules consumed : 3716.63
+
+Total time elapsed : 438.721586367
+Total Joules consumed : 3724.56
+
+Total time elapsed : 439.723403866
+Total Joules consumed : 3733.27
+
+Total time elapsed : 440.725524015
+Total Joules consumed : 3741.85
+
+Total time elapsed : 441.726701806
+Total Joules consumed : 3750.37
+
+Total time elapsed : 442.728103582
+Total Joules consumed : 3759.0
+
+Total time elapsed : 443.729478196
+Total Joules consumed : 3767.62
+
+Total time elapsed : 444.730817481
+Total Joules consumed : 3776.12
+
+Total time elapsed : 445.734442557
+Total Joules consumed : 3784.72
+
+Total time elapsed : 446.736648057
+Total Joules consumed : 3793.55
+
+Total time elapsed : 447.737665396
+Total Joules consumed : 3802.3
+
+Total time elapsed : 448.739125221
+Total Joules consumed : 3810.79
+
+Total time elapsed : 449.740246426
+Total Joules consumed : 3819.58
+
+Total time elapsed : 450.741562872
+Total Joules consumed : 3828.43
+
+Total time elapsed : 451.742697322
+Total Joules consumed : 3837.11
+
+Total time elapsed : 452.744299873
+Total Joules consumed : 3845.92
+
+Total time elapsed : 453.745845025
+Total Joules consumed : 3854.41
+
+Total time elapsed : 454.747326835
+Total Joules consumed : 3863.14
+
+Total time elapsed : 455.748891581
+Total Joules consumed : 3871.82
+
+Total time elapsed : 456.750893612
+Total Joules consumed : 3880.92
+
+Total time elapsed : 457.752318114
+Total Joules consumed : 3890.11
+
+Total time elapsed : 458.762413391
+Total Joules consumed : 3899.19
+
+Total time elapsed : 459.764301019
+Total Joules consumed : 3907.89
+
+Total time elapsed : 460.765820756
+Total Joules consumed : 3917.02
+
+Total time elapsed : 461.767860861
+Total Joules consumed : 3925.38
+
+Total time elapsed : 462.769500277
+Total Joules consumed : 3933.81
+
+Total time elapsed : 463.77061742
+Total Joules consumed : 3942.17
+
+Total time elapsed : 464.771804532
+Total Joules consumed : 3950.87
+
+Total time elapsed : 465.773178738
+Total Joules consumed : 3959.63
+
+Total time elapsed : 466.774569889
+Total Joules consumed : 3968.59
+
+Total time elapsed : 467.776821835
+Total Joules consumed : 3977.82
+
+Total time elapsed : 468.778242643
+Total Joules consumed : 3987.1
+
+Total time elapsed : 469.779905294
+Total Joules consumed : 3996.77
+
+Total time elapsed : 470.781737579
+Total Joules consumed : 4005.49
+
+Total time elapsed : 471.783940741
+Total Joules consumed : 4014.45
+
+Total time elapsed : 472.786916158
+Total Joules consumed : 4023.5
+
+Total time elapsed : 473.788677484
+Total Joules consumed : 4032.1
+
+Total time elapsed : 474.790295527
+Total Joules consumed : 4040.68
+
+Total time elapsed : 475.791800866
+Total Joules consumed : 4049.7
+
+Total time elapsed : 476.793166012
+Total Joules consumed : 4058.72
+
+Total time elapsed : 477.796166504
+Total Joules consumed : 4067.87
+
+Total time elapsed : 478.797388056
+Total Joules consumed : 4077.35
+
+Total time elapsed : 479.798666623
+Total Joules consumed : 4086.18
+
+Total time elapsed : 480.800157964
+Total Joules consumed : 4095.39
+
+Total time elapsed : 481.801592687
+Total Joules consumed : 4104.18
+
+Total time elapsed : 482.80311095
+Total Joules consumed : 4112.59
+
+Total time elapsed : 483.805062443
+Total Joules consumed : 4121.02
+
+Total time elapsed : 484.806270042
+Total Joules consumed : 4129.33
+
+Total time elapsed : 485.80857072
+Total Joules consumed : 4139.16
+
+Total time elapsed : 486.812441591
+Total Joules consumed : 4153.49
+
+Total time elapsed : 487.8136866
+Total Joules consumed : 4166.03
+
+Total time elapsed : 488.814836612
+Total Joules consumed : 4175.08
+
+Total time elapsed : 489.818461626
+Total Joules consumed : 4184.99
+
+Total time elapsed : 490.819871427
+Total Joules consumed : 4193.58
+
+Total time elapsed : 491.821348854
+Total Joules consumed : 4202.25
+
+Total time elapsed : 492.822806376
+Total Joules consumed : 4210.91
+
+Total time elapsed : 493.824239625
+Total Joules consumed : 4219.85
+
+Total time elapsed : 494.82641044
+Total Joules consumed : 4228.87
+
+Total time elapsed : 495.82784974
+Total Joules consumed : 4237.43
+
+Total time elapsed : 496.829692234
+Total Joules consumed : 4246.22
+
+Total time elapsed : 497.830918845
+Total Joules consumed : 4254.55
+
+Total time elapsed : 498.833169492
+Total Joules consumed : 4263.09
+
+Total time elapsed : 499.836442481
+Total Joules consumed : 4271.64
+
+Total time elapsed : 500.83803636
+Total Joules consumed : 4280.19
+
+Total time elapsed : 501.840492504
+Total Joules consumed : 4288.86
+
+Total time elapsed : 502.843565537
+Total Joules consumed : 4297.62
+
+Total time elapsed : 503.845091694
+Total Joules consumed : 4306.06
+
+Total time elapsed : 504.84704739
+Total Joules consumed : 4315.0
+
+Total time elapsed : 505.849473102
+Total Joules consumed : 4323.45
+
+Total time elapsed : 506.852655256
+Total Joules consumed : 4332.03
+
+Total time elapsed : 507.854767673
+Total Joules consumed : 4340.55
+
+Total time elapsed : 508.856243225
+Total Joules consumed : 4349.36
+
+Total time elapsed : 509.857519939
+Total Joules consumed : 4358.08
+
+Total time elapsed : 510.859098437
+Total Joules consumed : 4366.87
+
+Total time elapsed : 511.864458994
+Total Joules consumed : 4376.03
+
+Total time elapsed : 512.866308017
+Total Joules consumed : 4384.35
+
+Total time elapsed : 513.867660361
+Total Joules consumed : 4392.96
+
+Total time elapsed : 514.868901921
+Total Joules consumed : 4401.57
+
+Total time elapsed : 515.87048199
+Total Joules consumed : 4410.12
+
+Total time elapsed : 516.871731698
+Total Joules consumed : 4418.56
+
+Total time elapsed : 517.874903571
+Total Joules consumed : 4427.36
+
+Total time elapsed : 518.876831045
+Total Joules consumed : 4436.33
+
+Total time elapsed : 519.878013855
+Total Joules consumed : 4445.14
+
+Total time elapsed : 520.879364901
+Total Joules consumed : 4453.63
+
+Total time elapsed : 521.880592109
+Total Joules consumed : 4462.97
+
+Total time elapsed : 522.882683102
+Total Joules consumed : 4471.78
+
+Total time elapsed : 523.884811628
+Total Joules consumed : 4480.96
+
+Total time elapsed : 524.888099342
+Total Joules consumed : 4489.91
+
+Total time elapsed : 525.889507402
+Total Joules consumed : 4499.0
+
+Total time elapsed : 526.89177064
+Total Joules consumed : 4508.01
+
+Total time elapsed : 527.893054951
+Total Joules consumed : 4516.92
+
+Total time elapsed : 528.896232693
+Total Joules consumed : 4526.04
+
+Total time elapsed : 529.897604518
+Total Joules consumed : 4534.52
+
+Total time elapsed : 530.900211732
+Total Joules consumed : 4543.51
+
+Total time elapsed : 531.901674903
+Total Joules consumed : 4552.2
+
+Total time elapsed : 532.905665769
+Total Joules consumed : 4561.06
+
+Total time elapsed : 533.913318115
+Total Joules consumed : 4570.19
+
+Total time elapsed : 534.914822543
+Total Joules consumed : 4579.17
+
+Total time elapsed : 535.917528339
+Total Joules consumed : 4587.76
+
+Total time elapsed : 536.919374111
+Total Joules consumed : 4596.53
+
+Total time elapsed : 537.922328716
+Total Joules consumed : 4605.49
+
+Total time elapsed : 538.923925898
+Total Joules consumed : 4614.07
+
+Total time elapsed : 539.925242598
+Total Joules consumed : 4622.83
+
+Total time elapsed : 540.926311176
+Total Joules consumed : 4631.22
+
+Total time elapsed : 541.927610515
+Total Joules consumed : 4639.79
+
+Total time elapsed : 542.930123681
+Total Joules consumed : 4648.48
+
+Total time elapsed : 543.931695115
+Total Joules consumed : 4657.16
+
+Total time elapsed : 544.933172225
+Total Joules consumed : 4665.88
+
+Total time elapsed : 545.934918766
+Total Joules consumed : 4674.92
+
+Total time elapsed : 546.936459396
+Total Joules consumed : 4684.29
+
+Total time elapsed : 547.937958856
+Total Joules consumed : 4693.14
+
+Total time elapsed : 548.940054478
+Total Joules consumed : 4702.08
+
+Total time elapsed : 549.941935396
+Total Joules consumed : 4711.17
+
+Total time elapsed : 550.943492102
+Total Joules consumed : 4719.73
+
+Total time elapsed : 551.944929529
+Total Joules consumed : 4728.77
+
+Total time elapsed : 552.94719424
+Total Joules consumed : 4737.58
+
+Total time elapsed : 553.948822072
+Total Joules consumed : 4746.25
+
+Total time elapsed : 554.950162759
+Total Joules consumed : 4755.13
+
+Total time elapsed : 555.951672843
+Total Joules consumed : 4763.77
+
+Total time elapsed : 556.953001014
+Total Joules consumed : 4772.48
+
+Total time elapsed : 557.956388397
+Total Joules consumed : 4781.73
+
+Total time elapsed : 558.960310917
+Total Joules consumed : 4790.68
+
+Total time elapsed : 559.962485923
+Total Joules consumed : 4800.05
+
+Total time elapsed : 560.963829759
+Total Joules consumed : 4809.06
+
+Total time elapsed : 561.965373923
+Total Joules consumed : 4818.7
+
+Total time elapsed : 562.967859849
+Total Joules consumed : 4827.39
+
+Total time elapsed : 563.969648279
+Total Joules consumed : 4836.15
+
+Total time elapsed : 564.970848331
+Total Joules consumed : 4844.5
+
+Total time elapsed : 565.973076072
+Total Joules consumed : 4852.48
+
+Total time elapsed : 566.974388698
+Total Joules consumed : 4860.74
+
+Total time elapsed : 567.975874373
+Total Joules consumed : 4869.61
+
+Total time elapsed : 568.977168056
+Total Joules consumed : 4878.42
+
+Total time elapsed : 569.97980743
+Total Joules consumed : 4887.58
+
+Total time elapsed : 570.981269432
+Total Joules consumed : 4896.66
+
+Total time elapsed : 571.982619453
+Total Joules consumed : 4905.56
+
+Total time elapsed : 572.984040106
+Total Joules consumed : 4914.5
+
+Total time elapsed : 573.99245476
+Total Joules consumed : 4923.31
+
+Total time elapsed : 574.994352646
+Total Joules consumed : 4931.98
+
+Total time elapsed : 575.995713522
+Total Joules consumed : 4940.65
+
+Total time elapsed : 576.99806903
+Total Joules consumed : 4949.07
+
+Total time elapsed : 578.00123781
+Total Joules consumed : 4957.72
+
+Total time elapsed : 579.002841191
+Total Joules consumed : 4966.73
+
+Total time elapsed : 580.004254227
+Total Joules consumed : 4975.24
+
+Total time elapsed : 581.007178847
+Total Joules consumed : 4983.7
+
+Total time elapsed : 582.008942797
+Total Joules consumed : 4992.2
+
+Total time elapsed : 583.011096919
+Total Joules consumed : 5000.88
+
+Total time elapsed : 584.01249972
+Total Joules consumed : 5009.81
+
+Total time elapsed : 585.030785266
+Total Joules consumed : 5018.8
+
+Total time elapsed : 586.032184777
+Total Joules consumed : 5027.64
+
+Total time elapsed : 587.0334491
+Total Joules consumed : 5035.99
+
+Total time elapsed : 588.034972324
+Total Joules consumed : 5044.27
+
+Total time elapsed : 589.036066284
+Total Joules consumed : 5052.83
+
+Total time elapsed : 590.044529659
+Total Joules consumed : 5061.9
+
+Total time elapsed : 591.045676146
+Total Joules consumed : 5070.52
+
+Total time elapsed : 592.047743174
+Total Joules consumed : 5079.38
+
+Total time elapsed : 593.049051168
+Total Joules consumed : 5088.1
+
+Total time elapsed : 594.050421737
+Total Joules consumed : 5096.55
+
+Total time elapsed : 595.052801131
+Total Joules consumed : 5105.04
+
+Total time elapsed : 596.054006825
+Total Joules consumed : 5113.66
+
+Total time elapsed : 597.056049403
+Total Joules consumed : 5122.24
+
+Total time elapsed : 598.057496426
+Total Joules consumed : 5130.86
+
+Total time elapsed : 599.059740818
+Total Joules consumed : 5139.66
+
+Total time elapsed : 600.06170222
+Total Joules consumed : 5148.5
+
+Total time elapsed : 601.062864266
+Total Joules consumed : 5157.04
+
+Total time elapsed : 602.064888996
+Total Joules consumed : 5165.77
+
+Total time elapsed : 603.066119661
+Total Joules consumed : 5174.33
+
+Total time elapsed : 604.0704306
+Total Joules consumed : 5183.15
+
+Total time elapsed : 605.072027697
+Total Joules consumed : 5191.8
+
+Total time elapsed : 606.073167831
+Total Joules consumed : 5200.49
+
+Total time elapsed : 607.074500108
+Total Joules consumed : 5209.09
+
+Total time elapsed : 608.076079467
+Total Joules consumed : 5217.98
+
+Total time elapsed : 609.082269591
+Total Joules consumed : 5226.92
+
+Total time elapsed : 610.083858979
+Total Joules consumed : 5235.81
+
+Total time elapsed : 611.085253552
+Total Joules consumed : 5244.54
+
+Total time elapsed : 612.086433107
+Total Joules consumed : 5253.21
+
+Total time elapsed : 613.087574376
+Total Joules consumed : 5261.82
+
+Total time elapsed : 614.088939114
+Total Joules consumed : 5270.63
+
+Total time elapsed : 615.090410558
+Total Joules consumed : 5279.22
+
+Total time elapsed : 616.092594246
+Total Joules consumed : 5287.99
+
+Total time elapsed : 617.095822027
+Total Joules consumed : 5296.76
+
+Total time elapsed : 618.097945024
+Total Joules consumed : 5305.54
+
+Total time elapsed : 619.099103821
+Total Joules consumed : 5313.97
+
+Total time elapsed : 620.100665728
+Total Joules consumed : 5321.35
+
+Total time elapsed : 621.101956815
+Total Joules consumed : 5328.09
+
+Total time elapsed : 622.103562691
+Total Joules consumed : 5333.08
+
+Total time elapsed : 623.111041856
+Total Joules consumed : 5341.98
+
+Total time elapsed : 624.114952137
+Total Joules consumed : 5356.53
+
+Total time elapsed : 625.116061909
+Total Joules consumed : 5364.28
+
+Total time elapsed : 626.117267298
+Total Joules consumed : 5372.18
+
+Total time elapsed : 627.118354971
+Total Joules consumed : 5379.97
+
+Total time elapsed : 628.119735722
+Total Joules consumed : 5388.16
+
+Total time elapsed : 629.121087762
+Total Joules consumed : 5397.46
+
+Total time elapsed : 630.122819402
+Total Joules consumed : 5406.11
+
+Total time elapsed : 631.123988116
+Total Joules consumed : 5414.0
+
+Total time elapsed : 632.125157981
+Total Joules consumed : 5422.0
+
+Total time elapsed : 633.126543718
+Total Joules consumed : 5430.46
+
+Total time elapsed : 634.127698592
+Total Joules consumed : 5438.81
+
+Total time elapsed : 635.129140233
+Total Joules consumed : 5446.71
+
+Total time elapsed : 636.130401424
+Total Joules consumed : 5454.48
+
+Total time elapsed : 637.131915497
+Total Joules consumed : 5462.31
+
+Total time elapsed : 638.13309242
+Total Joules consumed : 5470.56
+
+Total time elapsed : 639.134580198
+Total Joules consumed : 5478.51
+
+Total time elapsed : 640.136087375
+Total Joules consumed : 5486.35
+
+Total time elapsed : 641.137547031
+Total Joules consumed : 5494.67
+
+Total time elapsed : 642.138907199
+Total Joules consumed : 5502.62
+
+Total time elapsed : 643.14028155
+Total Joules consumed : 5510.96
+
+Total time elapsed : 644.141371197
+Total Joules consumed : 5519.18
+
+Total time elapsed : 645.143141998
+Total Joules consumed : 5527.29
+
+Total time elapsed : 646.144333725
+Total Joules consumed : 5535.25
+
+Total time elapsed : 647.145629304
+Total Joules consumed : 5543.52
+
+Total time elapsed : 648.146706485
+Total Joules consumed : 5551.9
+
+Total time elapsed : 649.148178672
+Total Joules consumed : 5560.38
+
+Total time elapsed : 650.149311664
+Total Joules consumed : 5567.77
+
+Total time elapsed : 651.150747545
+Total Joules consumed : 5575.97
+
+Total time elapsed : 652.151771039
+Total Joules consumed : 5584.04
+
+Total time elapsed : 653.153326986
+Total Joules consumed : 5592.41
+
+Total time elapsed : 654.154778684
+Total Joules consumed : 5600.79
+
+Total time elapsed : 655.156316966
+Total Joules consumed : 5608.88
+
+Total time elapsed : 656.157567752
+Total Joules consumed : 5617.01
+
+Total time elapsed : 657.158781839
+Total Joules consumed : 5624.97
+
+Total time elapsed : 658.160259212
+Total Joules consumed : 5633.82
+
+Total time elapsed : 659.161659272
+Total Joules consumed : 5641.82
+
+Total time elapsed : 660.162794036
+Total Joules consumed : 5650.17
+
+Total time elapsed : 661.163946704
+Total Joules consumed : 5658.26
+
+Total time elapsed : 662.165047705
+Total Joules consumed : 5666.6
+
+Total time elapsed : 663.166347933
+Total Joules consumed : 5674.52
+
+Total time elapsed : 664.168551396
+Total Joules consumed : 5682.71
+
+Total time elapsed : 665.169977467
+Total Joules consumed : 5691.27
+
+Total time elapsed : 666.171071449
+Total Joules consumed : 5699.61
+
+Total time elapsed : 667.172241625
+Total Joules consumed : 5706.77
+
+Total time elapsed : 668.173570238
+Total Joules consumed : 5714.65
+
+Total time elapsed : 669.174888806
+Total Joules consumed : 5722.82
+
+Total time elapsed : 670.176161004
+Total Joules consumed : 5730.81
+
+Total time elapsed : 671.177557264
+Total Joules consumed : 5738.61
+
+Total time elapsed : 672.180057448
+Total Joules consumed : 5747.0
+
+Total time elapsed : 673.181354007
+Total Joules consumed : 5754.91
+
+Total time elapsed : 674.182597002
+Total Joules consumed : 5763.25
+
+Total time elapsed : 675.184760707
+Total Joules consumed : 5771.18
+
+Total time elapsed : 676.185938547
+Total Joules consumed : 5779.21
+
+Total time elapsed : 677.187089087
+Total Joules consumed : 5787.36
+
+Total time elapsed : 678.188730449
+Total Joules consumed : 5795.42
+
+Total time elapsed : 679.190116433
+Total Joules consumed : 5803.41
+
+Total time elapsed : 680.191700346
+Total Joules consumed : 5811.48
+
+Total time elapsed : 681.193133418
+Total Joules consumed : 5819.68
+
+Total time elapsed : 682.194354656
+Total Joules consumed : 5828.04
+
+Total time elapsed : 683.195433383
+Total Joules consumed : 5836.14
+
+Total time elapsed : 684.196627829
+Total Joules consumed : 5844.27
+
+Total time elapsed : 685.197924509
+Total Joules consumed : 5852.09
+
+Total time elapsed : 686.19941155
+Total Joules consumed : 5859.91
+
+Total time elapsed : 687.201188127
+Total Joules consumed : 5868.03
+
+Total time elapsed : 688.202733503
+Total Joules consumed : 5876.48
+
+Total time elapsed : 689.20392336
+Total Joules consumed : 5884.58
+
+Total time elapsed : 690.205382452
+Total Joules consumed : 5892.69
+
+Total time elapsed : 691.207368306
+Total Joules consumed : 5900.79
+
+Total time elapsed : 692.208413192
+Total Joules consumed : 5909.24
+
+Total time elapsed : 693.210154753
+Total Joules consumed : 5917.44
+
+Total time elapsed : 694.211465068
+Total Joules consumed : 5925.38
+
+Total time elapsed : 695.212689555
+Total Joules consumed : 5933.44
+
+Total time elapsed : 696.213868416
+Total Joules consumed : 5941.63
+
+Total time elapsed : 697.214991607
+Total Joules consumed : 5949.87
+
+Total time elapsed : 698.21657473
+Total Joules consumed : 5958.1
+
+Total time elapsed : 699.21770017
+Total Joules consumed : 5966.17
+
+Total time elapsed : 700.220742924
+Total Joules consumed : 5974.41
+
+Total time elapsed : 701.222343671
+Total Joules consumed : 5982.34
+
+Total time elapsed : 702.22434372
+Total Joules consumed : 5990.25
+
+Total time elapsed : 703.225484462
+Total Joules consumed : 5998.21
+
+Total time elapsed : 704.226836607
+Total Joules consumed : 6006.2
+
+Total time elapsed : 705.228956013
+Total Joules consumed : 6014.14
+
+Total time elapsed : 706.230393503
+Total Joules consumed : 6022.19
+
+Total time elapsed : 707.231841948
+Total Joules consumed : 6030.16
+
+Total time elapsed : 708.233044251
+Total Joules consumed : 6037.99
+
+Total time elapsed : 709.234490819
+Total Joules consumed : 6045.85
+
+Total time elapsed : 710.235737496
+Total Joules consumed : 6053.87
+
+Total time elapsed : 711.237195371
+Total Joules consumed : 6061.91
+
+Total time elapsed : 712.238658239
+Total Joules consumed : 6069.94
+
+Total time elapsed : 713.240014333
+Total Joules consumed : 6077.93
+
+Total time elapsed : 714.241391907
+Total Joules consumed : 6086.19
+
+Total time elapsed : 715.243268908
+Total Joules consumed : 6094.09
+
+Total time elapsed : 716.24446446
+Total Joules consumed : 6102.14
+
+Total time elapsed : 717.2471176
+Total Joules consumed : 6110.02
+
+Total time elapsed : 718.24981159
+Total Joules consumed : 6118.2
+
+Total time elapsed : 719.251255954
+Total Joules consumed : 6126.48
+
+Total time elapsed : 720.2527203
+Total Joules consumed : 6134.73
+
+Total time elapsed : 721.257304064
+Total Joules consumed : 6143.11
+
+Total time elapsed : 722.261133341
+Total Joules consumed : 6151.16
+
+Total time elapsed : 723.262386892
+Total Joules consumed : 6159.06
+
+Total time elapsed : 724.26399377
+Total Joules consumed : 6167.14
+
+Total time elapsed : 725.265271191
+Total Joules consumed : 6175.4
+
+Total time elapsed : 726.267252517
+Total Joules consumed : 6183.58
+
+Total time elapsed : 727.269452758
+Total Joules consumed : 6191.8
+
+Total time elapsed : 728.270910641
+Total Joules consumed : 6200.04
+
+Total time elapsed : 729.272420328
+Total Joules consumed : 6208.13
+
+Total time elapsed : 730.276334169
+Total Joules consumed : 6216.38
+
+Total time elapsed : 731.277539714
+Total Joules consumed : 6224.31
+
+Total time elapsed : 732.27891107
+Total Joules consumed : 6232.75
+
+Total time elapsed : 733.280114892
+Total Joules consumed : 6240.85
