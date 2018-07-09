@@ -112,7 +112,7 @@ FNULL = open(os.devnull, 'w')
 
 with open(webpages,'r') as queries:
 	for line in queries:
-		proc = subprocess.Popen(['taskset',base_cores,'google-chrome','--load-extension=/home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Content','--new-window ',line], shell=False, stdout=FNULL, stderr=subprocess.STDOUT)
+		proc = subprocess.Popen(['taskset',base_cores,'google-chrome','--load-extension=/home/indrajeet/git/Computational-Sprinting-for-Browsers/Content','--aggressive-cache-discard','--disable-notifications','--disable-remote-fonts','--disable-reading-from-canvas','--disable-remote-playback-api','--disable-shared-workers','--disable-voice-input','--enable-aggressive-domstorage-flushing','--new-window ',line], shell=False, stdout=FNULL, stderr=subprocess.STDOUT)
 		time.sleep(r[a])
 		a = a+1
 

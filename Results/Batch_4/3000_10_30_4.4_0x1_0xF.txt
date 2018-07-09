@@ -1,0 +1,1358 @@
+pid 17673's current affinity mask: 1
+pid 17673's new affinity mask: f
+pid 18306's current affinity mask: 1
+pid 18306's new affinity mask: f
+pid 19035's current affinity mask: 1
+pid 19035's new affinity mask: f
+pid 19841's current affinity mask: 1
+pid 19841's new affinity mask: f
+pid 20240's current affinity mask: 1
+pid 20240's new affinity mask: f
+pid 20586's current affinity mask: 1
+pid 20586's new affinity mask: f
+
+2018-07-09 09:17:20 Net. time elapsed : 1.001149158
+2018-07-09 09:17:20 Net. Joules consumed : 3.64
+
+2018-07-09 09:17:21 Net. time elapsed : 2.002470665
+2018-07-09 09:17:21 Net. Joules consumed : 11.3
+
+2018-07-09 09:17:22 Net. time elapsed : 3.004660156
+2018-07-09 09:17:22 Net. Joules consumed : 19.89
+
+2018-07-09 09:17:23 Net. time elapsed : 4.006072193
+2018-07-09 09:17:23 Net. Joules consumed : 27.72
+
+2018-07-09 09:17:24 Net. time elapsed : 5.007153481
+2018-07-09 09:17:24 Net. Joules consumed : 35.53
+
+2018-07-09 09:17:25 Net. time elapsed : 6.008599235
+2018-07-09 09:17:25 Net. Joules consumed : 43.86
+
+2018-07-09 09:17:26 Net. time elapsed : 7.010252898
+2018-07-09 09:17:26 Net. Joules consumed : 52.45
+
+2018-07-09 09:17:27 Net. time elapsed : 8.011712373
+2018-07-09 09:17:27 Net. Joules consumed : 61.11
+
+2018-07-09 09:17:28 Net. time elapsed : 9.013534814
+2018-07-09 09:17:28 Net. Joules consumed : 69.92
+
+2018-07-09 09:17:29 Net. time elapsed : 10.015809568
+2018-07-09 09:17:29 Net. Joules consumed : 78.62
+
+2018-07-09 09:17:30 Net. time elapsed : 11.017129526
+2018-07-09 09:17:30 Net. Joules consumed : 87.21
+
+2018-07-09 09:17:31 Net. time elapsed : 12.018970405
+2018-07-09 09:17:31 Net. Joules consumed : 95.57
+
+2018-07-09 09:17:32 Net. time elapsed : 13.021105577
+2018-07-09 09:17:32 Net. Joules consumed : 104.14
+
+2018-07-09 09:17:33 Net. time elapsed : 14.033097637
+2018-07-09 09:17:33 Net. Joules consumed : 113.0
+
+2018-07-09 09:17:34 Net. time elapsed : 15.036392171
+2018-07-09 09:17:34 Net. Joules consumed : 121.9
+
+2018-07-09 09:17:35 Net. time elapsed : 16.044180037
+2018-07-09 09:17:35 Net. Joules consumed : 130.53
+
+2018-07-09 09:17:36 Net. time elapsed : 17.045958733
+2018-07-09 09:17:36 Net. Joules consumed : 139.53
+
+2018-07-09 09:17:37 Net. time elapsed : 18.047286489
+2018-07-09 09:17:37 Net. Joules consumed : 148.21
+
+2018-07-09 09:17:38 Net. time elapsed : 19.057860908
+2018-07-09 09:17:38 Net. Joules consumed : 156.96
+
+2018-07-09 09:17:39 Net. time elapsed : 20.059240857
+2018-07-09 09:17:39 Net. Joules consumed : 165.4
+
+2018-07-09 09:17:40 Net. time elapsed : 21.060708857
+2018-07-09 09:17:40 Net. Joules consumed : 173.62
+
+2018-07-09 09:17:41 Net. time elapsed : 22.063302547
+2018-07-09 09:17:41 Net. Joules consumed : 182.48
+
+2018-07-09 09:17:42 Net. time elapsed : 23.065618958
+2018-07-09 09:17:42 Net. Joules consumed : 191.15
+
+2018-07-09 09:17:43 Net. time elapsed : 24.066935105
+2018-07-09 09:17:43 Net. Joules consumed : 199.71
+
+2018-07-09 09:17:44 Net. time elapsed : 25.068580803
+2018-07-09 09:17:44 Net. Joules consumed : 208.47
+
+2018-07-09 09:17:45 Net. time elapsed : 26.071246989
+2018-07-09 09:17:45 Net. Joules consumed : 217.19
+
+2018-07-09 09:17:46 Net. time elapsed : 27.072637848
+2018-07-09 09:17:46 Net. Joules consumed : 225.69
+
+2018-07-09 09:17:47 Net. time elapsed : 28.078085594
+2018-07-09 09:17:47 Net. Joules consumed : 234.42
+
+2018-07-09 09:17:48 Net. time elapsed : 29.08187896
+2018-07-09 09:17:48 Net. Joules consumed : 243.36
+
+2018-07-09 09:17:49 Net. time elapsed : 30.090569946
+2018-07-09 09:17:49 Net. Joules consumed : 252.32
+
+2018-07-09 09:17:50 Net. time elapsed : 31.096119773
+2018-07-09 09:17:50 Net. Joules consumed : 261.18
+
+2018-07-09 09:17:51 Net. time elapsed : 32.098564764
+2018-07-09 09:17:51 Net. Joules consumed : 269.57
+
+2018-07-09 09:17:52 Net. time elapsed : 33.100253513
+2018-07-09 09:17:52 Net. Joules consumed : 277.61
+
+2018-07-09 09:17:53 Net. time elapsed : 34.102450493
+2018-07-09 09:17:53 Net. Joules consumed : 286.26
+
+2018-07-09 09:17:54 Net. time elapsed : 35.105576691
+2018-07-09 09:17:54 Net. Joules consumed : 294.56
+
+2018-07-09 09:17:55 Net. time elapsed : 36.114212382
+2018-07-09 09:17:55 Net. Joules consumed : 303.19
+
+2018-07-09 09:17:56 Net. time elapsed : 37.115774935
+2018-07-09 09:17:56 Net. Joules consumed : 311.4
+
+2018-07-09 09:17:57 Net. time elapsed : 38.117317439
+2018-07-09 09:17:57 Net. Joules consumed : 319.96
+
+2018-07-09 09:17:58 Net. time elapsed : 39.122377512
+2018-07-09 09:17:58 Net. Joules consumed : 328.76
+
+2018-07-09 09:17:59 Net. time elapsed : 40.125053244
+2018-07-09 09:pid 20940's current affinity mask: 1
+pid 20940's new affinity mask: f
+pid 20957's current affinity mask: 1
+pid 20957's new affinity mask: f
+pid 21607's current affinity mask: 1
+pid 21607's new affinity mask: f
+pid 22205's current affinity mask: 1
+pid 22205's new affinity mask: f
+pid 22569's current affinity mask: 1
+pid 22569's new affinity mask: f
+pid 22620's current affinity mask: 1
+pid 22620's new affinity mask: f
+pid 22866's current affinity mask: 1
+pid 22866's new affinity mask: f
+pid 23072's current affinity mask: 1
+pid 23072's new affinity mask: f
+17:59 Net. Joules consumed : 337.4
+
+2018-07-09 09:18:00 Net. time elapsed : 41.128323282
+2018-07-09 09:18:00 Net. Joules consumed : 345.78
+
+2018-07-09 09:18:01 Net. time elapsed : 42.129727105
+2018-07-09 09:18:01 Net. Joules consumed : 354.51
+
+2018-07-09 09:18:02 Just Killed 17673 !!!
+
+2018-07-09 09:18:02 Just Killed 17673 !!!
+
+2018-07-09 09:18:02 Just Killed 17673 !!!
+
+2018-07-09 09:18:02 Net. time elapsed : 43.131774093
+2018-07-09 09:18:02 Net. Joules consumed : 363.0
+
+2018-07-09 09:18:03 Net. time elapsed : 44.141529946
+2018-07-09 09:18:03 Net. Joules consumed : 371.67
+
+2018-07-09 09:18:04 Net. time elapsed : 45.143069694
+2018-07-09 09:18:04 Net. Joules consumed : 380.22
+
+2018-07-09 09:18:05 Net. time elapsed : 46.144599194
+2018-07-09 09:18:05 Net. Joules consumed : 389.25
+
+2018-07-09 09:18:06 Just Killed 18306 !!!
+
+2018-07-09 09:18:06 Net. time elapsed : 47.146389742
+2018-07-09 09:18:06 Net. Joules consumed : 398.55
+
+2018-07-09 09:18:07 Net. time elapsed : 48.147546901
+2018-07-09 09:18:07 Net. Joules consumed : 406.76
+
+2018-07-09 09:18:08 Net. time elapsed : 49.156099133
+2018-07-09 09:18:08 Net. Joules consumed : 415.27
+
+2018-07-09 09:18:09 Net. time elapsed : 50.157645797
+2018-07-09 09:18:09 Net. Joules consumed : 423.58
+
+2018-07-09 09:18:10 Just Killed 19035 !!!
+
+2018-07-09 09:18:10 Net. time elapsed : 51.163092238
+2018-07-09 09:18:10 Net. Joules consumed : 432.03
+
+2018-07-09 09:18:11 Net. time elapsed : 52.164403548
+2018-07-09 09:18:11 Net. Joules consumed : 440.64
+
+2018-07-09 09:18:12 Net. time elapsed : 53.166705302
+2018-07-09 09:18:12 Net. Joules consumed : 448.95
+
+2018-07-09 09:18:13 Net. time elapsed : 54.168226756
+2018-07-09 09:18:13 Net. Joules consumed : 457.73
+
+2018-07-09 09:18:14 Net. time elapsed : 55.172817059
+2018-07-09 09:18:14 Net. Joules consumed : 466.23
+
+2018-07-09 09:18:15 Just Killed 19841 !!!
+
+2018-07-09 09:18:15 Just Killed 19841 !!!
+
+2018-07-09 09:18:15 Net. time elapsed : 56.174195399
+2018-07-09 09:18:15 Net. Joules consumed : 474.96
+
+2018-07-09 09:18:16 Net. time elapsed : 57.176815311
+2018-07-09 09:18:16 Net. Joules consumed : 483.69
+
+2018-07-09 09:18:17 Just Killed 20240 !!!
+
+2018-07-09 09:18:17 Just Killed 20240 !!!
+
+2018-07-09 09:18:17 Just Killed 20240 !!!
+
+2018-07-09 09:18:17 Net. time elapsed : 58.185587376
+2018-07-09 09:18:17 Net. Joules consumed : 492.54
+
+2018-07-09 09:18:17 Just Killed 20240 !!!
+
+2018-07-09 09:18:17 Just Killed 20240 !!!
+
+2018-07-09 09:18:17 Just Killed 20240 !!!
+
+2018-07-09 09:18:17 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:18 Net. time elapsed : 59.19470438
+2018-07-09 09:18:18 Net. Joules consumed : 501.53
+
+2018-07-09 09:18:18 Just Killed 20240 !!!
+
+2018-07-09 09:18:19 Just Killed 20240 !!!
+
+2018-07-09 09:18:19 Just Killed 20240 !!!
+
+2018-07-09 09:18:19 Just Killed 20586 !!!
+
+2018-07-09 09:18:19 Just Killed 20586 !!!
+
+2018-07-09 09:18:19 Just Killed 20586 !!!
+
+2018-07-09 09:18:19 Just Killed 20586 !!!
+
+2018-07-09 09:18:19 Just Killed 20586 !!!
+
+2018-07-09 09:18:19 Net. time elapsed : 60.19812021
+2018-07-09 09:18:19 Net. Joules consumed : 510.15
+
+2018-07-09 09:18:19 Just Killed 20586 !!!
+
+2018-07-09 09:18:19 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Net. time elapsed : 61.199760636
+2018-07-09 09:18:20 Net. Joules consumed : 518.12
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:20 Just Killed 20586 !!!
+
+2018-07-09 09:18:21 Net. time elapsed : 62.201027516
+2018-07-09 09:18:21 pid 24257's current affinity mask: 1
+pid 24257's new affinity mask: f
+pid 24642's current affinity mask: 1
+pid 24642's new affinity mask: f
+pid 25402's current affinity mask: 1
+pid 25402's new affinity mask: f
+pid 25594's current affinity mask: 1
+pid 25594's new affinity mask: f
+pid 25699's current affinity mask: 1
+pid 25699's new affinity mask: f
+pid 25733's current affinity mask: 1
+pid 25733's new affinity mask: f
+pid 25920's current affinity mask: 1
+pid 25920's new affinity mask: f
+pid 26166's current affinity mask: 1
+pid 26166's new affinity mask: f
+pid 26180's current affinity mask: 1
+pid 26180's new affinity mask: f
+Net. Joules consumed : 526.71
+
+2018-07-09 09:18:22 Net. time elapsed : 63.202544328
+2018-07-09 09:18:22 Net. Joules consumed : 535.11
+
+2018-07-09 09:18:23 Net. time elapsed : 64.210975515
+2018-07-09 09:18:23 Net. Joules consumed : 543.72
+
+2018-07-09 09:18:24 Net. time elapsed : 65.212395247
+2018-07-09 09:18:24 Net. Joules consumed : 552.51
+
+2018-07-09 09:18:25 Net. time elapsed : 66.219210145
+2018-07-09 09:18:25 Net. Joules consumed : 560.94
+
+2018-07-09 09:18:26 Net. time elapsed : 67.220669142
+2018-07-09 09:18:26 Net. Joules consumed : 569.27
+
+2018-07-09 09:18:27 Net. time elapsed : 68.222226655
+2018-07-09 09:18:27 Net. Joules consumed : 577.48
+
+2018-07-09 09:18:28 Just Killed 22205 !!!
+
+2018-07-09 09:18:28 Just Killed 22205 !!!
+
+2018-07-09 09:18:28 Just Killed 22205 !!!
+
+2018-07-09 09:18:28 Just Killed 22205 !!!
+
+2018-07-09 09:18:28 Just Killed 22205 !!!
+
+2018-07-09 09:18:28 Net. time elapsed : 69.225355427
+2018-07-09 09:18:28 Net. Joules consumed : 586.28
+
+2018-07-09 09:18:29 Net. time elapsed : 70.226755433
+2018-07-09 09:18:29 Net. Joules consumed : 594.91
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:30 Net. time elapsed : 71.228653373
+2018-07-09 09:18:30 Net. Joules consumed : 603.61
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:30 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22620 !!!
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22620 !!!
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22620 !!!
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22620 !!!
+
+2018-07-09 09:18:31 Net. time elapsed : 72.229937674
+2018-07-09 09:18:31 Net. Joules consumed : 612.29
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22620 !!!
+
+2018-07-09 09:18:31 Just Killed 22569 !!!
+
+2018-07-09 09:18:31 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22569 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22569 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22569 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22866 !!!
+
+2018-07-09 09:18:32 Just Killed 22569 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22866 !!!
+
+2018-07-09 09:18:32 Just Killed 22569 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22866 !!!
+
+2018-07-09 09:18:32 Just Killed 22569 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22866 !!!
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22866 !!!
+
+2018-07-09 09:18:32 Net. time elapsed : 73.231367821
+2018-07-09 09:18:32 Net. Joules consumed : 621.02
+
+2018-07-09 09:18:32 Just Killed 22620 !!!
+
+2018-07-09 09:18:32 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22620 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22620 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22620 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22620 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22620 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22620 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:33 Net. time elapsed : 74.232947437
+2018-07-09 09:18:33 Net. Joules consumed : 629.65
+
+2018-07-09 09:18:33 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Jupid 26873's current affinity mask: 1
+pid 26873's new affinity mask: f
+pid 27101's current affinity mask: 1
+pid 27101's new affinity mask: f
+pid 27469's current affinity mask: 1
+pid 27469's new affinity mask: f
+pid 27657's current affinity mask: 1
+pid 27657's new affinity mask: f
+pid 28419's current affinity mask: 1
+pid 28419's new affinity mask: f
+pid 29041's current affinity mask: 1
+pid 29041's new affinity mask: f
+pid 29119's current affinity mask: 1
+pid 29119's new affinity mask: f
+pid 29390's current affinity mask: 1
+pid 29390's new affinity mask: f
+st Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 23072 !!!
+
+2018-07-09 09:18:34 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 23072 !!!
+
+2018-07-09 09:18:34 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 23072 !!!
+
+2018-07-09 09:18:34 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 23072 !!!
+
+2018-07-09 09:18:34 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 23072 !!!
+
+2018-07-09 09:18:34 Net. time elapsed : 75.23818988
+2018-07-09 09:18:34 Net. Joules consumed : 638.46
+
+2018-07-09 09:18:34 Just Killed 22866 !!!
+
+2018-07-09 09:18:34 Just Killed 23072 !!!
+
+2018-07-09 09:18:34 Just Killed 23072 !!!
+
+2018-07-09 09:18:35 Just Killed 23072 !!!
+
+2018-07-09 09:18:35 Just Killed 23072 !!!
+
+2018-07-09 09:18:35 Just Killed 23072 !!!
+
+2018-07-09 09:18:35 Just Killed 23072 !!!
+
+2018-07-09 09:18:35 Just Killed 23072 !!!
+
+2018-07-09 09:18:35 Net. time elapsed : 76.239824535
+2018-07-09 09:18:35 Net. Joules consumed : 647.27
+
+2018-07-09 09:18:36 Net. time elapsed : 77.247220275
+2018-07-09 09:18:36 Net. Joules consumed : 656.03
+
+2018-07-09 09:18:37 Net. time elapsed : 78.251272161
+2018-07-09 09:18:37 Net. Joules consumed : 664.64
+
+2018-07-09 09:18:38 Net. time elapsed : 79.252714545
+2018-07-09 09:18:38 Net. Joules consumed : 673.18
+
+2018-07-09 09:18:39 Net. time elapsed : 80.257126825
+2018-07-09 09:18:39 Net. Joules consumed : 681.69
+
+2018-07-09 09:18:40 Net. time elapsed : 81.258372412
+2018-07-09 09:18:40 Net. Joules consumed : 690.04
+
+2018-07-09 09:18:41 Net. time elapsed : 82.26053548
+2018-07-09 09:18:41 Net. Joules consumed : 698.79
+
+2018-07-09 09:18:42 Net. time elapsed : 83.265773289
+2018-07-09 09:18:42 Net. Joules consumed : 707.69
+
+2018-07-09 09:18:43 Net. time elapsed : 84.274026086
+2018-07-09 09:18:43 Net. Joules consumed : 716.49
+
+2018-07-09 09:18:44 Net. time elapsed : 85.275673741
+2018-07-09 09:18:44 Net. Joules consumed : 724.91
+
+2018-07-09 09:18:45 Net. time elapsed : 86.277168741
+2018-07-09 09:18:45 Net. Joules consumed : 733.44
+
+2018-07-09 09:18:46 Net. time elapsed : 87.278704781
+2018-07-09 09:18:46 Net. Joules consumed : 742.03
+
+2018-07-09 09:18:48 Net. time elapsed : 88.28041408
+2018-07-09 09:18:48 Net. Joules consumed : 751.0
+
+2018-07-09 09:18:48 Net. time elapsed : 89.282133663
+2018-07-09 09:18:48 Net. Joules consumed : 760.04
+
+2018-07-09 09:18:50 Net. time elapsed : 90.299798177
+2018-07-09 09:18:50 Net. Joules consumed : 769.15
+
+2018-07-09 09:18:50 Just Killed 25733 !!!
+
+2018-07-09 09:18:50 Just Killed 25733 !!!
+
+2018-07-09 09:18:50 Just Killed 25733 !!!
+
+2018-07-09 09:18:50 Just Killed 25733 !!!
+
+2018-07-09 09:18:50 Just Killed 25733 !!!
+
+2018-07-09 09:18:50 Just Killed 25733 !!!
+
+2018-07-09 09:18:50 Net. time elapsed : 91.301311738
+2018-07-09 09:18:50 Net. Joules consumed : 777.8
+
+2018-07-09 09:18:50 Just Killed 25733 !!!
+
+2018-07-09 09:18:51 Just Killed 25733 !!!
+
+2018-07-09 09:18:51 Just Killed 25733 !!!
+
+2018-07-09 09:18:51 Just Killed 25733 !!!
+
+2018-07-09 09:18:51 Just Killed 25920 !!!
+
+2018-07-09 09:18:51 Just Killed 25733 !!!
+
+2018-07-09 09:18:51 Just Killed 25920 !!!
+
+2018-07-09 09:18:51 Just Killed 25733 !!!
+
+2018-07-09 09:18:51 Just Killed 25920 !!!
+
+2018-07-09 09:18:51 Just Killed 25920 !!!
+
+2018-07-09 09:18:51 Just Killed 25920 !!!
+
+2018-07-09 09:18:51 Net. time elapsed : 92.303259787
+2018-07-09 09:18:51 Net. Joules consumed : 786.43
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 26166 !!!
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 26166 !!!
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 26166 !!!
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 26166 !!!
+
+2018-07-09 09:18:52 Just Killed 25920 !!!
+
+2018-07-09 09:18:52 Just Killed 26166 !!!
+
+2018-07-09 09:18:52 Just Killed 26166 !!!
+
+2018-07-09 09:18:52 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:1pid 29721's current affinity mask: 1
+pid 29721's new affinity mask: f
+pid 30483's current affinity mask: 1
+pid 30483's new affinity mask: f
+pid 30893's current affinity mask: 1
+pid 30893's new affinity mask: f
+8:53 Net. time elapsed : 93.304752329
+2018-07-09 09:18:53 Net. Joules consumed : 795.2
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:53 Just Killed 26166 !!!
+
+2018-07-09 09:18:54 Net. time elapsed : 94.314255765
+2018-07-09 09:18:54 Net. Joules consumed : 804.03
+
+2018-07-09 09:18:54 Just Killed 26166 !!!
+
+2018-07-09 09:18:54 Net. time elapsed : 95.316036184
+2018-07-09 09:18:54 Net. Joules consumed : 812.89
+
+2018-07-09 09:18:55 Net. time elapsed : 96.317619805
+2018-07-09 09:18:55 Net. Joules consumed : 821.74
+
+2018-07-09 09:18:56 Net. time elapsed : 97.31908942
+2018-07-09 09:18:56 Net. Joules consumed : 830.34
+
+2018-07-09 09:18:57 Just Killed 26873 !!!
+
+2018-07-09 09:18:57 Just Killed 26873 !!!
+
+2018-07-09 09:18:57 Just Killed 26873 !!!
+
+2018-07-09 09:18:57 Just Killed 26873 !!!
+
+2018-07-09 09:18:57 Just Killed 26873 !!!
+
+2018-07-09 09:18:57 Just Killed 26873 !!!
+
+2018-07-09 09:18:57 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Net. time elapsed : 98.321732652
+2018-07-09 09:18:58 Net. Joules consumed : 839.03
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:58 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Net. time elapsed : 99.32336899
+2018-07-09 09:18:59 Net. Joules consumed : 848.02
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:18:59 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Net. time elapsed : 100.331606776
+2018-07-09 09:19:00 Net. Joules consumed : 856.9
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 27469 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 27469 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 27469 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 27469 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 27469 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 27469 !!!
+
+2018-07-09 09:19:00 Just Killed 26873 !!!
+
+2018-07-09 09:19:00 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Net. time elapsed : 101.333239161
+2018-07-09 09:19:01 Net. Joules consumed : 865.77
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:01 Just Killed 26873 !!!
+
+2018-07-09 09:19:01 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Net. time elapsed : 102.335426212
+2018-07-09 09:19:02 Net. Joules consumed : 874.63
+
+2018-07-09 09:19:02 Just Killed 26873 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 26873 !!!
+
+2018-07-09 09:19:02pid 30902's current affinity mask: 1
+pid 30902's new affinity mask: f
+pid 30933's current affinity mask: 1
+pid 30933's new affinity mask: f
+pid 30955's current affinity mask: 1
+pid 30955's new affinity mask: f
+pid 16885's current affinity mask: 1
+pid 16885's new affinity mask: f
+pid 17548's current affinity mask: 1
+pid 17548's new affinity mask: f
+pid 31401's current affinity mask: 1
+pid 31401's new affinity mask: f
+pid 16515's current affinity mask: 1
+pid 16515's new affinity mask: f
+pid 31601's current affinity mask: 1
+pid 31601's new affinity mask: f
+pid 16336's current affinity mask: 1
+pid 16336's new affinity mask: f
+ Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 28419 !!!
+
+2018-07-09 09:19:02 Just Killed 29041 !!!
+
+2018-07-09 09:19:02 Just Killed 17548 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 17548 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 17548 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:02 Just Killed 28419 !!!
+
+2018-07-09 09:19:02 Just Killed 16885 !!!
+
+2018-07-09 09:19:02 Just Killed 17548 !!!
+
+2018-07-09 09:19:02 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Net. time elapsed : 103.336914997
+2018-07-09 09:19:03 Net. Joules consumed : 883.47
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 28419 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:03 Just Killed 16515 !!!
+
+2018-07-09 09:19:03 Just Killed 16885 !!!
+
+2018-07-09 09:19:03 Just Killed 17548 !!!
+
+2018-07-09 09:19:03 Just Killed 27469 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:04 Net. time elapsed : 104.340910445
+2018-07-09 09:19:04 Net. Joules consumed : 892.27
+
+2018-07-09 09:19:04 Just Killed 27469 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:04 Just Killed 28419 !!!
+
+2018-07-09 09:19:04 Just Killed 16336 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 16336 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 16515 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:04 Just Killed 16885 !!!
+
+2018-07-09 09:19:04 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Net. time elapsed : 105.342519628
+2018-07-09 09:19:05 Net. Joules consumed : 901.11
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19pid 15885's current affinity mask: 1
+pid 15885's new affinity mask: f
+pid 31634's current affinity mask: 1
+pid 31634's new affinity mask: f
+pid 32157's current affinity mask: 1
+pid 32157's new affinity mask: f
+pid 15787's current affinity mask: 1
+pid 15787's new affinity mask: f
+:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:05 Just Killed 16515 !!!
+
+2018-07-09 09:19:05 Just Killed 16885 !!!
+
+2018-07-09 09:19:05 Just Killed 17548 !!!
+
+2018-07-09 09:19:05 Just Killed 15885 !!!
+
+2018-07-09 09:19:05 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 16885 !!!
+
+2018-07-09 09:19:06 Just Killed 15885 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 16885 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 15885 !!!
+
+2018-07-09 09:19:06 Net. time elapsed : 106.348773884
+2018-07-09 09:19:06 Net. Joules consumed : 910.09
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 15885 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 29119 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:06 Just Killed 16336 !!!
+
+2018-07-09 09:19:06 Just Killed 16515 !!!
+
+2018-07-09 09:19:06 Just Killed 17548 !!!
+
+2018-07-09 09:19:07 Just Killed 16336 !!!
+
+2018-07-09 09:19:07 Just Killed 16515 !!!
+
+2018-07-09 09:19:07 Just Killed 17548 !!!
+
+2018-07-09 09:19:07 Just Killed 16336 !!!
+
+2018-07-09 09:19:07 Just Killed 16515 !!!
+
+2018-07-09 09:19:07 Just Killed 17548 !!!
+
+2018-07-09 09:19:07 Net. time elapsed : 107.351091833
+2018-07-09 09:19:07 Net. Joules consumed : 918.97
+
+2018-07-09 09:19:07 Just Killed 16336 !!!
+
+2018-07-09 09:19:07 Just Killed 16515 !!!
+
+2018-07-09 09:19:07 Just Killed 17548 !!!
+
+2018-07-09 09:19:07 Just Killed 16336 !!!
+
+2018-07-09 09:19:07 Just Killed 16515 !!!
+
+2018-07-09 09:19:07 Just Killed 17548 !!!
+
+2018-07-09 09:19:07 Just Killed 16336 !!!
+
+2018-07-09 09:19:07 Just Killed 16515 !!!
+
+2018-07-09 09:19:07 Just Killed 17548 !!!
+
+2018-07-09 09:19:07 Just Killed pid 32225's current affinity mask: 1
+pid 32225's new affinity mask: f
+pid 32340's current affinity mask: 1
+pid 32340's new affinity mask: f
+pid 15755's current affinity mask: 1
+pid 15755's new affinity mask: f
+pid 15690's current affinity mask: 1
+pid 15690's new affinity mask: f
+16336 !!!
+
+2018-07-09 09:19:07 Just Killed 16515 !!!
+
+2018-07-09 09:19:07 Just Killed 17548 !!!
+
+2018-07-09 09:19:07 Just Killed 16336 !!!
+
+2018-07-09 09:19:07 Just Killed 16515 !!!
+
+2018-07-09 09:19:07 Just Killed 16336 !!!
+
+2018-07-09 09:19:08 Just Killed 16336 !!!
+
+2018-07-09 09:19:08 Net. time elapsed : 108.35260289
+2018-07-09 09:19:08 Net. Joules consumed : 927.79
+
+2018-07-09 09:19:08 Just Killed 16336 !!!
+
+2018-07-09 09:19:08 Just Killed 16336 !!!
+
+2018-07-09 09:19:08 Just Killed 16336 !!!
+
+2018-07-09 09:19:08 Just Killed 16336 !!!
+
+2018-07-09 09:19:08 Just Killed 16336 !!!
+
+2018-07-09 09:19:08 Just Killed 16336 !!!
+
+2018-07-09 09:19:09 Net. time elapsed : 109.356007008
+2018-07-09 09:19:09 Net. Joules consumed : 936.54
+
+2018-07-09 09:19:10 Net. time elapsed : 110.35786898
+2018-07-09 09:19:10 Net. Joules consumed : 944.99
+
+2018-07-09 09:19:11 Index Error
+
+2018-07-09 09:19:11 Net. time elapsed : 111.366707629
+2018-07-09 09:19:11 Net. Joules consumed : 953.61
+
+2018-07-09 09:19:11 Just Killed 15787 !!!
+
+2018-07-09 09:19:11 Just Killed 15787 !!!
+
+2018-07-09 09:19:11 Just Killed 15755 !!!
+
+2018-07-09 09:19:11 Just Killed 15787 !!!
+
+2018-07-09 09:19:11 Just Killed 15755 !!!
+
+2018-07-09 09:19:11 Just Killed 15787 !!!
+
+2018-07-09 09:19:12 Net. time elapsed : 112.369047685
+2018-07-09 09:19:12 Net. Joules consumed : 961.76
+
+2018-07-09 09:19:12 Just Killed 31401 !!!
+
+2018-07-09 09:19:12 Just Killed 15690 !!!
+
+2018-07-09 09:19:13 Net. time elapsed : 113.37088565
+2018-07-09 09:19:13 Net. Joules consumed : 970.01
+
+2018-07-09 09:19:14 Net. time elapsed : 114.372023118
+2018-07-09 09:19:14 Net. Joules consumed : 978.44
+
+2018-07-09 09:19:15 Net. time elapsed : 115.373358819
+2018-07-09 09:19:15 Net. Joules consumed : 987.26
+
+2018-07-09 09:19:16 Net. time elapsed : 116.374830301
+2018-07-09 09:19:16 Net. Joules consumed : 994.52
+
+2018-07-09 09:19:17 Net. time elapsed : 117.375950216
+2018-07-09 09:19:17 Net. Joules consumed : 1000.59
+
+2018-07-09 09:19:18 Net. time elapsed : 118.377009515
+2018-07-09 09:19:18 Net. Joules consumed : 1006.62
+
+2018-07-09 09:19:19 Net. time elapsed : 119.378149975
+2018-07-09 09:19:19 Net. Joules consumed : 1012.63
+
+2018-07-09 09:19:20 Net. time elapsed : 120.379403799
+2018-07-09 09:19:20 Net. Joules consumed : 1019.18
+
+2018-07-09 09:19:21 Net. time elapsed : 121.38074399
+2018-07-09 09:19:21 Net. Joules consumed : 1025.07
+
+2018-07-09 09:19:22 Net. time elapsed : 122.381874901
+2018-07-09 09:19:22 Net. Joules consumed : 1030.39
+
+2018-07-09 09:19:23 Net. time elapsed : 123.38300014
+2018-07-09 09:19:23 Net. Joules consumed : 1036.47
+
+2018-07-09 09:19:24 Net. time elapsed : 124.384183099
+2018-07-09 09:19:24 Net. Joules consumed : 1042.52
+
+2018-07-09 09:19:25 Net. time elapsed : 125.385481998
+2018-07-09 09:19:25 Net. Joules consumed : 1048.56
+
+2018-07-09 09:19:26 Net. time elapsed : 126.386899121
+2018-07-09 09:19:26 Net. Joules consumed : 1054.54
+
+2018-07-09 09:19:27 Net. time elapsed : 127.388023824
+2018-07-09 09:19:27 Net. Joules consumed : 1060.6
+
+2018-07-09 09:19:28 Net. time elapsed : 128.389403378
+2018-07-09 09:19:28 Net. Joules consumed : 1066.62
+
+2018-07-09 09:19:29 Net. time elapsed : 129.390641068
+2018-07-09 09:19:29 Net. Joules consumed : 1072.81
+
+2018-07-09 09:19:30 Net. time elapsed : 130.392221069
+2018-07-09 09:19:30 Net. Joules consumed : 1078.94
+
+2018-07-09 09:19:31 Net. time elapsed : 131.39376749
+2018-07-09 09:19:31 Net. Joules consumed : 1084.98
+
+2018-07-09 09:19:32 Net. time elapsed : 132.394862089
+2018-07-09 09:19:32 Net. Joules consumed : 1092.89
