@@ -16,8 +16,8 @@
 #sleep 15
 #python script_2.0.py /home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 30 60 4.4 '0x1' '0xF'
 #sleep 15
-#python script_2.0.py /home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 35 60 4.4 '0x1' '0xF'
-#sleep 15
+python script_2.0.py /home/indrajeet/git/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 35 60 4.4 '0x1' '0xF'
+sleep 15
 #python script_2.0.py /home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 40 60 4.4 '0x1' '0xF'
 #sleep 15
 #python script_2.0.py /home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 45 60 4.4 '0x1' '0xF'
@@ -28,9 +28,9 @@
 #sleep 15
 #python script_2.0.py /home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 60 60 4.4 '0x1' '0xF'
 #sleep 15
-#python script_2.0.py /home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 65 60 4.4 '0x1' '0xF'
-#sleep 15
-#python script_2.0.py /home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 70 60 4.4 '0x1' '0xF'
+python script_2.0.py /home/indrajeet/git/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 65 60 4.4 '0x1' '0xF'
+sleep 15
+python script_2.0.py /home/indrajeet/git/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 70 60 4.4 '0x1' '0xF'
 
 #python script_2.0.py /home/indrajeet/git/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 0 30 4.4 '0x1' '0xF'
 #sleep 15
@@ -48,4 +48,4 @@
 #sleep 15
 #python script_2.0.py /home/indrajeet/git/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 35 30 4.4 '0x1' '0xF'
 #sleep 15
-python script_2.0.py /home/indrajeet/git/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 40 30 4.4 '0x1' '0xF'
+#python script_2.0.py /home/indrajeet/git/Computational-Sprinting-for-Browsers/Webpages/25_Pages 3000 40 30 4.4 '0x1' '0xF'
