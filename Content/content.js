@@ -19,8 +19,6 @@ window.onload = function () {
 	query = window.location.href;
 	//alert(cutUrl(query));
 	var answers = cutUrl(query) + '_' + p.prerequestTime + '_' + p.latencyTime + '_' + p.serverTime + '_' + p.domLoadingTime + '_' + p.domCompleteTime + '_' + p.loadTime + '_' + p.onloadTime;
-	//var answers = cutUrl(query) + '_PreRequest:' + p.prerequestTime + '_Latency:' + p.latencyTime + '_Server:' + p.serverTime + '_DOMLoading:' + p.domLoadingTime + '_DOMComplete:' + p.domCompleteTime + '_Load:' + p.loadTime + '_TotalTime:' + p.onloadTime;
-
 	//console.log(answers);
 	//chrome.runtime.sendMessage({from:"script1",message:"hello!"});
 	//alert(answers);

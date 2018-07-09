@@ -56,19 +56,19 @@ sprinted_pids = []
 
 with open(webpages,'r') as queries:
 	for line in queries:
-		proc = subprocess.Popen(['taskset',base_cores,'google-chrome','--load-extension=/home/indrajeet/Downloads/Content','--new-window ',line], shell=False, stdout=FNULL, stderr=subprocess.STDOUT)
+		proc = subprocess.Popen(['base',taskset_cores,'google-chrome','--load-extension=/home/indrajeet/Desktop/Computational-Sprinting-for-Browsers/Content','--new-window ',line], shell=False, stdout=FNULL, stderr=subprocess.STDOUT)
 		pids = subprocess_cmd("ps -eo pid,etimes,comm | awk '$3~/chrome/ {print $1}'")
 		etimes = subprocess_cmd("ps -eo pid,etimes,comm | awk '$3~/chrome/ {print $2}'")
 		pids_int = [int(s) for s in pids.split('\n')]
 		etimes_float = [float(s) for s in etimes.split('\n')]
-		for idx,etime in enumerate(etimes_float[15:]):
+		for idx,etime in enumerate(etimes_float[5:]):
 			try:
 				if etime>float(sprint_timeout) and sum(energy_actual) < float(energy_budget) and pids_int[15+idx] not in sprinted_pids:
 					proc2 = subprocess.Popen(['taskset','-p',sprint_cores,str(pids_int[15+idx])],stdout=f)
 					sprinted_pids.append(pids_int[15+idx])
 			except IndexError:
 				f.write("\nIndex Error\n")
-		for idx,etime in enumerate(etimes_float[15:]):
+		for idx,etime in enumerate(etimes_float[5:]):
 			if etime>float(kill_timeout):
 				try:
 					proc1 = subprocess.Popen(['kill','-15',str(pids_int[15+idx])])

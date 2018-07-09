@@ -31,3 +31,14 @@ for root,dirs,files in os.walk(path):
 			#print '85th Percentile: ' + str(percentile_85)
 			#print '95th Percentile: ' + str(percentile_95)
 
+
+#Constructing tables is what we are looking for here
+#there are two types of tables: energy budget as a major constant and timeout for sprinting as a major constant
+
+#EB vs EC 
+#EB vs ALT
+#EB vs PL
+#EB vs MLT
+#EB vs 75TH
+#TFS vs EC
+#TFS vs ALT
