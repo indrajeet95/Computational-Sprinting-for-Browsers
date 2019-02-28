@@ -8,8 +8,6 @@ This project implements sprinting techniques on the Chrome Browser to speed up p
 
 This directory contains a Chrome extension that uses a content script to record network activity and sends the data to background.js using Chrome's Message Passing API. Later, this data is stored in a local SQL database that is hosted on a PHP server which listens for GET requests. XHR is used for sending out the GET requests from background.js. We have used the **Web Performance Timing API** to record network activity.
 
-ToDo: To add connect.php
-
 ### Multiple URL Opener
 
 A Chrome extension that opens up a seperate tab with space to list the URLs of web pages that we would want to load and also provides a delay timer which is the gap between page loads.
