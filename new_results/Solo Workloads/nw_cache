@@ -1,0 +1,47 @@
+[saravanan.8@sdl898-stewart4 nw]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k ./needle 16384 100 32
+/tmp/5449
+Allocating log for 5449, 10898
+/tmp/5449
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k ./needle 16384 100 32':
+
+    24,778,917,664      LLC-loads                                                     (66.64%)
+    22,727,152,252      LLC-load-misses           #   91.72% of all LL-cache hits     (66.68%)
+     3,650,243,190      LLC-stores                                                    (66.68%)
+   <not supported>      LLC-prefetches
+
+     337.577822629 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 nw]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3;cpu=0-7' -c 0-7 -k ./needle 16384 100 32
+/tmp/5870
+Allocating log for 5870, 11740
+/tmp/5870
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0x3;cpu=0-7 -c 0-7 -k ./needle 16384 100 32':
+
+    17,997,600,125      LLC-loads                                                     (66.66%)
+    15,418,372,649      LLC-load-misses           #   85.67% of all LL-cache hits     (66.63%)
+     3,396,396,907      LLC-stores                                                    (66.70%)
+   <not supported>      LLC-prefetches
+
+     203.881938857 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 nw]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7;cpu=0-7' -c 0-7 -k ./needle 16384 100 32
+/tmp/5914
+Allocating log for 5914, 11828
+/tmp/5914
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0x7;cpu=0-7 -c 0-7 -k ./needle 16384 100 32':
+
+    14,742,060,003      LLC-loads                                                     (66.74%)
+    12,014,551,442      LLC-load-misses           #   81.50% of all LL-cache hits     (66.66%)
+     2,827,400,981      LLC-stores                                                    (66.59%)
+   <not supported>      LLC-prefetches
+
+     178.025791789 seconds time elapsed
+

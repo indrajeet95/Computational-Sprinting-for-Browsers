@@ -1,0 +1,191 @@
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1676
+Allocating log for 1676, 3352
+/tmp/1676
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       360,924,566      LLC-loads                                                     (66.66%)
+       274,352,237      LLC-load-misses           #   76.01% of all LL-cache hits     (66.67%)
+       175,128,085      LLC-stores                                                    (66.68%)
+   <not supported>      LLC-prefetches
+
+      76.918026710 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1694
+Allocating log for 1694, 3388
+/tmp/1694
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0x3;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       270,400,801      LLC-loads                                                     (66.66%)
+       128,184,992      LLC-load-misses           #   47.41% of all LL-cache hits     (66.67%)
+       161,404,233      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      69.871129368 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1701
+Allocating log for 1701, 3402
+/tmp/1701
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0x7;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       269,655,197      LLC-loads                                                     (66.67%)
+        96,114,918      LLC-load-misses           #   35.64% of all LL-cache hits     (66.67%)
+       161,194,730      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      70.016805677 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1715
+Allocating log for 1715, 3430
+/tmp/1715
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       270,778,007      LLC-loads                                                     (66.68%)
+        76,654,847      LLC-load-misses           #   28.31% of all LL-cache hits     (66.66%)
+       158,720,407      LLC-stores                                                    (66.66%)
+   <not supported>      LLC-prefetches
+
+      69.457557206 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1f;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1722
+Allocating log for 1722, 3444
+/tmp/1722
+fd = 13
+Reading File
+
+
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0x1f;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       270,817,791      LLC-loads                                                     (66.67%)
+        69,633,108      LLC-load-misses           #   25.71% of all LL-cache hits     (66.67%)
+       160,677,362      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      69.552787404 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3f;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1751
+Allocating log for 1751, 3502
+/tmp/1751
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0x3f;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       271,346,933      LLC-loads                                                     (66.67%)
+        63,936,805      LLC-load-misses           #   23.56% of all LL-cache hits     (66.65%)
+       159,501,212      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      69.424999613 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7f;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1771
+Allocating log for 1771, 3542
+/tmp/1771
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0x7f;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       268,756,564      LLC-loads                                                     (66.67%)
+        60,347,065      LLC-load-misses           #   22.45% of all LL-cache hits     (66.66%)
+       161,316,759      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      69.336258014 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xff;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1778
+Allocating log for 1778, 3556
+/tmp/1778
+fd = 13
+Reading File
+
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0xff;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       273,458,252      LLC-loads                                                     (66.67%)
+        58,809,535      LLC-load-misses           #   21.51% of all LL-cache hits     (66.66%)
+       159,855,382      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      70.087536600 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfff;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1791
+Allocating log for 1791, 3582
+/tmp/1791
+fd = 13
+Reading File
+
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0xfff;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       270,714,043      LLC-loads                                                     (66.66%)
+        56,792,854      LLC-load-misses           #   20.98% of all LL-cache hits     (66.67%)
+       160,860,219      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      69.464341070 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xffff;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+/tmp/1805
+Allocating log for 1805, 3610
+/tmp/1805
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0xffff;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       270,880,556      LLC-loads                                                     (66.66%)
+        54,653,328      LLC-load-misses           #   20.18% of all LL-cache hits     (66.65%)
+       160,931,567      LLC-stores                                                    (66.68%)
+   <not supported>      LLC-prefetches
+
+      69.589861401 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 bfs]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfffff;cpu=0-7' -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt
+CAT: One or more of requested L3 CBMs (MASK: 0xfffff) overlap contention mask.
+/tmp/1812
+Allocating log for 1812, 3624
+/tmp/1812
+fd = 13
+Reading File
+Result stored in result.txt
+
+ Performance counter stats for 'rdtset -t l3=0xfffff;cpu=0-7 -c 0-7 -k ./bfs 4 ../../data/bfs/graph1MW_6.txt':
+
+       270,009,101      LLC-loads                                                     (66.67%)
+        53,793,188      LLC-load-misses           #   19.92% of all LL-cache hits     (66.67%)
+       159,506,202      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      69.346845093 seconds time elapsed

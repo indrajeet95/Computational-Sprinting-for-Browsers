@@ -1,0 +1,491 @@
+rdtset: Interrupt
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+       890,736,679      LLC-loads                                                     (50.01%)
+       798,732,387      LLC-load-misses           #   89.67% of all LL-cache hits     (50.00%)
+       218,260,922      LLC-stores                                                    (49.99%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      10.223289664 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    13,071,665,641      LLC-loads                                                     (50.01%)
+    11,349,572,436      LLC-load-misses           #   86.83% of all LL-cache hits     (50.00%)
+     3,989,364,640      LLC-stores                                                    (49.99%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     159.987981308 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,748,659,985      LLC-loads                                                     (50.00%)
+     1,401,928,326      LLC-load-misses           #   37.40% of all LL-cache hits     (50.00%)
+     5,183,336,887      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.366008050 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    18,085,274,319      LLC-loads                                                     (50.00%)
+    16,429,682,868      LLC-load-misses           #   90.85% of all LL-cache hits     (50.00%)
+     4,284,158,347      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     214.537169701 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,750,088,915      LLC-loads                                                     (50.00%)
+     1,403,385,099      LLC-load-misses           #   37.42% of all LL-cache hits     (50.00%)
+     5,187,189,985      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      42.746065223 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    18,180,997,741      LLC-loads                                                     (50.00%)
+    16,460,050,127      LLC-load-misses           #   90.53% of all LL-cache hits     (50.00%)
+     4,278,755,949      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     214.956205128 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,747,087,748      LLC-loads                                                     (50.00%)
+     1,410,922,395      LLC-load-misses           #   37.65% of all LL-cache hits     (49.99%)
+     5,158,305,771      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.01%)
+
+      43.308221031 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,761,449,913      LLC-loads                                                     (50.00%)
+     1,407,044,081      LLC-load-misses           #   37.41% of all LL-cache hits     (50.00%)
+     5,197,187,315      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.774178627 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,749,914,125      LLC-loads                                                     (50.00%)
+     1,414,890,694      LLC-load-misses           #   37.73% of all LL-cache hits     (49.99%)
+     5,156,923,758      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.01%)
+
+      43.297318877 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,750,372,925      LLC-loads                                                     (50.01%)
+     1,412,309,703      LLC-load-misses           #   37.66% of all LL-cache hits     (50.00%)
+     5,154,602,466      LLC-stores                                                    (49.99%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.281920761 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,750,029,271      LLC-loads                                                     (50.00%)
+     1,405,480,238      LLC-load-misses           #   37.48% of all LL-cache hits     (50.00%)
+     5,180,558,304      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.930298536 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,744,577,114      LLC-loads                                                     (50.00%)
+     1,407,738,146      LLC-load-misses           #   37.59% of all LL-cache hits     (50.00%)
+     5,177,499,061      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.894979565 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,753,098,129      LLC-loads                                                     (50.00%)
+     1,412,538,915      LLC-load-misses           #   37.64% of all LL-cache hits     (50.00%)
+     5,175,945,091      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.517594869 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    19,471,797,498      LLC-loads                                                     (50.00%)
+    17,796,146,831      LLC-load-misses           #   91.39% of all LL-cache hits     (50.00%)
+     4,335,578,537      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     226.135925097 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,738,441,171      LLC-loads                                                     (50.00%)
+     1,401,106,852      LLC-load-misses           #   37.48% of all LL-cache hits     (50.00%)
+     5,180,173,426      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.380306207 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    18,553,018,887      LLC-loads                                                     (50.00%)
+    16,864,001,223      LLC-load-misses           #   90.90% of all LL-cache hits     (50.00%)
+     4,240,893,563      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     216.565959199 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,740,668,424      LLC-loads                                                     (50.00%)
+     1,403,228,496      LLC-load-misses           #   37.51% of all LL-cache hits     (50.00%)
+     5,180,875,357      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.027001236 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,752,290,970      LLC-loads                                                     (50.00%)
+     1,406,530,659      LLC-load-misses           #   37.48% of all LL-cache hits     (50.00%)
+     5,184,056,460      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.053799734 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,755,689,876      LLC-loads                                                     (50.01%)
+     1,420,374,506      LLC-load-misses           #   37.82% of all LL-cache hits     (50.00%)
+     5,176,078,917      LLC-stores                                                    (49.99%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.221890910 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,730,286,313      LLC-loads                                                     (50.00%)
+     1,397,766,010      LLC-load-misses           #   37.47% of all LL-cache hits     (50.00%)
+     5,159,423,389      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.790430812 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,751,053,143      LLC-loads                                                     (50.00%)
+     1,408,500,276      LLC-load-misses           #   37.55% of all LL-cache hits     (50.00%)
+     5,191,523,296      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.654154846 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,733,181,102      LLC-loads                                                     (50.00%)
+     1,398,184,305      LLC-load-misses           #   37.45% of all LL-cache hits     (50.00%)
+     5,151,424,496      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.868076685 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,758,292,080      LLC-loads                                                     (50.00%)
+     1,408,421,923      LLC-load-misses           #   37.48% of all LL-cache hits     (50.00%)
+     5,206,739,971      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.955299560 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,749,884,060      LLC-loads                                                     (50.00%)
+     1,405,172,470      LLC-load-misses           #   37.47% of all LL-cache hits     (50.00%)
+     5,169,828,546      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.743585749 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,753,898,973      LLC-loads                                                     (50.00%)
+     1,418,532,176      LLC-load-misses           #   37.79% of all LL-cache hits     (50.00%)
+     5,184,573,233      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.389400727 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    18,471,560,944      LLC-loads                                                     (50.00%)
+    16,798,746,980      LLC-load-misses           #   90.94% of all LL-cache hits     (50.00%)
+     4,283,421,070      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     215.475815587 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,747,304,193      LLC-loads                                                     (50.00%)
+     1,417,091,325      LLC-load-misses           #   37.82% of all LL-cache hits     (50.00%)
+     5,159,458,559      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      42.779549316 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    18,326,890,550      LLC-loads                                                     (50.00%)
+    16,666,349,865      LLC-load-misses           #   90.94% of all LL-cache hits     (50.00%)
+     4,220,631,551      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     202.977959132 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,740,169,664      LLC-loads                                                     (50.00%)
+     1,405,970,565      LLC-load-misses           #   37.59% of all LL-cache hits     (50.00%)
+     5,171,896,273      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.547192700 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,758,383,082      LLC-loads                                                     (50.00%)
+     1,407,950,991      LLC-load-misses           #   37.46% of all LL-cache hits     (50.00%)
+     5,182,136,649      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.647981284 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,756,472,407      LLC-loads                                                     (50.00%)
+     1,412,737,545      LLC-load-misses           #   37.61% of all LL-cache hits     (50.00%)
+     5,188,346,344      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.709278134 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,727,254,846      LLC-loads                                                     (50.00%)
+     1,398,336,416      LLC-load-misses           #   37.52% of all LL-cache hits     (50.00%)
+     5,157,521,087      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.733477532 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,757,461,758      LLC-loads                                                     (50.01%)
+     1,412,172,419      LLC-load-misses           #   37.58% of all LL-cache hits     (49.99%)
+     5,179,980,863      LLC-stores                                                    (49.99%)
+                 0      LLC-store-misses                                              (50.01%)
+
+      44.226659305 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,741,648,615      LLC-loads                                                     (50.00%)
+     1,400,083,542      LLC-load-misses           #   37.42% of all LL-cache hits     (50.00%)
+     5,161,622,838      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.896164134 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,737,564,789      LLC-loads                                                     (50.00%)
+     1,410,676,110      LLC-load-misses           #   37.74% of all LL-cache hits     (50.00%)
+     5,158,888,943      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.274857469 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,764,401,923      LLC-loads                                                     (49.99%)
+     1,401,331,058      LLC-load-misses           #   37.23% of all LL-cache hits     (50.00%)
+     5,213,677,879      LLC-stores                                                    (50.01%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      44.440182400 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,741,727,107      LLC-loads                                                     (50.00%)
+     1,407,627,513      LLC-load-misses           #   37.62% of all LL-cache hits     (50.00%)
+     5,175,595,497      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.739497172 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    17,544,842,270      LLC-loads                                                     (50.00%)
+    15,852,456,122      LLC-load-misses           #   90.35% of all LL-cache hits     (50.00%)
+     4,200,302,990      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     205.510102809 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,758,746,872      LLC-loads                                                     (50.00%)
+     1,410,352,015      LLC-load-misses           #   37.52% of all LL-cache hits     (50.00%)
+     5,190,588,377      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.127377873 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    17,072,097,664      LLC-loads                                                     (50.00%)
+    15,348,240,914      LLC-load-misses           #   89.90% of all LL-cache hits     (50.00%)
+     4,281,453,094      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+     197.286010082 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,757,579,250      LLC-loads                                                     (50.00%)
+     1,411,409,681      LLC-load-misses           #   37.56% of all LL-cache hits     (50.00%)
+     5,199,525,052      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.582474069 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,741,774,251      LLC-loads                                                     (50.00%)
+     1,405,454,665      LLC-load-misses           #   37.56% of all LL-cache hits     (50.00%)
+     5,152,489,535      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.716240422 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,747,783,635      LLC-loads                                                     (50.00%)
+     1,409,548,751      LLC-load-misses           #   37.61% of all LL-cache hits     (50.00%)
+     5,188,894,501      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.375463895 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,740,728,159      LLC-loads                                                     (50.00%)
+     1,408,822,627      LLC-load-misses           #   37.66% of all LL-cache hits     (50.00%)
+     5,178,908,115      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.281596286 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,735,704,005      LLC-loads                                                     (50.00%)
+     1,405,820,914      LLC-load-misses           #   37.63% of all LL-cache hits     (50.00%)
+     5,152,493,555      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.480777311 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,750,084,239      LLC-loads                                                     (50.00%)
+     1,413,388,731      LLC-load-misses           #   37.69% of all LL-cache hits     (50.00%)
+     5,159,467,945      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.894213195 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,733,630,276      LLC-loads                                                     (50.00%)
+     1,402,684,868      LLC-load-misses           #   37.57% of all LL-cache hits     (50.00%)
+     5,155,770,830      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      44.184314095 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,763,896,391      LLC-loads                                                     (50.00%)
+     1,416,094,641      LLC-load-misses           #   37.62% of all LL-cache hits     (50.00%)
+     5,204,689,084      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      44.140625789 seconds time elapsed
+
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+     3,735,081,107      LLC-loads                                                     (50.00%)
+     1,401,336,219      LLC-load-misses           #   37.52% of all LL-cache hits     (50.00%)
+     5,155,867,445      LLC-stores                                                    (50.00%)
+                 0      LLC-store-misses                                              (50.00%)
+
+      43.916755465 seconds time elapsed
+

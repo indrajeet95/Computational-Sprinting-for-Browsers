@@ -1,0 +1,186 @@
+Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+cache size	: 20480 KB
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 43.283812
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+        33,362,380      LLC-loads                                                     (66.67%)
+        29,955,204      LLC-load-misses           #   89.79% of all LL-cache hits     (66.67%)
+         2,530,472      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      44.284467698 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.863887
+
+ Performance counter stats for 'rdtset -t l3=0x3;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,471,972      LLC-loads                                                     (66.67%)
+         4,019,659      LLC-load-misses           #   53.80% of all LL-cache hits     (66.67%)
+         2,270,078      LLC-stores                                                    (66.66%)
+   <not supported>      LLC-prefetches
+
+      42.861445185 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.787628
+
+ Performance counter stats for 'rdtset -t l3=0x7;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,824,810      LLC-loads                                                     (66.67%)
+         4,026,762      LLC-load-misses           #   51.46% of all LL-cache hits     (66.67%)
+         2,515,345      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.785309027 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.791297
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,559,248      LLC-loads                                                     (66.67%)
+         4,027,960      LLC-load-misses           #   53.29% of all LL-cache hits     (66.67%)
+         2,314,874      LLC-stores                                                    (66.66%)
+   <not supported>      LLC-prefetches
+
+      42.789618083 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1f;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.797059
+
+ Performance counter stats for 'rdtset -t l3=0x1f;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,710,560      LLC-loads                                                     (66.67%)
+         4,065,405      LLC-load-misses           #   52.73% of all LL-cache hits     (66.67%)
+         2,645,489      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.794618174 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3f;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.806524
+
+ Performance counter stats for 'rdtset -t l3=0x3f;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,695,967      LLC-loads                                                     (66.67%)
+         4,067,361      LLC-load-misses           #   52.85% of all LL-cache hits     (66.67%)
+         2,533,228      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.805451472 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7f;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.793603
+
+ Performance counter stats for 'rdtset -t l3=0x7f;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,538,317      LLC-loads                                                     (66.67%)
+         3,919,533      LLC-load-misses           #   51.99% of all LL-cache hits     (66.67%)
+         2,524,526      LLC-stores                                                    (66.66%)
+   <not supported>      LLC-prefetches
+
+      42.790611904 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xff;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.767098
+
+ Performance counter stats for 'rdtset -t l3=0xff;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,553,998      LLC-loads                                                     (66.67%)
+         3,905,135      LLC-load-misses           #   51.70% of all LL-cache hits     (66.67%)
+         2,468,420      LLC-stores                                                    (66.66%)
+   <not supported>      LLC-prefetches
+
+      42.764718048 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfff;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.794872
+
+ Performance counter stats for 'rdtset -t l3=0xfff;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,684,123      LLC-loads                                                     (66.67%)
+         3,853,838      LLC-load-misses           #   50.15% of all LL-cache hits     (66.67%)
+         2,521,693      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.792034572 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xffff;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.800340
+
+ Performance counter stats for 'rdtset -t l3=0xffff;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,523,791      LLC-loads                                                     (66.67%)
+         3,868,153      LLC-load-misses           #   51.41% of all LL-cache hits     (66.67%)
+         2,294,344      LLC-stores                                                    (66.66%)
+   <not supported>      LLC-prefetches
+
+      42.797892125 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 kmeans]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfffff;cpu=0-7' -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup
+CAT: One or more of requested L3 CBMs (MASK: 0xfffff) overlap contention mask.
+I/O completed
+number of Clusters 20
+number of Attributes 34
+
+Time for process: 41.797765
+
+ Performance counter stats for 'rdtset -t l3=0xfffff;cpu=0-7 -c 0-7 -k ./kmeans_serial/kmeans -k 20 -i ../../data/kmeans/kdd_cup':
+
+         7,606,803      LLC-loads                                                     (66.67%)
+         4,010,301      LLC-load-misses           #   52.72% of all LL-cache hits     (66.67%)
+         2,456,334      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.794619612 seconds time elapsed

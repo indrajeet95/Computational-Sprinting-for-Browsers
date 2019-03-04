@@ -1,0 +1,777 @@
+Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+cache size	: 20480 KB
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ LL
+Running using 8 threads...
+/tmp/2358
+Allocating log for 2358, 4716
+/tmp/2358
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 238.904750
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    21,080,773,971      LLC-loads                                                     (66.67%)
+    19,380,723,731      LLC-load-misses           #   91.94% of all LL-cache hits     (66.67%)
+     4,208,340,411      LLC-stores                                                    (66.66%)
+   <not supported>      LLC-prefetches
+
+     238.919897524 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2372
+Allocating log for 2372, 4744
+/tmp/2372
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 47.801662
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x3;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     4,019,928,756      LLC-loads                                                     (66.67%)
+     1,784,080,791      LLC-load-misses           #   44.38% of all LL-cache hits     (66.66%)
+     4,830,385,514      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      47.815054847 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2384
+Allocating log for 2384, 4768
+/tmp/2384
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.532631
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x7;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,663,638,215      LLC-loads                                                     (66.67%)
+     1,369,000,307      LLC-load-misses           #   37.37% of all LL-cache hits     (66.67%)
+     5,018,215,642      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.547508854 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2420
+Allocating log for 2420, 4840
+/tmp/2420
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.098570
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,726,645,510      LLC-loads                                                     (66.67%)
+     1,388,628,701      LLC-load-misses           #   37.26% of all LL-cache hits     (66.67%)
+     5,177,582,053      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.113726773 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1f;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2437
+Allocating log for 2437, 4874
+/tmp/2437
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.549113
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x1f;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,784,754,866      LLC-loads                                                     (66.67%)
+     1,417,891,459      LLC-load-misses           #   37.46% of all LL-cache hits     (66.67%)
+     5,254,974,803      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.563950408 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3f;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2336
+Allocating log for 2336, 4672
+/tmp/2336
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 41.643360
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x3f;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,758,698,912      LLC-loads                                                     (66.67%)
+     1,394,875,938      LLC-load-misses           #   37.11% of all LL-cache hits     (66.67%)
+     5,239,169,030      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      41.658063019 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7f;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2455
+Allocating log for 2455, 4910
+/tmp/2455
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.451738
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x7f;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,810,001,728      LLC-loads                                                     (66.67%)
+     1,417,181,540      LLC-load-misses           #   37.20% of all LL-cache hits     (66.67%)
+     5,330,542,545      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.464879036 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xff;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2470
+Allocating log for 2470, 4940
+/tmp/2470
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.407721
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,813,077,330      LLC-loads                                                     (66.67%)
+     1,427,850,527      LLC-load-misses           #   37.45% of all LL-cache hits     (66.67%)
+     5,325,297,684      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.421628666 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfff;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2483
+Allocating log for 2483, 4966
+/tmp/2483
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.421706
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xfff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,807,093,524      LLC-loads                                                     (66.67%)
+     1,435,979,887      LLC-load-misses           #   37.72% of all LL-cache hits     (66.66%)
+     5,327,205,737      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.435826442 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xffff;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/2494
+Allocating log for 2494, 4988
+/tmp/2494
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.168793
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xffff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,812,196,270      LLC-loads                                                     (66.67%)
+     1,447,429,363      LLC-load-misses           #   37.97% of all LL-cache hits     (66.67%)
+     5,335,179,900      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      42.182944407 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfffff;cpu=0-7' -c 0-7 -k ./jacobi
+CAT: One or more of requested L3 CBMs (MASK: 0xfffff) overlap contention mask.
+Running using 8 threads...
+/tmp/2509
+Allocating log for 2509, 5018
+/tmp/2509
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.424090
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xfffff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+     3,812,151,383      LLC-loads                                                     (66.67%)
+     1,424,949,609      LLC-load-misses           #   37.38% of all LL-cache hits     (66.67%)
+     5,368,317,745      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      43.437011770 seconds time elapsed
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6588
+Allocating log for 6588, 13176
+/tmp/6588
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 173.423462
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    57,605,398,257      L1-dcache-load-misses     #   29.31% of all L1-dcache hits    (27.59%)
+   196,533,123,395      L1-dcache-loads                                               (27.59%)
+    62,076,374,987      L1-dcache-stores                                              (27.59%)
+       940,384,253      L1-icache-load-misses                                         (27.59%)
+    15,194,087,923      LLC-loads                                                     (27.59%)
+    13,080,361,100      LLC-load-misses           #   86.09% of all LL-cache hits     (27.59%)
+     4,509,450,875      LLC-stores                                                    (6.89%)
+                 0      LLC-store-misses                                              (6.90%)
+       105,004,358      branch-load-misses                                            (10.34%)
+    71,414,214,554      branch-loads                                                  (13.79%)
+    26,506,059,177      offcore_response.all_requests.llc_hit.any_response                                     (13.79%)
+   165,245,932,993      mem_load_uops_retired.l1_hit                                     (17.24%)
+     8,725,150,055      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,381,990,497      mem_load_uops_retired.l2_hit                                     (24.13%)
+     6,269,001,006      mem_load_uops_retired.l2_miss                                     (27.58%)
+     1,367,892,860      mem_load_uops_retired.l3_hit                                     (13.79%)
+     4,741,929,088      mem_load_uops_retired.l3_miss                                     (13.79%)
+   183,899,677,377      mem_uops_retired.all_loads                                     (13.79%)
+    52,872,933,045      mem_uops_retired.all_stores                                     (13.79%)
+    11,096,451,790      l2_rqsts.l2_pf_hit                                            (17.24%)
+    37,594,726,374      l2_rqsts.l2_pf_miss                                           (20.69%)
+    67,102,742,254      l2_rqsts.miss                                                 (24.14%)
+    99,291,574,521      l2_rqsts.references                                           (27.59%)
+       234,073,976      l2_rqsts.code_rd_hit                                          (27.59%)
+     1,097,889,884      l2_rqsts.code_rd_miss                                         (27.59%)
+     1,330,026,133      l2_rqsts.all_code_rd                                          (27.59%)
+    15,895,945,003      l2_rqsts.all_demand_data_rd                                     (27.59%)
+    18,530,282,654      l2_rqsts.all_demand_miss                                      (27.59%)
+    26,113,111,150      l2_rqsts.all_demand_references                                     (27.59%)
+
+     173.440271426 seconds time elapsed
+     
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0x3;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6539
+Allocating log for 6539, 13078
+/tmp/6539
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 47.281493
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x3;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,813,818,215      L1-dcache-load-misses     #   19.54% of all L1-dcache hits    (27.58%)
+   183,324,689,447      L1-dcache-loads                                               (27.58%)
+    60,570,007,095      L1-dcache-stores                                              (27.58%)
+       103,331,275      L1-icache-load-misses                                         (27.58%)
+     3,911,480,972      LLC-loads                                                     (27.59%)
+     1,642,765,027      LLC-load-misses           #   42.00% of all LL-cache hits     (27.59%)
+     4,882,844,055      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        51,689,858      branch-load-misses                                            (10.35%)
+    27,920,118,284      branch-loads                                                  (13.80%)
+    27,628,227,925      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   156,354,141,521      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,582,902,178      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,437,930,246      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,146,008,237      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,845,846,427      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,291,403,242      mem_load_uops_retired.l3_miss                                     (13.79%)
+   181,429,501,679      mem_uops_retired.all_loads                                     (13.79%)
+    59,719,176,673      mem_uops_retired.all_stores                                     (13.79%)
+    12,351,587,288      l2_rqsts.l2_pf_hit                                            (17.24%)
+    26,480,112,967      l2_rqsts.l2_pf_miss                                           (20.69%)
+    38,201,131,267      l2_rqsts.miss                                                 (24.13%)
+    71,728,009,509      l2_rqsts.references                                           (27.58%)
+         8,836,034      l2_rqsts.code_rd_hit                                          (27.58%)
+       143,071,671      l2_rqsts.code_rd_miss                                         (27.58%)
+       152,109,067      l2_rqsts.all_code_rd                                          (27.58%)
+     5,278,216,209      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,440,152,489      l2_rqsts.all_demand_miss                                      (27.58%)
+    14,087,776,467      l2_rqsts.all_demand_references                                     (27.58%)
+
+      47.295320322 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0x7;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6521
+Allocating log for 6521, 13042
+/tmp/6521
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.687285
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x7;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,177,889,100      L1-dcache-load-misses     #   19.34% of all L1-dcache hits    (27.58%)
+   181,844,933,174      L1-dcache-loads                                               (27.58%)
+    60,278,700,216      L1-dcache-stores                                              (27.58%)
+        82,814,787      L1-icache-load-misses                                         (27.58%)
+     3,686,533,664      LLC-loads                                                     (27.58%)
+     1,377,635,061      LLC-load-misses           #   37.37% of all LL-cache hits     (27.58%)
+     5,091,572,059      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,795,631      branch-load-misses                                            (10.35%)
+    26,045,661,713      branch-loads                                                  (13.80%)
+    27,562,763,257      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   155,192,629,071      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,587,138,904      mem_load_uops_retired.l1_miss                                     (20.70%)
+     2,490,942,838      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,099,082,298      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,889,475,478      mem_load_uops_retired.l3_hit                                     (13.80%)
+     1,197,955,345      mem_load_uops_retired.l3_miss                                     (13.80%)
+   181,589,947,239      mem_uops_retired.all_loads                                     (13.79%)
+    60,097,692,169      mem_uops_retired.all_stores                                     (13.80%)
+    12,933,793,548      l2_rqsts.l2_pf_hit                                            (17.24%)
+    25,389,582,801      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,683,043,746      l2_rqsts.miss                                                 (24.14%)
+    70,773,659,760      l2_rqsts.references                                           (27.58%)
+         4,652,703      l2_rqsts.code_rd_hit                                          (27.58%)
+       116,569,183      l2_rqsts.code_rd_miss                                         (27.58%)
+       121,506,494      l2_rqsts.all_code_rd                                          (27.58%)
+     5,121,787,133      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,388,660,839      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,833,277,853      l2_rqsts.all_demand_references                                     (27.58%)
+
+      43.702578357 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6482
+Allocating log for 6482, 12964
+/tmp/6482
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 41.741490
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,136,619,309      L1-dcache-load-misses     #   19.30% of all L1-dcache hits    (27.57%)
+   182,021,369,156      L1-dcache-loads                                               (27.57%)
+    60,216,721,966      L1-dcache-stores                                              (27.57%)
+        79,554,092      L1-icache-load-misses                                         (27.58%)
+     3,606,642,091      LLC-loads                                                     (27.58%)
+     1,308,827,863      LLC-load-misses           #   36.29% of all LL-cache hits     (27.58%)
+     4,984,480,684      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,599,617      branch-load-misses                                            (10.35%)
+    26,617,759,074      branch-loads                                                  (13.80%)
+    27,210,380,601      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   156,213,227,097      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,580,441,410      mem_load_uops_retired.l1_miss                                     (20.70%)
+     2,559,577,760      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,021,483,315      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,874,356,536      mem_load_uops_retired.l3_hit                                     (13.80%)
+     1,134,121,664      mem_load_uops_retired.l3_miss                                     (13.80%)
+   181,988,361,583      mem_uops_retired.all_loads                                     (13.80%)
+    60,071,021,662      mem_uops_retired.all_stores                                     (13.80%)
+    12,865,959,574      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,977,557,865      l2_rqsts.l2_pf_miss                                           (20.69%)
+    35,894,123,777      l2_rqsts.miss                                                 (24.14%)
+    70,316,340,078      l2_rqsts.references                                           (27.59%)
+         3,847,451      l2_rqsts.code_rd_hit                                          (27.59%)
+       113,227,336      l2_rqsts.code_rd_miss                                         (27.58%)
+       117,225,965      l2_rqsts.all_code_rd                                          (27.58%)
+     5,143,174,239      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,235,922,010      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,824,374,399      l2_rqsts.all_demand_references                                     (27.58%)
+
+      41.756483787 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0x1f;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6262
+Allocating log for 6262, 12524
+/tmp/6262
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 41.462401
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x1f;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,139,132,347      L1-dcache-load-misses     #   19.39% of all L1-dcache hits    (27.58%)
+   181,216,862,572      L1-dcache-loads                                               (27.58%)
+    60,271,126,304      L1-dcache-stores                                              (27.58%)
+        75,317,691      L1-icache-load-misses                                         (27.58%)
+     3,665,047,211      LLC-loads                                                     (27.58%)
+     1,337,694,663      LLC-load-misses           #   36.50% of all LL-cache hits     (27.58%)
+     4,935,639,859      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,641,634      branch-load-misses                                            (10.35%)
+    25,747,941,463      branch-loads                                                  (13.80%)
+    27,374,083,046      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   153,609,531,812      mem_load_uops_retired.l1_hit                                     (17.24%)
+     5,712,095,162      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,547,737,719      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,086,712,072      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,905,806,421      mem_load_uops_retired.l3_hit                                     (13.80%)
+     1,161,359,275      mem_load_uops_retired.l3_miss                                     (13.79%)
+   181,190,262,280      mem_uops_retired.all_loads                                     (13.79%)
+    60,191,798,447      mem_uops_retired.all_stores                                     (13.79%)
+    12,863,529,699      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,796,711,687      l2_rqsts.l2_pf_miss                                           (20.69%)
+    35,956,081,065      l2_rqsts.miss                                                 (24.14%)
+    70,302,169,521      l2_rqsts.references                                           (27.59%)
+         3,994,431      l2_rqsts.code_rd_hit                                          (27.59%)
+       110,630,058      l2_rqsts.code_rd_miss                                         (27.59%)
+       114,684,285      l2_rqsts.all_code_rd                                          (27.59%)
+     5,172,674,607      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,372,174,730      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,843,668,496      l2_rqsts.all_demand_references                                     (27.58%)
+
+      41.477298453 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0x3f;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6250
+Allocating log for 6250, 12500
+/tmp/6250
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 41.567775
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x3f;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,135,533,002      L1-dcache-load-misses     #   19.35% of all L1-dcache hits    (27.58%)
+   181,612,316,037      L1-dcache-loads                                               (27.58%)
+    60,240,987,703      L1-dcache-stores                                              (27.57%)
+        77,023,576      L1-icache-load-misses                                         (27.57%)
+     3,678,224,178      LLC-loads                                                     (27.58%)
+     1,345,215,042      LLC-load-misses           #   36.57% of all LL-cache hits     (27.58%)
+     5,100,384,205      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,568,990      branch-load-misses                                            (10.35%)
+    25,869,686,508      branch-loads                                                  (13.79%)
+    27,372,953,684      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   155,276,127,074      mem_load_uops_retired.l1_hit                                     (17.24%)
+     5,652,143,975      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,561,079,867      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,083,962,870      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,898,883,868      mem_load_uops_retired.l3_hit                                     (13.80%)
+     1,170,252,536      mem_load_uops_retired.l3_miss                                     (13.80%)
+   181,780,530,652      mem_uops_retired.all_loads                                     (13.80%)
+    60,132,117,042      mem_uops_retired.all_stores                                     (13.80%)
+    12,942,568,702      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,775,550,886      l2_rqsts.l2_pf_miss                                           (20.69%)
+    35,899,874,999      l2_rqsts.miss                                                 (24.14%)
+    70,189,890,071      l2_rqsts.references                                           (27.59%)
+         4,890,850      l2_rqsts.code_rd_hit                                          (27.59%)
+       112,438,039      l2_rqsts.code_rd_miss                                         (27.59%)
+       117,450,054      l2_rqsts.all_code_rd                                          (27.59%)
+     5,194,018,045      l2_rqsts.all_demand_data_rd                                     (27.59%)
+     7,405,665,709      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,880,880,043      l2_rqsts.all_demand_references                                     (27.58%)
+
+      41.582479806 seconds time elapsed
+
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0x7f;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6238
+Allocating log for 6238, 12476
+/tmp/6238
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.104516
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0x7f;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,164,214,919      L1-dcache-load-misses     #   19.33% of all L1-dcache hits    (27.58%)
+   181,932,970,864      L1-dcache-loads                                               (27.58%)
+    60,243,509,644      L1-dcache-stores                                              (27.58%)
+        81,044,676      L1-icache-load-misses                                         (27.59%)
+     3,711,238,628      LLC-loads                                                     (27.59%)
+     1,363,083,188      LLC-load-misses           #   36.73% of all LL-cache hits     (27.59%)
+     5,174,562,530      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,767,945      branch-load-misses                                            (10.35%)
+    26,287,694,056      branch-loads                                                  (13.80%)
+    27,522,620,274      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   155,213,914,771      mem_load_uops_retired.l1_hit                                     (17.24%)
+     5,674,328,603      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,577,977,584      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,096,938,712      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,906,591,423      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,177,220,161      mem_load_uops_retired.l3_miss                                     (13.79%)
+   181,945,541,069      mem_uops_retired.all_loads                                     (13.79%)
+    60,144,377,513      mem_uops_retired.all_stores                                     (13.79%)
+    12,905,550,965      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,755,216,304      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,018,967,405      l2_rqsts.miss                                                 (24.13%)
+    70,144,511,599      l2_rqsts.references                                           (27.58%)
+         5,392,360      l2_rqsts.code_rd_hit                                          (27.58%)
+       117,021,641      l2_rqsts.code_rd_miss                                         (27.58%)
+       122,521,869      l2_rqsts.all_code_rd                                          (27.58%)
+     5,242,777,004      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,505,656,054      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,937,849,893      l2_rqsts.all_demand_references                                     (27.58%)
+
+      42.119555887 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xff;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6227
+Allocating log for 6227, 12454
+/tmp/6227
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.602952
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,137,102,247      L1-dcache-load-misses     #   19.28% of all L1-dcache hits    (27.58%)
+   182,213,802,868      L1-dcache-loads                                               (27.58%)
+    60,244,645,428      L1-dcache-stores                                              (27.58%)
+        80,828,468      L1-icache-load-misses                                         (27.58%)
+     3,703,158,677      LLC-loads                                                     (27.58%)
+     1,365,743,560      LLC-load-misses           #   36.88% of all LL-cache hits     (27.59%)
+     5,165,219,490      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,750,747      branch-load-misses                                            (10.35%)
+    26,941,983,720      branch-loads                                                  (13.80%)
+    27,451,095,317      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   155,671,506,723      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,636,076,634      mem_load_uops_retired.l1_miss                                     (20.70%)
+     2,559,011,121      mem_load_uops_retired.l2_hit                                     (24.15%)
+     3,078,233,097      mem_load_uops_retired.l2_miss                                     (27.60%)
+     1,891,479,099      mem_load_uops_retired.l3_hit                                     (13.80%)
+     1,174,229,975      mem_load_uops_retired.l3_miss                                     (13.79%)
+   182,222,183,928      mem_uops_retired.all_loads                                     (13.79%)
+    60,102,367,941      mem_uops_retired.all_stores                                     (13.79%)
+    12,905,608,546      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,745,612,679      l2_rqsts.l2_pf_miss                                           (20.68%)
+    35,973,800,119      l2_rqsts.miss                                                 (24.13%)
+    70,093,771,412      l2_rqsts.references                                           (27.58%)
+         4,556,480      l2_rqsts.code_rd_hit                                          (27.58%)
+       117,220,969      l2_rqsts.code_rd_miss                                         (27.58%)
+       121,900,610      l2_rqsts.all_code_rd                                          (27.58%)
+     5,217,339,633      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,482,514,632      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,911,446,295      l2_rqsts.all_demand_references                                     (27.58%)
+
+      42.617673104 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xfff;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6212
+Allocating log for 6212, 12424
+/tmp/6212
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.307480
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xfff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,156,528,340      L1-dcache-load-misses     #   19.39% of all L1-dcache hits    (27.58%)
+   181,304,935,330      L1-dcache-loads                                               (27.58%)
+    60,229,458,196      L1-dcache-stores                                              (27.58%)
+        88,363,585      L1-icache-load-misses                                         (27.58%)
+     3,741,219,524      LLC-loads                                                     (27.58%)
+     1,384,538,029      LLC-load-misses           #   37.01% of all LL-cache hits     (27.58%)
+     5,265,641,161      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,509,203      branch-load-misses                                            (10.35%)
+    25,016,775,668      branch-loads                                                  (13.79%)
+    27,674,420,851      offcore_response.all_requests.llc_hit.any_response                                     (13.79%)
+   154,634,274,898      mem_load_uops_retired.l1_hit                                     (17.24%)
+     5,584,375,067      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,512,851,358      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,074,047,857      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,889,575,598      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,172,298,318      mem_load_uops_retired.l3_miss                                     (13.79%)
+   181,343,903,455      mem_uops_retired.all_loads                                     (13.79%)
+    60,163,387,650      mem_uops_retired.all_stores                                     (13.79%)
+    13,145,618,162      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,721,339,766      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,196,386,125      l2_rqsts.miss                                                 (24.14%)
+    70,365,355,830      l2_rqsts.references                                           (27.59%)
+         5,341,263      l2_rqsts.code_rd_hit                                          (27.59%)
+       128,385,532      l2_rqsts.code_rd_miss                                         (27.59%)
+       133,774,306      l2_rqsts.all_code_rd                                          (27.59%)
+     5,221,894,527      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,626,549,502      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,944,624,021      l2_rqsts.all_demand_references                                     (27.58%)
+
+      42.322474590 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xffff;cpu=0-7' -c 0-7 -k ./jacobi
+Running using 8 threads...
+/tmp/6188
+Allocating log for 6188, 12376
+/tmp/6188
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 42.584021
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xffff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,162,443,752      L1-dcache-load-misses     #   19.38% of all L1-dcache hits    (27.58%)
+   181,460,072,541      L1-dcache-loads                                               (27.58%)
+    60,253,407,439      L1-dcache-stores                                              (27.58%)
+        98,977,771      L1-icache-load-misses                                         (27.58%)
+     3,783,458,955      LLC-loads                                                     (27.58%)
+     1,430,230,434      LLC-load-misses           #   37.80% of all LL-cache hits     (27.59%)
+     5,308,783,489      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,535,880      branch-load-misses                                            (10.35%)
+    25,298,733,486      branch-loads                                                  (13.80%)
+    27,635,955,409      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   154,873,157,835      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,559,049,033      mem_load_uops_retired.l1_miss                                     (20.70%)
+     2,476,345,488      mem_load_uops_retired.l2_hit                                     (24.15%)
+     3,085,043,217      mem_load_uops_retired.l2_miss                                     (27.60%)
+     1,872,046,471      mem_load_uops_retired.l3_hit                                     (13.80%)
+     1,197,509,966      mem_load_uops_retired.l3_miss                                     (13.80%)
+   181,423,484,694      mem_uops_retired.all_loads                                     (13.80%)
+    60,130,418,970      mem_uops_retired.all_stores                                     (13.79%)
+    13,135,490,654      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,677,474,495      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,250,206,394      l2_rqsts.miss                                                 (24.14%)
+    70,296,761,717      l2_rqsts.references                                           (27.58%)
+         6,399,418      l2_rqsts.code_rd_hit                                          (27.58%)
+       137,577,596      l2_rqsts.code_rd_miss                                         (27.58%)
+       144,072,980      l2_rqsts.all_code_rd                                          (27.58%)
+     5,227,561,744      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,716,346,179      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,959,810,291      l2_rqsts.all_demand_references                                     (27.58%)
+
+      42.598713408 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 jacobi]$ sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xfffff;cpu=0-7' -c 0-7 -k ./jacobi
+CAT: One or more of requested L3 CBMs (MASK: 0xfffff) overlap contention mask.
+Running using 8 threads...
+/tmp/6200
+Allocating log for 6200, 12400
+/tmp/6200
+fd = 13
+heartbeat init'd
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.199359
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xfffff;cpu=0-7 -c 0-7 -k ./jacobi':
+
+    35,174,457,233      L1-dcache-load-misses     #   19.38% of all L1-dcache hits    (27.58%)
+   181,485,188,683      L1-dcache-loads                                               (27.58%)
+    60,262,116,062      L1-dcache-stores                                              (27.59%)
+        92,658,649      L1-icache-load-misses                                         (27.59%)
+     3,830,657,387      LLC-loads                                                     (27.59%)
+     1,453,672,759      LLC-load-misses           #   37.95% of all LL-cache hits     (27.59%)
+     5,382,095,696      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        50,275,008      branch-load-misses                                            (10.35%)
+    25,234,982,517      branch-loads                                                  (13.79%)
+    27,821,416,498      offcore_response.all_requests.llc_hit.any_response                                     (13.79%)
+   154,149,236,611      mem_load_uops_retired.l1_hit                                     (17.24%)
+     5,624,629,340      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,483,686,661      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,142,124,099      mem_load_uops_retired.l2_miss                                     (27.58%)
+     1,903,709,952      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,224,836,594      mem_load_uops_retired.l3_miss                                     (13.79%)
+   181,354,479,816      mem_uops_retired.all_loads                                     (13.79%)
+    60,161,304,965      mem_uops_retired.all_stores                                     (13.79%)
+    13,237,538,411      l2_rqsts.l2_pf_hit                                            (17.24%)
+    24,675,443,616      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,431,508,573      l2_rqsts.miss                                                 (24.13%)
+    70,385,411,505      l2_rqsts.references                                           (27.58%)
+         8,977,589      l2_rqsts.code_rd_hit                                          (27.58%)
+       135,672,374      l2_rqsts.code_rd_miss                                         (27.58%)
+       144,760,071      l2_rqsts.all_code_rd                                          (27.58%)
+     5,267,047,535      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,831,686,716      l2_rqsts.all_demand_miss                                      (27.58%)
+    14,012,926,860      l2_rqsts.all_demand_references                                     (27.58%)
+
+      43.213608872 seconds time elapsed
+
+

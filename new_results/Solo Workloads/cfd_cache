@@ -1,0 +1,242 @@
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/3880
+Allocating log for 3880, 7760
+/tmp/3880
+fd = 13
+heartbeat initialed
+Starting...
+0.0312592 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     5,130,336,955      LLC-loads                                                     (66.67%)
+     4,583,410,479      LLC-load-misses           #   89.34% of all LL-cache hits     (66.67%)
+       977,343,374      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     158.866227199 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/3914
+Allocating log for 3914, 7828
+/tmp/3914
+fd = 13
+heartbeat initialed
+Starting...
+0.0168505 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0x3;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     2,247,683,831      LLC-loads                                                     (66.67%)
+     1,649,445,722      LLC-load-misses           #   73.38% of all LL-cache hits     (66.67%)
+       946,583,258      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      86.211517235 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/3926
+Allocating log for 3926, 7852
+/tmp/3926
+fd = 13
+heartbeat initialed
+Starting...
+0.0167009 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0x7;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,987,452,297      LLC-loads                                                     (66.67%)
+     1,163,319,807      LLC-load-misses           #   58.53% of all LL-cache hits     (66.67%)
+       916,312,187      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      85.462619906 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/3943
+Allocating log for 3943, 7886
+/tmp/3943
+fd = 13
+heartbeat initialed
+Starting...
+0.0153968 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,845,583,739      LLC-loads                                                     (66.67%)
+       830,996,857      LLC-load-misses           #   45.03% of all LL-cache hits     (66.67%)
+       891,088,338      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      78.944592277 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1f;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/3956
+Allocating log for 3956, 7912
+/tmp/3956
+fd = 13
+heartbeat initialed
+Starting...
+0.0149845 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0x1f;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,803,070,870      LLC-loads                                                     (66.67%)
+       659,583,047      LLC-load-misses           #   36.58% of all LL-cache hits     (66.67%)
+       865,330,367      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      76.890823662 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3f;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/3972
+Allocating log for 3972, 7944
+/tmp/3972
+fd = 13
+heartbeat initialed
+Starting...
+0.0147811 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0x3f;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,775,768,897      LLC-loads                                                     (66.67%)
+       575,384,611      LLC-load-misses           #   32.40% of all LL-cache hits     (66.67%)
+       864,893,886      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      75.858145565 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7f;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/3988
+Allocating log for 3988, 7976
+/tmp/3988
+fd = 13
+heartbeat initialed
+Starting...
+0.0143248 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0x7f;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,878,717,998      LLC-loads                                                     (66.67%)
+       468,024,176      LLC-load-misses           #   24.91% of all LL-cache hits     (66.67%)
+       840,931,586      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      73.579330978 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xff;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/4001
+Allocating log for 4001, 8002
+/tmp/4001
+fd = 13
+heartbeat initialed
+Starting...
+0.0139113 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0xff;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,799,088,207      LLC-loads                                                     (66.67%)
+       352,416,622      LLC-load-misses           #   19.59% of all LL-cache hits     (66.67%)
+       802,456,992      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      71.491816237 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfff;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/4025
+Allocating log for 4025, 8050
+/tmp/4025
+fd = 13
+heartbeat initialed
+Starting...
+0.0130727 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0xfff;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,737,514,982      LLC-loads                                                     (66.67%)
+       127,319,192      LLC-load-misses           #    7.33% of all LL-cache hits     (66.67%)
+       683,419,392      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      67.299073493 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xffff;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+/tmp/4036
+Allocating log for 4036, 8072
+/tmp/4036
+fd = 13
+heartbeat initialed
+Starting...
+0.0128112 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0xffff;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,683,696,651      LLC-loads                                                     (66.67%)
+        45,369,912      LLC-load-misses           #    2.69% of all LL-cache hits     (66.67%)
+       572,306,847      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      66.036979721 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 cfd]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfffff;cpu=0-7' -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+CAT: One or more of requested L3 CBMs (MASK: 0xfffff) overlap contention mask.
+/tmp/4051
+Allocating log for 4051, 8102
+/tmp/4051
+fd = 13
+heartbeat initialed
+Starting...
+0.0128809 seconds per iteration
+Saving solution...
+Saved solution...
+Cleaning up...
+Done...
+
+ Performance counter stats for 'rdtset -t l3=0xfffff;cpu=0-7 -c 0-7 -k ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K':
+
+     1,623,819,464      LLC-loads                                                     (66.67%)
+        20,480,700      LLC-load-misses           #    1.26% of all LL-cache hits     (66.67%)
+       478,380,840      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+      66.348442289 seconds time elapsed

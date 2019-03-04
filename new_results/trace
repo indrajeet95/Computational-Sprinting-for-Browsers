@@ -1,0 +1,865 @@
+Waiting for New Jobs:Normal
+09:13:52 head: Job OK (9ea32c19-9966-4e15-8a44-f9787f41e685)
+09:13:52 Result is kept for 500 seconds
+09:13:52 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f1dd3b14dd0>, <pupil_lib.PowerControl instance at 0x7f1dd3b14560>, u'185', u'185', u'1', u'1533215436.22', u'.017850', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.017850', '185', '70', '110', '.0238', '10']) (79e8e5bc-21a0-4908-9bb1-32ad4fb9c706)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/14854
+Allocating log for 14854, 29708
+/tmp/14854
+fd = 13
+heartbeat init'd
+['14854']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.854195
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    35,211,298,390      L1-dcache-load-misses     #   19.31% of all L1-dcache hits    (27.58%)
+   182,331,026,005      L1-dcache-loads                                               (27.58%)
+    60,304,153,072      L1-dcache-stores                                              (27.58%)
+        81,020,182      L1-icache-load-misses                                         (27.59%)
+     3,748,604,563      LLC-loads                                                     (27.59%)
+     1,394,616,222      LLC-load-misses           #   37.20% of all LL-cache hits     (27.59%)
+     5,191,959,689      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        52,098,457      branch-load-misses                                            (10.35%)
+    26,778,528,719      branch-loads                                                  (13.80%)
+    27,610,359,859      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   155,373,183,906      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,634,076,221      mem_load_uops_retired.l1_miss                                     (20.70%)
+     2,489,576,768      mem_load_uops_retired.l2_hit                                     (24.15%)
+     3,145,784,312      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,920,862,541      mem_load_uops_retired.l3_hit                                     (13.80%)
+     1,211,578,524      mem_load_uops_retired.l3_miss                                     (13.79%)
+   181,910,698,059      mem_uops_retired.all_loads                                     (13.79%)
+    60,143,608,951      mem_uops_retired.all_stores                                     (13.79%)
+    13,084,312,121      l2_rqsts.l2_pf_hit                                            (17.24%)
+    25,050,057,507      l2_rqsts.l2_pf_miss                                           (20.68%)
+    36,479,331,162      l2_rqsts.miss                                                 (24.13%)
+    70,627,463,949      l2_rqsts.references                                           (27.58%)
+         4,887,498      l2_rqsts.code_rd_hit                                          (27.58%)
+       120,253,807      l2_rqsts.code_rd_miss                                         (27.58%)
+       125,362,283      l2_rqsts.all_code_rd                                          (27.58%)
+     5,177,528,938      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,564,073,510      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,907,559,408      l2_rqsts.all_demand_references                                     (27.58%)
+
+      43.869751585 seconds time elapsed
+
+Waiting for New Jobs:Normal
+09:14:36 head: Job OK (79e8e5bc-21a0-4908-9bb1-32ad4fb9c706)
+09:14:36 Result is kept for 500 seconds
+09:14:36 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f1dd3b15098>, <pupil_lib.PowerControl instance at 0x7f1dd3b15320>, u'185', u'185', u'1', u'1533215468.63', u'.017850', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.017850', '185', '70', '110', '.0238', '10']) (4e0b342f-e650-46e8-aced-145dccb40340)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/14968
+Allocating log for 14968, 29936
+/tmp/14968
+fd = 13
+heartbeat init'd
+['14968']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.353952
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    35,214,708,824      L1-dcache-load-misses     #   19.26% of all L1-dcache hits    (27.58%)
+   182,865,039,116      L1-dcache-loads                                               (27.58%)
+    60,322,907,487      L1-dcache-stores                                              (27.58%)
+        81,942,284      L1-icache-load-misses                                         (27.59%)
+     3,757,157,957      LLC-loads                                                     (27.59%)
+     1,406,090,965      LLC-load-misses           #   37.42% of all LL-cache hits     (27.58%)
+     5,188,352,577      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.89%)
+        52,567,625      branch-load-misses                                            (10.34%)
+    27,944,481,791      branch-loads                                                  (13.79%)
+    27,610,004,109      offcore_response.all_requests.llc_hit.any_response                                     (13.79%)
+   155,760,398,757      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,645,689,586      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,485,298,720      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,158,726,524      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,919,409,498      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,223,851,813      mem_load_uops_retired.l3_miss                                     (13.79%)
+   182,592,774,684      mem_uops_retired.all_loads                                     (13.79%)
+    60,135,297,839      mem_uops_retired.all_stores                                     (13.79%)
+    13,101,853,145      l2_rqsts.l2_pf_hit                                            (17.24%)
+    25,048,441,817      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,498,170,279      l2_rqsts.miss                                                 (24.14%)
+    70,639,877,271      l2_rqsts.references                                           (27.58%)
+         5,479,152      l2_rqsts.code_rd_hit                                          (27.58%)
+       122,498,476      l2_rqsts.code_rd_miss                                         (27.58%)
+       128,138,315      l2_rqsts.all_code_rd                                          (27.58%)
+     5,177,029,585      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,570,961,237      l2_rqsts.all_demand_miss                                      (27.59%)
+    13,916,294,647      l2_rqsts.all_demand_references                                     (27.59%)
+
+      44.369584967 seconds time elapsed
+
+Waiting for New Jobs:Normal
+09:15:22 head: Job OK (4e0b342f-e650-46e8-aced-145dccb40340)
+09:15:22 Result is kept for 500 seconds
+09:15:22 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f1dd3b157a0>, <pupil_lib.PowerControl instance at 0x7f1dd3b151b8>, u'185', u'185', u'2', u'1533215469.26', u'.017850', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.017850', '185', '70', '110', '.0238', '10']) (a6b7af49-0d70-4d0a-87c6-c77c0bd60926)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/15154
+Allocating log for 15154, 30308
+/tmp/15154
+fd = 13
+heartbeat init'd
+['15154']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.245176
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    35,211,899,417      L1-dcache-load-misses     #   19.24% of all L1-dcache hits    (27.59%)
+   182,985,461,387      L1-dcache-loads                                               (27.59%)
+    60,324,243,196      L1-dcache-stores                                              (27.59%)
+        82,534,987      L1-icache-load-misses                                         (27.59%)
+     3,760,332,516      LLC-loads                                                     (27.59%)
+     1,414,151,696      LLC-load-misses           #   37.61% of all LL-cache hits     (27.59%)
+     5,169,113,151      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        52,579,036      branch-load-misses                                            (10.34%)
+    28,109,386,631      branch-loads                                                  (13.79%)
+    27,541,755,291      offcore_response.all_requests.llc_hit.any_response                                     (13.79%)
+   155,686,961,014      mem_load_uops_retired.l1_hit                                     (17.24%)
+     5,607,785,098      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,452,574,114      mem_load_uops_retired.l2_hit                                     (24.13%)
+     3,156,283,951      mem_load_uops_retired.l2_miss                                     (27.58%)
+     1,913,058,422      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,229,713,471      mem_load_uops_retired.l3_miss                                     (13.79%)
+   182,567,321,679      mem_uops_retired.all_loads                                     (13.79%)
+    60,170,314,233      mem_uops_retired.all_stores                                     (13.79%)
+    13,131,340,353      l2_rqsts.l2_pf_hit                                            (17.24%)
+    25,070,707,880      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,517,918,601      l2_rqsts.miss                                                 (24.13%)
+    70,708,156,141      l2_rqsts.references                                           (27.58%)
+         5,352,300      l2_rqsts.code_rd_hit                                          (27.58%)
+       123,286,177      l2_rqsts.code_rd_miss                                         (27.58%)
+       128,787,477      l2_rqsts.all_code_rd                                          (27.58%)
+     5,138,345,606      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,555,087,321      l2_rqsts.all_demand_miss                                      (27.59%)
+    13,886,443,893      l2_rqsts.all_demand_references                                     (27.59%)
+
+      44.260663890 seconds time elapsed
+
+Waiting for New Jobs:Normal
+09:16:07 head: Job OK (a6b7af49-0d70-4d0a-87c6-c77c0bd60926)
+09:16:07 Result is kept for 500 seconds
+09:16:07 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f1dd3b15488>, <pupil_lib.PowerControl instance at 0x7f1dd3b15098>, u'185', u'185', u'3', u'1533215537.47', u'.017850', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.017850', '185', '70', '110', '.0238', '10']) (812dbeb8-e156-4cf1-867a-49969c1208b9)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/15323
+Allocating log for 15323, 30646
+/tmp/15323
+fd = 13
+heartbeat init'd
+['15323']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.226778
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    35,191,624,440      L1-dcache-load-misses     #   19.26% of all L1-dcache hits    (27.58%)
+   182,717,703,015      L1-dcache-loads                                               (27.58%)
+    60,294,154,868      L1-dcache-stores                                              (27.58%)
+        80,876,633      L1-icache-load-misses                                         (27.58%)
+     3,754,128,518      LLC-loads                                                     (27.58%)
+     1,406,678,986      LLC-load-misses           #   37.47% of all LL-cache hits     (27.59%)
+     5,179,324,537      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        52,555,386      branch-load-misses                                            (10.35%)
+    27,608,864,714      branch-loads                                                  (13.80%)
+    27,592,631,812      offcore_response.all_requests.llc_hit.any_response                                     (13.80%)
+   155,742,597,932      mem_load_uops_retired.l1_hit                                     (17.25%)
+     5,599,500,531      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,449,152,111      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,153,819,620      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,918,339,955      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,223,697,161      mem_load_uops_retired.l3_miss                                     (13.79%)
+   182,754,690,584      mem_uops_retired.all_loads                                     (13.79%)
+    60,199,998,429      mem_uops_retired.all_stores                                     (13.79%)
+    13,164,911,503      l2_rqsts.l2_pf_hit                                            (17.24%)
+    25,096,859,874      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,532,495,968      l2_rqsts.miss                                                 (24.14%)
+    70,759,479,882      l2_rqsts.references                                           (27.59%)
+         5,292,649      l2_rqsts.code_rd_hit                                          (27.58%)
+       121,447,714      l2_rqsts.code_rd_miss                                         (27.58%)
+       126,996,424      l2_rqsts.all_code_rd                                          (27.58%)
+     5,128,752,100      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,546,628,791      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,871,569,365      l2_rqsts.all_demand_references                                     (27.58%)
+
+      44.240281992 seconds time elapsed
+
+Waiting for New Jobs:Normal
+09:16:52 head: Job OK (812dbeb8-e156-4cf1-867a-49969c1208b9)
+09:16:52 Result is kept for 500 seconds
+09:16:52 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f1dd3b15758>, <pupil_lib.PowerControl instance at 0x7f1dd3b157a0>, u'185', u'185', u'4', u'1533215548.91', u'.017850', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.017850', '185', '70', '110', '.0238', '10']) (0d9de354-9592-4a20-a322-e114c4e18cdb)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,branch-load-misses,branch-loads,offcore_response.all_requests.llc_hit.any_response,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references,l2_rqsts.code_rd_hit,l2_rqsts.code_rd_miss,l2_rqsts.all_code_rd,l2_rqsts.all_demand_data_rd,l2_rqsts.all_demand_miss,l2_rqsts.all_demand_references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/15492
+Allocating log for 15492, 30984
+/tmp/15492
+fd = 13
+heartbeat init'd
+['15492']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.754929
+Solution Error :2.623492E-04
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+    35,247,272,924      L1-dcache-load-misses     #   19.25% of all L1-dcache hits    (27.59%)
+   183,064,567,446      L1-dcache-loads                                               (27.59%)
+    60,330,566,368      L1-dcache-stores                                              (27.59%)
+        80,408,081      L1-icache-load-misses                                         (27.59%)
+     3,744,358,478      LLC-loads                                                     (27.59%)
+     1,398,795,963      LLC-load-misses           #   37.36% of all LL-cache hits     (27.59%)
+     5,130,535,649      LLC-stores                                                    (6.90%)
+                 0      LLC-store-misses                                              (6.90%)
+        52,738,697      branch-load-misses                                            (10.34%)
+    28,072,774,185      branch-loads                                                  (13.79%)
+    27,569,697,973      offcore_response.all_requests.llc_hit.any_response                                     (13.79%)
+   155,898,154,020      mem_load_uops_retired.l1_hit                                     (17.24%)
+     5,623,096,540      mem_load_uops_retired.l1_miss                                     (20.69%)
+     2,487,298,654      mem_load_uops_retired.l2_hit                                     (24.14%)
+     3,137,270,457      mem_load_uops_retired.l2_miss                                     (27.59%)
+     1,912,076,593      mem_load_uops_retired.l3_hit                                     (13.79%)
+     1,214,372,524      mem_load_uops_retired.l3_miss                                     (13.79%)
+   182,681,819,657      mem_uops_retired.all_loads                                     (13.79%)
+    60,143,082,743      mem_uops_retired.all_stores                                     (13.79%)
+    13,033,002,001      l2_rqsts.l2_pf_hit                                            (17.24%)
+    25,152,564,757      l2_rqsts.l2_pf_miss                                           (20.69%)
+    36,558,569,612      l2_rqsts.miss                                                 (24.14%)
+    70,687,581,616      l2_rqsts.references                                           (27.58%)
+         5,231,886      l2_rqsts.code_rd_hit                                          (27.58%)
+       121,498,249      l2_rqsts.code_rd_miss                                         (27.58%)
+       126,604,363      l2_rqsts.all_code_rd                                          (27.58%)
+     5,172,339,804      l2_rqsts.all_demand_data_rd                                     (27.58%)
+     7,518,010,995      l2_rqsts.all_demand_miss                                      (27.58%)
+    13,925,839,805      l2_rqsts.all_demand_references                                     (27.58%)
+
+      44.770248103 seconds time elapsed
+
+
+
+
+
+      ------
+      35,224,567,928      L1-dcache-load-misses     #   19.22% of all L1-dcache hits    (44.44%)
+183,255,851,420      L1-dcache-loads                                               (44.44%)
+ 3,746,032,488      LLC-loads                                                     (44.44%)
+ 1,393,280,274      LLC-load-misses           #   37.19% of all LL-cache hits     (44.44%)
+ 5,181,853,259      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+156,178,845,266      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,672,131,281      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,516,742,844      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,163,583,881      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,933,155,515      mem_load_uops_retired.l3_hit                                     (22.23%)
+ 1,220,046,798      mem_load_uops_retired.l3_miss                                     (22.23%)
+182,844,377,271      mem_uops_retired.all_loads                                     (22.22%)
+60,127,145,802      mem_uops_retired.all_stores                                     (22.22%)
+13,060,039,481      l2_rqsts.l2_pf_hit                                            (27.78%)
+25,087,800,183      l2_rqsts.l2_pf_miss                                           (33.34%)
+36,529,265,809      l2_rqsts.miss                                                 (38.89%)
+70,678,698,337      l2_rqsts.references                                           (44.44%)
+
+  44.624692573 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:17:38 head: Job OK (34da72c8-7678-4792-add7-9aa87ded5bb5)
+11:17:38 Result is kept for 500 seconds
+11:17:38 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99b098>, <pupil_lib.PowerControl instance at 0x7f696b99b050>, u'100', u'100', u'6', u'1533222746.7', u'.030940', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.030940', '100', '70', '110', '.0238', '10']) (736ce993-64a7-42f4-8968-4615e216272b)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/25369
+Allocating log for 25369, 50738
+/tmp/25369
+fd = 13
+heartbeat init'd
+['25369']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.270415
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,221,263,631      L1-dcache-load-misses     #   19.26% of all L1-dcache hits    (44.44%)
+182,896,172,276      L1-dcache-loads                                               (44.43%)
+ 3,758,379,905      LLC-loads                                                     (44.43%)
+ 1,402,549,959      LLC-load-misses           #   37.32% of all LL-cache hits     (44.43%)
+ 5,189,958,536      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,332,633,048      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,667,006,678      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,505,695,602      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,163,645,101      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,925,850,155      mem_load_uops_retired.l3_hit                                     (22.23%)
+ 1,225,311,050      mem_load_uops_retired.l3_miss                                     (22.23%)
+182,338,025,623      mem_uops_retired.all_loads                                     (22.23%)
+60,104,963,107      mem_uops_retired.all_stores                                     (22.23%)
+13,093,251,318      l2_rqsts.l2_pf_hit                                            (27.78%)
+25,084,464,102      l2_rqsts.l2_pf_miss                                           (33.34%)
+36,563,731,162      l2_rqsts.miss                                                 (38.89%)
+70,717,447,370      l2_rqsts.references                                           (44.44%)
+
+  44.285502944 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:18:24 head: Job OK (736ce993-64a7-42f4-8968-4615e216272b)
+11:18:24 Result is kept for 500 seconds
+11:18:24 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'7', u'1533222767.82', u'.030940', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.030940', '100', '70', '110', '.0238', '10']) (283fd7cf-3289-4f87-bc8c-d8f54ffe4f9c)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/25537
+Allocating log for 25537, 51074
+/tmp/25537
+fd = 13
+heartbeat init'd
+['25537']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.337456
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,231,546,852      L1-dcache-load-misses     #   19.26% of all L1-dcache hits    (44.44%)
+182,888,112,649      L1-dcache-loads                                               (44.44%)
+ 3,757,842,311      LLC-loads                                                     (44.45%)
+ 1,402,778,280      LLC-load-misses           #   37.33% of all LL-cache hits     (44.45%)
+ 5,188,725,552      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,532,138,164      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,683,785,600      mem_load_uops_retired.l1_miss                                     (22.22%)
+ 2,518,766,764      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,165,903,121      mem_load_uops_retired.l2_miss                                     (33.33%)
+ 1,927,411,426      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,226,341,292      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,270,811,936      mem_uops_retired.all_loads                                     (22.22%)
+60,108,361,779      mem_uops_retired.all_stores                                     (22.22%)
+13,072,671,051      l2_rqsts.l2_pf_hit                                            (27.78%)
+25,093,532,777      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,560,698,132      l2_rqsts.miss                                                 (38.89%)
+70,716,652,191      l2_rqsts.references                                           (44.44%)
+
+  44.352865629 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:19:15 head: Job OK (283fd7cf-3289-4f87-bc8c-d8f54ffe4f9c)
+11:19:15 Result is kept for 500 seconds
+11:19:15 head: pupil_lib.sprintH('jacobi', <pupil_lib.PowerControl instance at 0x7faa44de6f80>, <pupil_lib.PowerControl instance at 0x7faa44df2200>, 100, '100', 0, 1533223154.831256, '.041650', '.0238', '70', '110', '10', '0', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (b03022a5-3e2c-4fc5-b454-7b158dfd1201)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/25742
+Allocating log for 25742, 51484
+/tmp/25742
+fd = 13
+heartbeat init'd
+['25742']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 161.629589
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+54,207,774,276      L1-dcache-load-misses     #   27.63% of all L1-dcache hits    (44.45%)
+196,193,986,040      L1-dcache-loads                                               (44.45%)
+14,356,127,293      LLC-loads                                                     (44.45%)
+12,399,319,518      LLC-load-misses           #   86.37% of all LL-cache hits     (44.45%)
+ 4,556,887,638      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+164,854,123,837      mem_load_uops_retired.l1_hit                                     (16.66%)
+ 8,676,208,271      mem_load_uops_retired.l1_miss                                     (22.22%)
+ 2,404,638,176      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 6,127,561,988      mem_load_uops_retired.l2_miss                                     (33.33%)
+ 1,400,542,427      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 4,549,518,858      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,826,529,942      mem_uops_retired.all_loads                                     (22.22%)
+53,394,103,182      mem_uops_retired.all_stores                                     (22.22%)
+11,042,741,769      l2_rqsts.l2_pf_hit                                            (27.78%)
+36,859,917,892      l2_rqsts.l2_pf_miss                                           (33.33%)
+65,265,587,065      l2_rqsts.miss                                                 (38.89%)
+98,824,386,876      l2_rqsts.references                                           (44.45%)
+
+ 161.646434015 seconds time elapsed
+
+Waiting for New Jobs:Calibration
+11:21:58 head: Job OK (b03022a5-3e2c-4fc5-b454-7b158dfd1201)
+11:21:58 Result is kept for 500 seconds
+11:21:58 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'0', u'1533223161.09', u'.041650', u'.0238', u'70', u'110', u'10', u'1', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (787123bd-536e-4b47-8d4f-b227092436eb)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/26126
+Allocating log for 26126, 52252
+/tmp/26126
+fd = 13
+heartbeat init'd
+['26126']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.517699
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,217,881,863      L1-dcache-load-misses     #   19.29% of all L1-dcache hits    (44.44%)
+182,563,379,904      L1-dcache-loads                                               (44.44%)
+ 3,762,779,787      LLC-loads                                                     (44.44%)
+ 1,412,627,315      LLC-load-misses           #   37.54% of all LL-cache hits     (44.44%)
+ 5,191,807,432      LLC-stores                                                    (11.12%)
+             0      LLC-store-misses                                              (11.11%)
+155,056,479,706      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,656,637,523      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,482,927,607      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,178,095,507      mem_load_uops_retired.l2_miss                                     (33.33%)
+ 1,929,615,037      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,238,384,534      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,155,396,335      mem_uops_retired.all_loads                                     (22.22%)
+60,141,678,609      mem_uops_retired.all_stores                                     (22.22%)
+13,063,447,059      l2_rqsts.l2_pf_hit                                            (27.78%)
+25,016,058,779      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,483,317,468      l2_rqsts.miss                                                 (38.89%)
+70,601,678,715      l2_rqsts.references                                           (44.44%)
+
+  43.532714662 seconds time elapsed
+
+Waiting for New Jobs:Calibration
+11:22:56 head: Job OK (787123bd-536e-4b47-8d4f-b227092436eb)
+11:22:56 Result is kept for 500 seconds
+11:22:56 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'0', u'1533223375.71', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (1d4d6a62-c080-42ae-83eb-ce767a7c4f51)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/26255
+Allocating log for 26255, 52510
+/tmp/26255
+fd = 13
+heartbeat init'd
+['26255']
+CAT: cpu 0 has already associated COS#15. Please reset CAT.
+CAT: Requested CAT configuration is not valid!
+CAT: Failed to configure CAT!
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 163.227131
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+54,540,764,414      L1-dcache-load-misses     #   27.78% of all L1-dcache hits    (44.45%)
+196,316,230,153      L1-dcache-loads                                               (44.45%)
+14,421,016,383      LLC-loads                                                     (44.45%)
+12,505,194,097      LLC-load-misses           #   86.72% of all LL-cache hits     (44.45%)
+ 4,588,168,692      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.10%)
+164,942,510,653      mem_load_uops_retired.l1_hit                                     (16.66%)
+ 8,633,542,260      mem_load_uops_retired.l1_miss                                     (22.21%)
+ 2,385,814,713      mem_load_uops_retired.l2_hit                                     (27.77%)
+ 6,128,697,932      mem_load_uops_retired.l2_miss                                     (33.32%)
+ 1,388,897,977      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 4,588,312,852      mem_load_uops_retired.l3_miss                                     (22.22%)
+183,325,222,012      mem_uops_retired.all_loads                                     (22.22%)
+53,823,651,803      mem_uops_retired.all_stores                                     (22.22%)
+11,074,417,467      l2_rqsts.l2_pf_hit                                            (27.78%)
+36,879,058,096      l2_rqsts.l2_pf_miss                                           (33.33%)
+65,398,698,471      l2_rqsts.miss                                                 (38.89%)
+99,058,718,068      l2_rqsts.references                                           (44.45%)
+
+ 163.244418789 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:25:41 head: Job OK (1d4d6a62-c080-42ae-83eb-ce767a7c4f51)
+11:25:41 Result is kept for 500 seconds
+11:25:41 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'0', u'1533223399.88', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (a0ad5d53-86d9-42fc-9028-97ef928c38ab)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/26449
+Allocating log for 26449, 52898
+/tmp/26449
+fd = 13
+heartbeat init'd
+['26449']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.736726
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,199,756,673      L1-dcache-load-misses     #   19.27% of all L1-dcache hits    (44.44%)
+182,652,840,167      L1-dcache-loads                                               (44.44%)
+ 3,763,263,327      LLC-loads                                                     (44.43%)
+ 1,410,086,904      LLC-load-misses           #   37.47% of all LL-cache hits     (44.44%)
+ 5,216,328,753      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,348,993,230      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,700,654,382      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,521,286,837      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,179,605,824      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,932,327,976      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,237,643,091      mem_load_uops_retired.l3_miss                                     (22.23%)
+182,017,963,955      mem_uops_retired.all_loads                                     (22.23%)
+60,096,148,871      mem_uops_retired.all_stores                                     (22.23%)
+13,071,312,959      l2_rqsts.l2_pf_hit                                            (27.78%)
+24,966,585,761      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,435,524,661      l2_rqsts.miss                                                 (38.89%)
+70,540,860,692      l2_rqsts.references                                           (44.44%)
+
+  43.751896200 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:26:25 head: Job OK (a0ad5d53-86d9-42fc-9028-97ef928c38ab)
+11:26:25 Result is kept for 500 seconds
+11:26:25 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'1', u'1533223434.41', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (6ef8f288-f4c3-4bf8-93f6-25046ede4885)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/26606
+Allocating log for 26606, 53212
+/tmp/26606
+fd = 13
+heartbeat init'd
+['26606']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.597240
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,232,911,314      L1-dcache-load-misses     #   19.24% of all L1-dcache hits    (44.44%)
+183,137,792,284      L1-dcache-loads                                               (44.44%)
+ 3,756,352,623      LLC-loads                                                     (44.44%)
+ 1,404,683,556      LLC-load-misses           #   37.39% of all LL-cache hits     (44.44%)
+ 5,197,252,022      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,891,582,502      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,695,419,808      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,531,893,643      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,166,384,841      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,930,046,317      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,227,136,664      mem_load_uops_retired.l3_miss                                     (22.23%)
+182,803,283,198      mem_uops_retired.all_loads                                     (22.22%)
+60,165,382,889      mem_uops_retired.all_stores                                     (22.22%)
+13,117,541,475      l2_rqsts.l2_pf_hit                                            (27.77%)
+25,091,857,466      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,578,880,606      l2_rqsts.miss                                                 (38.88%)
+70,731,161,193      l2_rqsts.references                                           (44.44%)
+
+  44.612276637 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:27:10 head: Job OK (6ef8f288-f4c3-4bf8-93f6-25046ede4885)
+11:27:10 Result is kept for 500 seconds
+11:27:10 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'2', u'1533223448.3', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (ea2858d8-9293-4713-94f6-8327fa62e055)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/26777
+Allocating log for 26777, 53554
+/tmp/26777
+fd = 13
+heartbeat init'd
+['26777']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.915307
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,202,050,713      L1-dcache-load-misses     #   19.23% of all L1-dcache hits    (44.44%)
+183,050,470,873      L1-dcache-loads                                               (44.44%)
+ 3,753,354,327      LLC-loads                                                     (44.44%)
+ 1,399,347,841      LLC-load-misses           #   37.28% of all LL-cache hits     (44.44%)
+ 5,198,589,334      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,894,513,441      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,702,434,957      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,545,062,033      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,161,760,007      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,930,398,582      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,223,165,213      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,834,278,022      mem_uops_retired.all_loads                                     (22.22%)
+60,155,577,241      mem_uops_retired.all_stores                                     (22.22%)
+13,117,567,785      l2_rqsts.l2_pf_hit                                            (27.77%)
+25,084,825,426      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,567,679,895      l2_rqsts.miss                                                 (38.89%)
+70,707,094,560      l2_rqsts.references                                           (44.44%)
+
+  44.930882571 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:27:55 head: Job OK (ea2858d8-9293-4713-94f6-8327fa62e055)
+11:27:55 Result is kept for 500 seconds
+11:27:55 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'3', u'1533223448.57', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (f1a55feb-aec9-42bd-9bff-d51c599142e1)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/26962
+Allocating log for 26962, 53924
+/tmp/26962
+fd = 13
+heartbeat init'd
+['26962']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.026999
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,213,987,038      L1-dcache-load-misses     #   19.23% of all L1-dcache hits    (44.44%)
+183,105,479,187      L1-dcache-loads                                               (44.44%)
+ 3,757,948,210      LLC-loads                                                     (44.45%)
+ 1,405,023,397      LLC-load-misses           #   37.39% of all LL-cache hits     (44.45%)
+ 5,182,766,461      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,628,774,549      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,670,403,972      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,503,683,806      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,165,747,557      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,926,636,863      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,230,523,688      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,411,874,965      mem_uops_retired.all_loads                                     (22.22%)
+60,108,067,938      mem_uops_retired.all_stores                                     (22.22%)
+13,098,331,762      l2_rqsts.l2_pf_hit                                            (27.77%)
+25,011,873,106      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,468,364,140      l2_rqsts.miss                                                 (38.88%)
+70,639,997,367      l2_rqsts.references                                           (44.44%)
+
+  44.042254698 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:28:40 head: Job OK (f1a55feb-aec9-42bd-9bff-d51c599142e1)
+11:28:40 Result is kept for 500 seconds
+11:28:40 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'4', u'1533223477.8', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (ac0666c1-cde0-42f2-abbc-d4510edfe2b1)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/27130
+Allocating log for 27130, 54260
+/tmp/27130
+fd = 13
+heartbeat init'd
+['27130']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.326048
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,202,575,323      L1-dcache-load-misses     #   19.26% of all L1-dcache hits    (44.44%)
+182,782,879,182      L1-dcache-loads                                               (44.44%)
+ 3,750,857,491      LLC-loads                                                     (44.44%)
+ 1,403,655,839      LLC-load-misses           #   37.42% of all LL-cache hits     (44.45%)
+ 5,187,048,594      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,501,137,664      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,670,103,575      mem_load_uops_retired.l1_miss                                     (22.22%)
+ 2,516,457,447      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,156,210,614      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,920,231,215      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,225,150,657      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,304,199,034      mem_uops_retired.all_loads                                     (22.22%)
+60,095,122,928      mem_uops_retired.all_stores                                     (22.22%)
+13,027,785,913      l2_rqsts.l2_pf_hit                                            (27.77%)
+25,011,969,181      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,438,268,190      l2_rqsts.miss                                                 (38.88%)
+70,563,643,087      l2_rqsts.references                                           (44.44%)
+
+  44.341305716 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:29:25 head: Job OK (ac0666c1-cde0-42f2-abbc-d4510edfe2b1)
+11:29:25 Result is kept for 500 seconds
+11:29:25 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'5', u'1533223482.7', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (dae93978-3779-4344-9383-c38f680585a7)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/27306
+Allocating log for 27306, 54612
+/tmp/27306
+fd = 13
+heartbeat init'd
+['27306']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.797550
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,235,924,491      L1-dcache-load-misses     #   19.25% of all L1-dcache hits    (44.44%)
+183,074,562,623      L1-dcache-loads                                               (44.44%)
+ 3,753,319,146      LLC-loads                                                     (44.44%)
+ 1,415,067,540      LLC-load-misses           #   37.70% of all LL-cache hits     (44.44%)
+ 5,170,832,902      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+156,043,381,733      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,665,376,069      mem_load_uops_retired.l1_miss                                     (22.22%)
+ 2,501,944,177      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,164,153,922      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,915,895,841      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,237,334,320      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,578,084,675      mem_uops_retired.all_loads                                     (22.22%)
+60,095,454,656      mem_uops_retired.all_stores                                     (22.22%)
+13,023,883,736      l2_rqsts.l2_pf_hit                                            (27.77%)
+24,995,956,663      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,408,889,866      l2_rqsts.miss                                                 (38.88%)
+70,573,377,516      l2_rqsts.references                                           (44.44%)
+
+  43.813029843 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:30:09 head: Job OK (dae93978-3779-4344-9383-c38f680585a7)
+11:30:09 Result is kept for 500 seconds
+11:30:09 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'6', u'1533223502.29', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (44835a1e-c11b-4f03-867c-86a79cde31a5)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/27492
+Allocating log for 27492, 54984
+/tmp/27492
+fd = 13
+heartbeat init'd
+['27492']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 43.925168
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,220,376,054      L1-dcache-load-misses     #   19.28% of all L1-dcache hits    (44.44%)
+182,662,752,646      L1-dcache-loads                                               (44.44%)
+ 3,754,481,685      LLC-loads                                                     (44.44%)
+ 1,411,210,810      LLC-load-misses           #   37.59% of all LL-cache hits     (44.45%)
+ 5,167,107,527      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,864,635,946      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,628,328,880      mem_load_uops_retired.l1_miss                                     (22.22%)
+ 2,468,513,562      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,163,544,743      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,918,131,083      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,230,916,027      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,332,078,766      mem_uops_retired.all_loads                                     (22.22%)
+60,098,993,860      mem_uops_retired.all_stores                                     (22.22%)
+13,129,029,858      l2_rqsts.l2_pf_hit                                            (27.77%)
+25,122,760,348      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,569,881,974      l2_rqsts.miss                                                 (38.88%)
+70,790,858,677      l2_rqsts.references                                           (44.44%)
+
+  43.940849311 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:30:53 head: Job OK (44835a1e-c11b-4f03-867c-86a79cde31a5)
+11:30:53 Result is kept for 500 seconds
+11:30:53 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'7', u'1533223509.25', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (ba7a4cd6-d05e-4d4d-a73e-10af24de3d36)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/27661
+Allocating log for 27661, 55322
+/tmp/27661
+fd = 13
+heartbeat init'd
+['27661']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.168347
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,226,934,428      L1-dcache-load-misses     #   19.26% of all L1-dcache hits    (44.44%)
+182,894,865,201      L1-dcache-loads                                               (44.44%)
+ 3,752,659,852      LLC-loads                                                     (44.44%)
+ 1,398,530,328      LLC-load-misses           #   37.27% of all LL-cache hits     (44.44%)
+ 5,188,244,849      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,064,968,004      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,652,863,026      mem_load_uops_retired.l1_miss                                     (22.22%)
+ 2,490,605,078      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,158,956,311      mem_load_uops_retired.l2_miss                                     (33.33%)
+ 1,925,895,557      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,220,236,650      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,390,373,877      mem_uops_retired.all_loads                                     (22.23%)
+60,130,482,624      mem_uops_retired.all_stores                                     (22.22%)
+13,114,064,787      l2_rqsts.l2_pf_hit                                            (27.78%)
+25,090,935,743      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,563,955,088      l2_rqsts.miss                                                 (38.89%)
+70,724,708,228      l2_rqsts.references                                           (44.44%)
+
+  44.183495464 seconds time elapsed
+
+Waiting for New Jobs:Normal
+11:31:39 head: Job OK (ba7a4cd6-d05e-4d4d-a73e-10af24de3d36)
+11:31:39 Result is kept for 500 seconds
+11:31:39 head: pupil_lib.sprintH(u'jacobi', <pupil_lib.PowerControl instance at 0x7f696b99c098>, <pupil_lib.PowerControl instance at 0x7f696b99c050>, u'100', u'100', u'8', u'1533223524.93', u'.041650', u'.0238', u'70', u'110', u'10', u'2', ['jacobi', '.041650', '100', '70', '110', '.0238', '10']) (8dac34e0-bf08-4f98-a71e-53e1c1660e31)
+sudo -E perf stat -e L1-dcache-load-misses,L1-dcache-loads,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,mem_load_uops_retired.l1_hit,mem_load_uops_retired.l1_miss,mem_load_uops_retired.l2_hit,mem_load_uops_retired.l2_miss,mem_load_uops_retired.l3_hit,mem_load_uops_retired.l3_miss,mem_uops_retired.all_loads,mem_uops_retired.all_stores,l2_rqsts.l2_pf_hit,l2_rqsts.l2_pf_miss,l2_rqsts.miss,l2_rqsts.references rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi &
+Running using 8 threads...
+/tmp/27830
+Allocating log for 27830, 55660
+/tmp/27830
+fd = 13
+heartbeat init'd
+['27830']
+Total Number of Iterations:10001
+Residual:4.665006E-10
+------------------------
+Execution time = 44.022913
+Solution Error :2.623492E-04
+
+Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k /home/saravanan.8/PUPIL/patches/jacobi/jacobi':
+
+35,208,074,129      L1-dcache-load-misses     #   19.23% of all L1-dcache hits    (44.44%)
+183,093,756,043      L1-dcache-loads                                               (44.44%)
+ 3,759,644,662      LLC-loads                                                     (44.44%)
+ 1,409,237,816      LLC-load-misses           #   37.48% of all LL-cache hits     (44.44%)
+ 5,192,626,753      LLC-stores                                                    (11.11%)
+             0      LLC-store-misses                                              (11.11%)
+155,588,259,063      mem_load_uops_retired.l1_hit                                     (16.67%)
+ 5,655,574,748      mem_load_uops_retired.l1_miss                                     (22.23%)
+ 2,483,489,316      mem_load_uops_retired.l2_hit                                     (27.78%)
+ 3,167,640,267      mem_load_uops_retired.l2_miss                                     (33.34%)
+ 1,923,579,855      mem_load_uops_retired.l3_hit                                     (22.22%)
+ 1,230,870,526      mem_load_uops_retired.l3_miss                                     (22.22%)
+182,393,134,343      mem_uops_retired.all_loads                                     (22.22%)
+60,135,291,496      mem_uops_retired.all_stores                                     (22.22%)
+13,051,536,304      l2_rqsts.l2_pf_hit                                            (27.77%)
+24,980,911,311      l2_rqsts.l2_pf_miss                                           (33.33%)
+36,425,555,882      l2_rqsts.miss                                                 (38.89%)
+70,554,954,150      l2_rqsts.references                                           (44.44%)
+
+  44.038356174 seconds time elapsed
+
+Waiting for New Jobs:Normal
+^C11:32:54 Warm shut down requested

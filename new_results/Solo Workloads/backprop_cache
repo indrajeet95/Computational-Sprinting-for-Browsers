@@ -1,0 +1,168 @@
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/2934
+Allocating log for 2934, 5868
+/tmp/2934
+fd = 13
+
+ Performance counter stats for 'rdtset -t l3=0x1;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    59,553,760,407      LLC-loads                                                     (66.67%)
+    44,454,607,250      LLC-load-misses           #   74.65% of all LL-cache hits     (66.67%)
+     1,735,002,598      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     806.194329311 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3016
+Allocating log for 3016, 6032
+/tmp/3016
+fd = 13
+
+ Performance counter stats for 'rdtset -t l3=0x3;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    38,150,039,821      LLC-loads                                                     (66.67%)
+    20,017,285,583      LLC-load-misses           #   52.47% of all LL-cache hits     (66.67%)
+     3,624,112,176      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     699.156941100 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3124
+Allocating log for 3124, 6248
+/tmp/3124
+fd = 13
+
+ Performance counter stats for 'rdtset -t l3=0x7;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    38,539,737,781      LLC-loads                                                     (66.67%)
+    20,024,352,505      LLC-load-misses           #   51.96% of all LL-cache hits     (66.67%)
+     4,019,615,597      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     697.826852135 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xf;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3186
+Allocating log for 3186, 6372
+/tmp/3186
+fd = 13
+
+ Performance counter stats for 'rdtset -t l3=0xf;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    38,890,468,165      LLC-loads                                                     (66.67%)
+    20,306,124,783      LLC-load-misses           #   52.21% of all LL-cache hits     (66.67%)
+     4,280,544,622      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     697.610117658 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x1f;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3242
+Allocating log for 3242, 6484
+/tmp/3242
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0x1f;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    38,696,289,111      LLC-loads                                                     (66.67%)
+    20,526,039,400      LLC-load-misses           #   53.04% of all LL-cache hits     (66.67%)
+     3,549,512,272      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     699.800790520 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x3f;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3316
+Allocating log for 3316, 6632
+/tmp/3316
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0x3f;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    39,000,696,944      LLC-loads                                                     (66.67%)
+    20,590,705,909      LLC-load-misses           #   52.80% of all LL-cache hits     (66.67%)
+     3,806,539,656      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     698.813007624 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0x7f;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3392
+Allocating log for 3392, 6784
+/tmp/3392
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0x7f;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    39,222,091,123      LLC-loads                                                     (66.67%)
+    20,671,094,832      LLC-load-misses           #   52.70% of all LL-cache hits     (66.67%)
+     3,995,153,420      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     698.322717982 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xff;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3472
+Allocating log for 3472, 6944
+/tmp/3472
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0xff;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    39,346,506,849      LLC-loads                                                     (66.67%)
+    20,465,415,053      LLC-load-misses           #   52.01% of all LL-cache hits     (66.67%)
+     4,264,403,347      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     697.775405436 seconds time elapsed
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfff;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3561
+Allocating log for 3561, 7122
+/tmp/3561
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0xfff;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    39,442,476,503      LLC-loads                                                     (66.67%)
+    20,777,194,275      LLC-load-misses           #   52.68% of all LL-cache hits     (66.67%)
+     4,477,745,719      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     698.261217176 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xffff;cpu=0-7' -c 0-7 -k ./backprop 60000000
+/tmp/3624
+Allocating log for 3624, 7248
+/tmp/3624
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0xffff;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    40,104,938,794      LLC-loads                                                     (66.67%)
+    20,317,711,835      LLC-load-misses           #   50.66% of all LL-cache hits     (66.67%)
+     5,995,314,950      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     694.268973549 seconds time elapsed
+
+
+[saravanan.8@sdl898-stewart4 backprop]$ sudo -E perf stat -e LLC-loads,LLC-load-misses,LLC-stores,LLC-prefetches rdtset -t 'l3=0xfffff;cpu=0-7' -c 0-7 -k ./backprop 60000000
+CAT: One or more of requested L3 CBMs (MASK: 0xfffff) overlap contention mask.
+/tmp/3693
+Allocating log for 3693, 7386
+/tmp/3693
+fd = 13
+
+Performance counter stats for 'rdtset -t l3=0xfffff;cpu=0-7 -c 0-7 -k ./backprop 60000000':
+
+    40,162,096,891      LLC-loads                                                     (66.67%)
+    20,345,738,830      LLC-load-misses           #   50.66% of all LL-cache hits     (66.67%)
+     6,004,479,945      LLC-stores                                                    (66.67%)
+   <not supported>      LLC-prefetches
+
+     694.279010765 seconds time elapsed
